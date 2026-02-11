@@ -11,6 +11,7 @@ class DirUtil {
 			this.cache,
 			this.log,
 			this.saved,
+			this.static,
 		];
 		for (const p of requiredPaths) {
 			if (!existsSync(p)) {
