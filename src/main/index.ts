@@ -4,12 +4,26 @@ import { app, BrowserWindow, Menu, shell, ipcMain } from "electron";
 import { createWriteStream } from "fs";
 import Directories from "./storage/directories";
 import { join } from "path";
+import { rmdirSync, existsSync } from "fs";
 import settings from "./storage/settings";
 import { startAll } from "./server/index";
 
 const customTempPath = join(__dirname, "temp");
 app.setPath("userData", customTempPath);
 
+(() => {
+	try {
+		const appName = app.getName(); 
+		const defaultPath = join(app.getPath("appData"), appName);
+
+		if (existsSync(defaultPath) && defaultPath !== customTempPath) {
+			rmdirSync(defaultPath, { recursive: true });
+			console.log(`\n✅ ${appName} default temp folder removed successfully`);
+		}
+	} catch (e: any) {
+		console.log(`\n⚠️ ${appName} default temp folder could not be removed`)
+	}
+})();
 const IS_DEV = app.commandLine.getSwitchValue("dev").length > 0;
 
 startAll();
