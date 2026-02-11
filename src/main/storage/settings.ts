@@ -24,14 +24,10 @@ class Settings {
 			try {
 				this.refresh();
 			} catch (e) {
-				throw new Error("Something is extremely awfully horribly terribly preposterously crazily insanely madly wrong. You may be in a read-only system/admin folder.");
+				throw new Error("Something is very wrong. You may be in a read-only system oradmin folder.");
 			}
 		}
 		this.refresh();
-		// files were likely transferred over to a newer version so we'll set the default values back
-		// note that the settings json won't be fixed if you add a setting and remove one 
-		// hmm i could just implement a better way to check if the settings are from an old version
-		// i mean i *could*, but am i? no
 		if (Object.keys(this.json).length !== Object.keys(defaultVals).length) {
 			// replace all valid values
 			for (let key in this.json) {
@@ -50,17 +46,11 @@ class Settings {
 		return Settings._instance;
 	}
 
-	/**
-	 * refreshes this.json using the this.json in its current state
-	 */
 	private refresh() { // refresh the database vars
 		const data = fs.readFileSync(this.path);
 		this.json = JSON.parse(data.toString());
 	}
 
-	/**
-	 * saves this.json into the settings.json file
-	 */
 	private save(newData:typeof Settings.prototype.json) {
 		try {
 			fs.writeFileSync(this.path, JSON.stringify(newData, null, "\t"));
@@ -69,9 +59,6 @@ class Settings {
 		}
 	}
 
-	/**
-	 * returns all the stored settings in an object
-	 */
 	getAllSettings() {
 		return {
 			truncatedThemeList: this.truncatedThemeList,
@@ -83,9 +70,6 @@ class Settings {
 		};
 	}
 
-	/**
-	 * Cuts down the amount of themes that clog up the themelist in the videomaker.
-	 */
 	get truncatedThemeList() {
 		return this.json["TRUNCATED_THEMELIST"];
 	}
@@ -94,9 +78,6 @@ class Settings {
 		this.save(this.json);
 	}
 
-	/**
-	 * Forces waveforms to be off in the videomaker.
-	 */
 	get showWaveforms() {
 		return this.json["SHOW_WAVEFORMS"];
 	}
@@ -105,9 +86,6 @@ class Settings {
 		this.save(this.json);
 	}
 
-	/**
-	 * Sets the video player to 16:9 if true or 14:9 if false.
-	 */
 	get isWide() {
 		return this.json["IS_WIDE"] == "1";
 	}
@@ -117,9 +95,6 @@ class Settings {
 		this.save(this.json);
 	}
 
-	/**
-	 * Forces waveforms to be off in the videomaker.
-	 */
 	get saveLogFiles() {
 		return this.json["SAVE_LOG_FILES"];
 	}
@@ -128,9 +103,6 @@ class Settings {
 		this.save(this.json);
 	}
 
-	/**
-	 * Automatically hides the navbar instead of keeping it always visible.
-	 */
 	get hideNavbar() {
 		return this.json["HIDE_NAVBAR"];
 	}
@@ -139,9 +111,6 @@ class Settings {
 		this.save(this.json);
 	}
 
-	/**
-	 * watermark id to use when saving movies
-	 */
 	get defaultWatermark() {
 		return this.json["DEFAULT_WATERMARK"];
 	}
