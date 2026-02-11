@@ -12,7 +12,7 @@ import MovieModel, { Starter } from "../models/movie";
 import mp3Duration from "mp3-duration";
 import path from "path";
 import { promisify } from "util";
-import sharp from "sharp";
+import Jimp from "jimp";
 import tempfile from "tempfile";
 
 Ffmpeg.setFfmpegPath(ffmpegPath);
@@ -194,13 +194,18 @@ group.route("POST", "/api/asset/upload", async (req, res) => {
 		switch (info.type) {
 			case "bg": {
 				if (info.type == "bg" && ext != "swf") {
-					stream = sharp(filepath)
-						.resize(550, 354, { fit: "fill" })
-						.toFormat("png");
+					const image = await Jimp.read(filepath);
+						const buffer = await image
+            						.resize(550, 354) 
+            						.getBufferAsync(Jimp.MIME_PNG);
+						stream = Readable.from(buffer);
 				} else {
 					stream = fs.createReadStream(filepath);
 				}
-				stream.pause();
+
+				if (stream instanceof fs.ReadStream) {
+        				stream.pause();
+    				}
 				info.id = await AssetModel.save(stream, ext == "swf" ? ext : "png", info);
 				break;
 			}
@@ -264,11 +269,17 @@ group.route("POST", "/api/asset/upload", async (req, res) => {
 							info.ptype = "placeable";
 					}
 					if (ext == "webp" || ext == "tif" || ext == "avif") {
-						stream = sharp(filepath).toFormat("png");
+						const image = await Jimp.read(filepath);
+        					const buffer = await image.getBufferAsync(Jimp.MIME_PNG);
+        					stream = Readable.from(buffer);
+						var finalExt = "png";
 					} else {
 						stream = fs.createReadStream(filepath);
+						var finalExt = ext;
 					}
-					stream.pause();
+					if (stream instanceof fs.ReadStream) {
+        					stream.pause();
+    					}
 					info.id = await AssetModel.save(stream, ext, info);
 				}
 				break;

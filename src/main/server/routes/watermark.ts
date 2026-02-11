@@ -1,29 +1,19 @@
 import { createReadStream, ReadStream } from "fs";
-import Database from "../../storage/database.js";
+import Database from "../../storage/database";
 import fileTypes from "../data/allowed_file_types.json";
 import { extensions, FileExtension, fromFile, mimeTypes } from "file-type";
 import { Group } from "@octanuary/httpz";
 import MovieModel from "../models/movie.js";
-import Settings from "../../storage/settings.js";
-import sharp from "sharp";
-import WatermarkModel from "../models/watermark.js";
+import Settings from "../../storage/settings";
+import jimp from "jimp";
+import WatermarkModel from "../models/watermark";
 
-type S = ReadStream | sharp.Sharp;
+type S = ReadStream | Readable;
 
 const url = `${process.env.API_SERVER_HOST}:${process.env.API_SERVER_PORT}`;
 const XML_HEADER = process.env.XML_HEADER;
 const group = new Group();
 
-/*
-just some helpful information
-==========
-app watermark: 0vTLbQy9hG7k
-no watermark: 0dhteqDBt5nY
-*/
-
-/*
-assign
-*/
 group.route("POST", /\/goapi\/assignwatermark\/movie\/([\S]+)\/([\S]+)/, (req, res) => {
 	const mId = req.matches[1];
 	let wId = req.matches[2];
@@ -55,9 +45,6 @@ group.route("POST", "/api/watermark/set_default", (req, res) => {
 	res.log("Default watermark set to #" + id);
 });
 
-/*
-list
-*/
 group.route("GET", "/api/watermark/list", (req, res) => {
 	const list = WatermarkModel.list().map((w:any) => {
 		w.thumbnail = `${url}/watermarks/${w.id}`;
@@ -86,9 +73,6 @@ group.route("POST", "/goapi/getUserWatermarks/", (req, res) => {
 	}${wId !== null ? `<preview>${wId}</preview>` : ""}</watermarks>`);
 });
 
-/*
-load
-*/
 group.route("GET", /^\/watermarks\/([\S]*)$/, (req, res) => {
 	let id = req.matches[1];
 	if (!id) {
@@ -133,9 +117,6 @@ group.route("POST", "/goapi/getMovieInfo/", (req, res) => {
 	}</watermarks>`);
 });
 
-/*
-save
-*/
 group.route("POST", "/api/watermark/save", async (req, res) => {
 	if (WatermarkModel.list().length >= 20) {
 		return res.status(400).json({msg:"Maximum # of watermarks reached"});
@@ -161,11 +142,15 @@ group.route("POST", "/api/watermark/save", async (req, res) => {
 	let stream:S;
 	if (ext == "webp" || ext == "tif" || ext == "avif") {
 		ext = "png";
-		stream = sharp(filepath).toFormat("png");
+		const image = await Jimp.read(filepath);
+		const buffer = await image.getBufferAsync(Jimp.MIME_PNG);
+		stream = Readable.from(buffer);
 	} else {
 		stream = createReadStream(filepath);
 	}
-	stream.pause();
+	if (stream instanceof ReadStream) {
+		stream.pause();
+	}
 
 	id = await WatermarkModel.save(stream, ext, id);
 	res.json({
@@ -174,9 +159,6 @@ group.route("POST", "/api/watermark/save", async (req, res) => {
 	});
 });
 
-/*
-delete
-*/
 group.route("POST", "/api/watermark/delete", (req, res) => {
 	const id = req.body.id;
 	if (typeof id == "undefined") {
@@ -189,7 +171,7 @@ group.route("POST", "/api/watermark/delete", (req, res) => {
 
 	WatermarkModel.delete(id);
 	res.end();
-	res.log("Deleted watermark #" + id);
+	res.log("Deleted watermark " + id);
 });
 
 export default group;
