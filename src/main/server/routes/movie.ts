@@ -2,7 +2,7 @@ import fs from "fs";
 import httpz from "@octanuary/httpz";
 import Database from "../../storage/database";
 import MovieModel, { Movie } from "../models/movie";
-import nodezip from "node-zip";
+import AdmZip from "adm-zip";
 import fileUtil from "../utils/fileUtil";
 
 const group = new httpz.Group();
@@ -210,7 +210,7 @@ group.route(
 			return res.status(400).end("ID not specified");
 		}
 		const ids = idField.split(",");
-		let zip = nodezip.create();
+		let zip = new AdmZip();
 		let zipBuf:Buffer;
 		for (const id of ids) {
 			try {
@@ -228,7 +228,7 @@ group.route(
 				res.status(500).end("Internal server error");
 			}
 		}
-		zipBuf = zipBuf || await zip.zip();
+		zipBuf = zipBuf || await zip.toBuffer();
 		if (isPost) {
 			zipBuf = Buffer.concat([Buffer.alloc(1, 0), zipBuf]);
 		}
@@ -236,7 +236,7 @@ group.route(
 		res.end(zipBuf);
 	}
 );
-group.route("POST", ["/goapi/saveMovie/", "/goapi/saveTemplate/"], (req, res) => {
+group.route("POST", ["/goapi/saveMovie/", "/goapi/saveTemplate/"], async (req, res) => {
 	const zipField = req.body.body_zip;
 	if (typeof zipField == "undefined") {
 		return res.status(400).end("Expected body_zip field");
@@ -244,6 +244,7 @@ group.route("POST", ["/goapi/saveMovie/", "/goapi/saveTemplate/"], (req, res) =>
 	const movieId = req.body.movieId;
 	const thumbField = req.body.thumbnail_large;
 	const trigAutosave = req.body.is_triggered_by_autosave;
+
 	if (!thumbField) {
 		if (trigAutosave && !movieId) {
 			return res.end("0");
@@ -252,34 +253,39 @@ group.route("POST", ["/goapi/saveMovie/", "/goapi/saveTemplate/"], (req, res) =>
 			return res.status(400).end("No is_triggered_by_autosave, expected thumbnail_large field");
 		}
 	}
+
 	const body = Buffer.from(zipField, "base64");
-	let thumb:Buffer | void;
+	let thumb: Buffer | void;
 	if (thumbField) {
 		thumb = Buffer.from(thumbField, "base64");
 	}
-	if (!body.subarray(0, 4).equals(
-		Buffer.from([0x50, 0x4b, 0x03, 0x04])
-	)) {
+
+	if (!body.subarray(0, 4).equals(Buffer.from([0x50, 0x4b, 0x03, 0x04]))) {
 		return res.status(400).end("body_zip is not a ZIP");
 	}
-	res.log(`Saving movie #${movieId || "<new movie>"}...`);
-	const xmlStream = nodezip.unzip(body)["movie.xml"].toReadStream();
-	let buffers = [];
-	xmlStream.on("data", (c:Buffer) => buffers.push(c));
-	xmlStream.on("end", async () => {
-		const movieXml = Buffer.concat(buffers);
-		const saveAsStarter = req.parsedUrl.pathname == "/goapi/saveTemplate/";
-		try {
-			const id = await MovieModel.save(movieXml, thumb, movieId, saveAsStarter);
-			res.log("Successfully saved movie " + id);
-			res.end("0" + id);
-		} catch (err) {
-			if (err == "404") {
-				return res.status(404).end("Specified movie does not exist");
-			}
-			res.log("Error saving movie: " + err);
-			res.status(500).end("Internal server error");
+
+	res.log(`Saving movie ${movieId || "<new movie>"}...`);
+
+	try {
+		const zip = new AdmZip(body);
+		const movieXml = zip.readFile("movie.xml");
+
+		if (!movieXml) {
+			return res.status(400).end("movie.xml not found in zip");
 		}
-	});
+
+		const saveAsStarter = req.parsedUrl.pathname == "/goapi/saveTemplate/";
+		
+		const id = await MovieModel.save(movieXml, thumb, movieId, saveAsStarter);
+		
+		res.log("Successfully saved movie " + id);
+		res.end("0" + id);
+	} catch (err) {
+		if (err == "404") {
+			return res.status(404).end("Specified movie does not exist");
+		}
+		res.log("Error saving movie: " + err);
+		res.status(500).end("1" + err);
+	}
 });
 export default group;

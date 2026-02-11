@@ -1,8 +1,8 @@
 import Directories from "../storage/directories";
-import fileUtil from "./utils/fileUtil.js";
+import fileUtil from "./utils/fileUtil";
 import handler from "serve-handler";
 import { IncomingMessage, ServerResponse } from "http";
-import nodezip from "node-zip";
+import AdmZip from "adm-zip";
 import path from "path";
 import { readFileSync } from "fs";
 
@@ -31,10 +31,12 @@ async function handleStudioTheme(
 	const filepath = path.join(Directories.store, themeId, "theme.xml");
 	const themeXml = fixThemeXml(themeId, readFileSync(filepath));
 	if (returnZip) {
-		const zip = nodezip.create();
+		const zip = new AdmZip();
 		fileUtil.addToZip(zip, "theme.xml", themeXml);
-		res.end(await zip.zip());
+		res.setHeader("Content-Type", "application/zip");
+		res.end(zip.toBuffer());
 	} else {
+		res.setHeader("Content-Type", "application/xml");
 		res.end(themeXml);
 	}
 }
@@ -66,7 +68,6 @@ function readStockCCChars(themeId:string): CCCharObject[] {
 	const contents = readFileSync(filepath, {
 		encoding: "utf-8"
 	});
-	// check if no stock chars for the theme exist before parsing
 	if (contents.indexOf(themeId) == -1) {
 		return [];
 	}
