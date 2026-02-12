@@ -1,4 +1,3 @@
-import { brotliDecompressSync, brotliCompressSync } from "zlib";
 import fileUtil from "../utils/fileUtil";
 import https from "https";
 import voiceList from "../data/voices.json";
@@ -73,47 +72,38 @@ export default function processVoice(
 					break;
 				}
 				case "cepstral": {
-					let pitch;
-					if (flags.pitch) {
-						pitch = +flags.pitch;
-						pitch /= 100;
-						pitch *= 4.6;
-						pitch -= 0.4;
-						pitch = Math.round(pitch * 10) / 10;
-					} else {
-						pitch = 1;
-					}
 					https.get("https://www.cepstral.com/en/demos", async (r) => {
+						r.on("error", (e) => rej(e));
 						const cookie = r.headers["set-cookie"];
 						const q = new URLSearchParams({
 							voiceText: text,
 							voice: voice.arg,
-							createTime: 666,
-							rate: 170,
-							pitch: pitch,
+							createTime: "666",
+							rate: "170",
+							pitch: "1",
 							sfx: "none"
 						}).toString();
-
+	
 						https.get(
 							{
 								hostname: "www.cepstral.com",
 								path: `/demos/createAudio.php?${q}`,
 								headers: { Cookie: cookie }
 							},
-							(r) => {
+							(r2) => {
 								let body = "";
-								r.on("data", (b) => body += b);
-								r.on("end", () => {
+								r2.on("error", (e) => rej(e));
+								r2.on("data", (c) => body += c);
+								r2.on("end", () => {
 									const json = JSON.parse(body);
-
-									https
-										.get(`https://www.cepstral.com${json.mp3_loc}`, res)
-										.on("error", rej);
+									https.get(`https://www.cepstral.com${json.mp3_loc}`, (r3) => {
+										r3.on("error", (e) => rej(e));
+										res(r3);
+									});
 								});
-								r.on("error", rej);
 							}
-						).on("error", rej);
-					}).on("error", rej);
+						);
+					});
 					break;
 				}
 				case "polly2": {
