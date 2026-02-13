@@ -229,7 +229,7 @@ group.route("POST", "/api/asset/upload", async (req, res) => {
 					stream.on("end", resolve).pipe(writeStream)
 				});
 				const ffdata = await asyncFfprobe(temppath) as FfprobeData;
-				info.duration = Math.round(ffdata.format.duration * 1e3);
+				info.duration = Math.floor(ffdata.format.duration * 1e3);
 				info.id = await AssetModel.save(temppath, "mp3", info);
 				if (fs.existsSync(temppath)) fs.unlinkSync(temppath);
 			}
