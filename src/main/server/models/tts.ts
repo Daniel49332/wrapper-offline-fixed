@@ -108,9 +108,10 @@ export default function processVoice(
 					break;
 				}
 				case "cepstral": {
+					text = await convertCepstralText(text, voice.arg);
 					https.get("https://www.cepstral.com/en/demos", (r) => {
 						const cookie = r.headers["set-cookie"];
-						if (!cookie) return reject("Cepstral error: Could not retrieve session cookie.");
+						if (!cookie) return reject("Cepstral error: Could not retrieve session cookie");
 						const q = new URLSearchParams({
 							voiceText: text,
 							voice: voice.arg,
@@ -133,10 +134,10 @@ export default function processVoice(
 							r.on("end", () => {
 								try {
 									const json = JSON.parse(body);
-									if (!json.mp3_loc) return reject("Cepstral error: MP3 location not found in response.");
+									if (!json.mp3_loc) return reject("Cepstral error: MP3 location not found in response");
 									https.get(`https://www.cepstral.com${json.mp3_loc}`, resolve).on("error", reject);
 								} catch (e) {
-									reject("Cepstral error: Invalid JSON response.");
+									reject("Cepstral error: Invalid JSON response");
 								}
 							});
 						});
@@ -166,7 +167,7 @@ export default function processVoice(
 									const responseData = JSON.parse(data.toString());
 									const entry = responseData.find(e => typeof e.data == "string" && e.data.includes('cerevoice.s3.amazonaws.com'));
 									
-									if (!entry) return reject("Cereproc: No audio link found.");
+									if (!entry) return reject("Cereproc: Audio link not found");
 									
 									const xml = entry.data;
 									const beg = xml.indexOf("https://");
@@ -603,3 +604,225 @@ export default function processVoice(
 		}
 	});
 };
+
+async function convertCepstralText(text:string, voiceArg:string): Promise<string> {
+	return new Promise((resolve) => {
+		let sanitizedText = text.replace(/([a-zA-Z])aillou\b/gi, (match, p1) => {
+			const char = p1.toLowerCase();
+			const replacements: { [key: string]: string } = {
+				'b': 'bay', 'c': 'k', 'd': 'day', 'f': 'fay', 'g': 'gay',
+				'h': 'hay', 'j': 'jay', 'm': 'may', 'n': 'nay', 'l': 'lay',
+				'p': 'pay', 'r': 'ray', 's': 'say', 't': 'tay', 'v': 'way',
+				'w': 'way', 'x': 'xay', 'y': 'yay', 'z': 'zay'
+			};
+			const start = replacements[char] || char;
+			return start + "-i-oo"; 
+		});
+		let inputText = sanitizedText.toLowerCase();
+		if (!inputText.includes("aaaaa")) {
+			return resolve(sanitizedText);
+		}
+		let pattern = /(?:gr|[a-z])a{2,}([a-z]?)/g;
+		let question = /\?/g;
+		let matches = inputText.match(pattern);
+		
+		if (!matches) return resolve(sanitizedText);
+
+		for (const match of matches) {
+			let voiceValues = ["aa"];
+			const initialChar = match.charAt(0);
+			switch (initialChar) {
+				case "a": {
+					voiceValues.pop();
+					voiceValues.unshift("a1");
+					voiceValues.unshift("ah");
+					break;
+				}
+				case "c": {
+					voiceValues.unshift("k");
+					break;
+				}
+				case "j": {
+					voiceValues.unshift("jh");
+					break;
+				}
+				case "u": {
+					voiceValues.unshift("uh1");
+					break;
+				}
+				case "v": {
+					voiceValues.unshift("v1");
+					break;
+				}
+				case "w": {
+					if (voiceArg == "Dallas") {
+						voiceValues.unshift("w");
+					}
+					else {
+						voiceValues.unshift("w1");
+					}
+					break;
+				}
+				case "x": {
+					voiceValues.unshift("eh1");
+					voiceValues.unshift("z");
+					break;
+				}
+				case "y": {
+					voiceValues.unshift("a");
+					voiceValues.unshift("j");
+					break;
+				}
+				case "z": {
+					voiceValues.unshift("aa1");
+					voiceValues.unshift("z");
+					break;
+				}
+				default: {
+					if (match.startsWith("gr")) {
+						if (voiceArg == "French-fry") {
+							voiceValues.pop();
+							voiceValues.unshift("r")
+							voiceValues.unshift("g1")
+						}
+						else {
+							voiceValues.pop();
+							voiceValues.unshift("r");
+							voiceValues.unshift("g");
+						}
+						break;
+					} else if (match.includes("ga")) {
+						voiceValues.unshift("g1");
+						break;
+					}
+					voiceValues.unshift(initialChar);
+				}
+			}
+			let consecutiveAs = match.length - 1;
+			for (let i = 0; i < consecutiveAs; i++) {
+				voiceValues.push("ah");
+			}
+			if (!match.includes("ah") && match.charAt(0) != "a" && !match.includes("ay")) {
+				switch (voiceArg) {
+					case "Belle":
+					case "Charlie":
+					case "Designer":
+					case "Duchess": 
+					case "Evilgenius":
+					case "Frank":
+					case "French-fry":
+					case "Jerkface":
+					case "JerseyGirl":
+					case "Kayla":
+					case "Kevin":
+					case "Susan":
+					case "Tamika":
+					case "TopHat":
+					case "Vixen":
+					case "Vlad":
+					case "Warren": {
+						voiceValues.push("aa1");
+						voiceValues.push("a");
+						break;
+					}
+					case "Conrad":
+					case "Wiseguy": {
+						voiceValues.push("aa1");
+						voiceValues.push("aa1");
+						break;
+					}
+					case "Kidaroo": {
+						voiceValues.push("aa");
+						voiceValues.push("ah");
+						break;
+					}
+					case "Zach": {
+						voiceValues.push("aa1");
+						voiceValues.push("aa");
+						break;
+					}
+					case "RansomNote": {
+						voiceValues.push("aa");
+						voiceValues.push("aa");
+						voiceValues.push("ay");
+						break;
+					}
+					case "Gregory": {
+						voiceValues.push("a1");
+						voiceValues.push("aa");
+						break;
+					}
+					case "Diesel":
+					case "Princess": {
+						voiceValues.push("aa1");
+						voiceValues.push("a");
+						break;
+					}
+					case "Dallas": {
+						voiceValues.push("ah1");
+						break;
+					}
+					default: {
+						voiceValues.push("ah");
+						voiceValues.push("a");
+					}
+				}
+				if (match == "h") {
+					if (voiceArg == "RansomNote") {
+						voiceValues.pop();
+						voiceValues.pop();
+						voiceValues.pop();
+					}
+					else {
+						voiceValues.pop();
+						voiceValues.pop();
+					}
+					voiceValues.push("aa1");
+					if (voiceArg == "Dallas") {
+						voiceValues.pop();
+					}
+				}
+			}
+			else if (match.includes("ay")) {
+				voiceValues.push("ey1");
+				voiceValues.push("ey1");
+			}
+			else if (match.includes("ah")) {
+				switch (voiceArg) {
+					case "Frank":
+					case "Kayla": {
+						voiceValues.push("ah1");
+						voiceValues.push("a");
+						voiceValues.push("ah");
+						break;
+					}
+					case "Belle": {
+						voiceValues.push("aa1");
+						voiceValues.push("ah");
+						break;
+					}
+					case "Designer": {
+						voiceValues.push("ah");
+						voiceValues.push("a");
+						voiceValues.push("ah");
+						break;
+					}
+					default: {
+						voiceValues.push("aa");
+						voiceValues.push("ah");
+					}
+				}
+			}
+			else {
+				return resolve(sanitizedText);
+			}
+			let xmlText = `<phoneme ph="${voiceValues.join(" ")}">Cepstral</phoneme>`;
+			let modifiedText = inputText.replace(match, xmlText);
+			let modifiedExclimation = modifiedText.replace("!", "! ,");
+			let modifiedQuestion = modifiedExclimation.replace(question, "? ,");
+			let modifiedComma = modifiedQuestion.replace(",", ", ;");
+			let modifiedPeriod = modifiedComma.replace(".", ". ,");
+			resolve(modifiedPeriod);
+		}
+	})
+}
