@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<theme id="toonadv" name="Toon Adventure">
+<theme id="toonadv" name="Toon adventure">
 	<char id="blossom" name="Blossom" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="10245" money="200" sharing="100">
 		<category name="Emotion">
 			<action id="excited.swf" name="Excited" loop="Y" totalframe="38" enable="Y" aid="10246"/>
@@ -20,14 +20,14 @@
 			<action id="standing.swf" name="Frontview" loop="Y" totalframe="1" enable="Y" aid="10257"/>
 			<action id="backview.swf" name="Backview" loop="Y" totalframe="70" enable="Y" aid="10258"/>
 		</category>
-		<category name="Super Powers">
+		<category name="Super powers">
 			<action id="laser_eye.swf" name="Heat vision" loop="Y" totalframe="28" enable="Y" aid="10259">
 				<prop id="msp_laser.msp_laser_laser_med.swf" aid="10201"/>
 			</action>
-			<action id="ice_breathe.swf" name="Ice-Breathe" loop="Y" totalframe="28" enable="Y" aid="10260">
+			<action id="ice_breathe.swf" name="Ice-breathe" loop="Y" totalframe="28" enable="Y" aid="10260">
 				<prop id="msp_ice.msp_ice_ice_med.swf" aid="10197"/>
 			</action>
-			<action id="sonic_scream.swf" name="Sonic Scream" loop="Y" totalframe="28" enable="Y" aid="10261">
+			<action id="sonic_scream.swf" name="Sonic scream" loop="Y" totalframe="28" enable="Y" aid="10261">
 				<prop id="msp_sonic.msp_sonic_sonic_med.swf" aid="10206"/>
 			</action>
 		</category>
@@ -78,7 +78,7 @@
 			<action id="laser_eye.swf" name="Heat vision" loop="Y" totalframe="1" enable="Y" aid="10298">
 				<prop id="msp_laser.msp_laser_laser_med.swf" aid="10201"/>
 			</action>
-			<action id="sonic_scream.swf" name="Sonic Scream" loop="Y" totalframe="80" enable="Y" aid="10299">
+			<action id="sonic_scream.swf" name="Sonic scream" loop="Y" totalframe="80" enable="Y" aid="10299">
 				<prop id="msp_sonic.msp_sonic_sonic_med.swf" aid="10206"/>
 			</action>
 		</category>
@@ -167,7 +167,7 @@
 		<facial id="head_taunt.swf" name="Taunt" enable="Y" aid="10365"/>
 		<facial id="head_talk_scheming.swf" name="Talk scheming" enable="Y" aid="10366"/>
 	</char>
-	<char id="mojojojo" name="Mojo jojo" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="10367" money="200" sharing="100">
+	<char id="mojojojo" name="Mojo Jojo" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="10367" money="200" sharing="100">
 		<category name="Emotion">
 			<action id="happy.swf" name="Happy" loop="Y" totalframe="59" enable="Y" aid="10368"/>
 			<action id="cry.swf" name="Cry" loop="Y" totalframe="100" enable="Y" aid="10369"/>
@@ -191,9 +191,9 @@
 		<action id="hold_gun.swf" name="Hold gun" loop="Y" totalframe="16" enable="Y" aid="10382">
 			<prop id="gun.swf" aid="10194"/>
 		</action>
-		<action id="roar.swf" name="roar" loop="Y" totalframe="24" enable="Y" aid="10383"/>
-		<action id="crossed_arms.swf" name="crossed arms" loop="Y" totalframe="1" enable="Y" aid="10384"/>
-		<action id="posing.swf" name="posing" loop="Y" totalframe="29" enable="Y" aid="10385"/>
+		<action id="roar.swf" name="Roar" loop="Y" totalframe="24" enable="Y" aid="10383"/>
+		<action id="crossed_arms.swf" name="Crossed arms" loop="Y" totalframe="1" enable="Y" aid="10384"/>
+		<action id="posing.swf" name="Posing" loop="Y" totalframe="29" enable="Y" aid="10385"/>
 		<action id="talk_complain.swf" name="Talk fervently" loop="Y" totalframe="84" enable="Y" aid="10386"/>
 		<motion id="walk.swf" name="Walk" loop="Y" totalframe="16" enable="Y" aid="10387"/>
 		<motion id="run.swf" name="Run" loop="Y" totalframe="16" enable="Y" aid="10388"/>
@@ -208,7 +208,7 @@
 		<facial id="head_happy.swf" name="Happy" enable="Y" aid="10397"/>
 		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="10398"/>
 	</char>
-	<background id="indo_bg.swf" name="Taj Mahal" enable="N" default="N" is_premium="N" aid="10399" money="0" sharing="0"/>
+	<background id="indo_bg.swf" name="Taj mahal" enable="N" default="N" is_premium="N" aid="10399" money="0" sharing="0"/>
 	<background id="street_day_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10442" money="0" sharing="0"/>
 	<background id="lliving_rm_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10441" money="0" sharing="0"/>
 	<background id="beach_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10440" money="0" sharing="0"/>
@@ -535,7 +535,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_tai" name="Taj Mahal" enable="Y" default="N" thumb="indo.jpg" display_order="1" is_premium="N" money="0" sharing="0" aid="10410">
+	<compositebg id="cbg_tai" name="Taj mahal" enable="Y" default="N" thumb="indo.jpg" display_order="1" is_premium="N" money="0" sharing="0" aid="10410">
 	<bg id="cbg_tai_BG5" index="0">
 		<file>toonadv.indo_bg.swf</file>
 	</bg>
@@ -614,8 +614,8 @@
 	</prop>
 </compositebg>
 	<prop id="msp_flashlight_ver" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_flashlight_ver_flashlight_ver_off.swf" enable="Y" is_premium="N" aid="10460" money="0" sharing="0">
-		<state id="msp_flashlight_ver_flashlight_ver_off.swf" name="off" enable="Y" default="Y"/>
-		<state id="msp_flashlight_ver_flashlight_ver_on.swf" name="on" enable="Y"/>
+		<state id="msp_flashlight_ver_flashlight_ver_off.swf" name="Off" enable="Y" default="Y"/>
+		<state id="msp_flashlight_ver_flashlight_ver_on.swf" name="On" enable="Y"/>
 	</prop>
 	<prop id="taiwan_tree.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10425" money="0" sharing="0"/>
 	<prop id="taiwan_platform.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10424" money="0" sharing="0"/>
@@ -633,12 +633,12 @@
 	<prop id="sydney_fence.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10426" money="0" sharing="0"/>
 	<prop id="thailand_bridge.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10427" money="0" sharing="0"/>
 	<prop id="msp_flashlight_hor" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_flashlight_hor_flashlight_hor_off.swf" enable="Y" is_premium="N" aid="10457" money="0" sharing="0">
-		<state id="msp_flashlight_hor_flashlight_hor_off.swf" name="off" enable="Y" default="Y"/>
-		<state id="msp_flashlight_hor_flashlight_hor_on.swf" name="on" enable="Y"/>
+		<state id="msp_flashlight_hor_flashlight_hor_off.swf" name="Off" enable="Y" default="Y"/>
+		<state id="msp_flashlight_hor_flashlight_hor_on.swf" name="On" enable="Y"/>
 	</prop>
 	<prop id="msp_cam" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_cam_cam_off.swf" enable="Y" is_premium="N" aid="10454" money="0" sharing="0">
-		<state id="msp_cam_cam_off.swf" name="off" enable="Y" default="Y"/>
-		<state id="msp_cam_cam_on.swf" name="on" enable="Y"/>
+		<state id="msp_cam_cam_off.swf" name="Off" enable="Y" default="Y"/>
+		<state id="msp_cam_cam_on.swf" name="On" enable="Y"/>
 	</prop>
 	<prop id="street_night_tape.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10438" money="0" sharing="0"/>
 	<prop id="street_night_bin.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10437" money="0" sharing="0"/>
@@ -653,8 +653,8 @@
 	<prop id="thailand_boat01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10428" money="0" sharing="0"/>
 	<prop id="durian_explode.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10242" money="0" sharing="0"/>
 	<prop id="msp_barrel" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_barrel_barrel_empty.swf" enable="Y" is_premium="N" aid="10239" money="0" sharing="0">
-		<state id="msp_barrel_barrel_empty.swf" name="empty" enable="Y" default="Y"/>
-		<state id="msp_barrel_barrel_full.swf" name="full" enable="Y"/>
+		<state id="msp_barrel_barrel_empty.swf" name="Empty" enable="Y" default="Y"/>
+		<state id="msp_barrel_barrel_full.swf" name="Full" enable="Y"/>
 	</prop>
 	<prop id="tuktuk.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10238" money="0" sharing="0"/>
 	<prop id="town_tree02.swf" name="Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10216" money="0" sharing="0"/>
@@ -667,20 +667,20 @@
 	<prop id="police_car.swf" name="Police car" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10209" money="0" sharing="0"/>
 	<prop id="indo_tree.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10208" money="0" sharing="0"/>
 	<prop id="msp_sonic" name="" holdable="1" placeable="0" wearable="0" facing="left" thumb="msp_sonic_sonic_med.swf" enable="N" is_premium="N" aid="10204" money="0" sharing="0">
-		<state id="msp_sonic_sonic_long.swf" name="long" enable="Y"/>
-		<state id="msp_sonic_sonic_med.swf" name="medium" enable="Y" default="Y"/>
-		<state id="msp_sonic_sonic_short.swf" name="short" enable="Y"/>
+		<state id="msp_sonic_sonic_long.swf" name="Long" enable="Y"/>
+		<state id="msp_sonic_sonic_med.swf" name="Medium" enable="Y" default="Y"/>
+		<state id="msp_sonic_sonic_short.swf" name="Short" enable="Y"/>
 	</prop>
 	<prop id="octi.swf" name="Octi" holdable="1" placeable="0" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10203" money="0" sharing="0"/>
 	<prop id="msp_laser" name="" holdable="1" placeable="0" wearable="0" facing="left" thumb="msp_laser_laser_med.swf" enable="N" is_premium="N" aid="10199" money="0" sharing="0">
-		<state id="msp_laser_laser_long.swf" name="long" enable="Y"/>
-		<state id="msp_laser_laser_med.swf" name="medium" enable="Y" default="Y"/>
-		<state id="msp_laser_laser_short.swf" name="short" enable="Y"/>
+		<state id="msp_laser_laser_long.swf" name="Long" enable="Y"/>
+		<state id="msp_laser_laser_med.swf" name="Medium" enable="Y" default="Y"/>
+		<state id="msp_laser_laser_short.swf" name="Short" enable="Y"/>
 	</prop>
 	<prop id="msp_ice" name="" holdable="1" placeable="0" wearable="0" facing="left" thumb="msp_ice_ice_med.swf" enable="N" is_premium="N" aid="10195" money="0" sharing="0">
-		<state id="msp_ice_ice_long.swf" name="long" enable="Y"/>
-		<state id="msp_ice_ice_med.swf" name="medium" enable="Y" default="Y"/>
-		<state id="msp_ice_ice_short.swf" name="short" enable="Y"/>
+		<state id="msp_ice_ice_long.swf" name="Long" enable="Y"/>
+		<state id="msp_ice_ice_med.swf" name="Medium" enable="Y" default="Y"/>
+		<state id="msp_ice_ice_short.swf" name="Short" enable="Y"/>
 	</prop>
 	<prop id="town_pickles_cart.swf" name="Pickles cart" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10217" money="0" sharing="0"/>
 	<prop id="circket_bat.swf" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10218" money="0" sharing="0"/>
@@ -689,21 +689,21 @@
 	<prop id="satellite.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10235" money="0" sharing="0"/>
 	<prop id="command_module.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10234" money="0" sharing="0"/>
 	<prop id="msp_tech" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_tech_tech_manual_closed.swf" enable="Y" is_premium="N" aid="10231" money="0" sharing="0">
-		<state id="msp_tech_tech_manual_closed.swf" name="closed" enable="Y" default="Y"/>
-		<state id="msp_tech_tech_manual_opened.swf" name="open" enable="Y"/>
+		<state id="msp_tech_tech_manual_closed.swf" name="Closed" enable="Y" default="Y"/>
+		<state id="msp_tech_tech_manual_opened.swf" name="Open" enable="Y"/>
 	</prop>
 	<prop id="telescope.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10230" money="0" sharing="0"/>
 	<prop id="remote_controlled.swf" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10229" money="0" sharing="0"/>
 	<prop id="chemical_x.swf" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10228" money="0" sharing="0"/>
 	<prop id="secret_plan.swf" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10227" money="0" sharing="0"/>
 	<prop id="msp_bubble" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_bubble_bubble_gun_still.swf" enable="Y" is_premium="N" aid="10224" money="0" sharing="0">
-		<state id="msp_bubble_bubble_gun_still.swf" name="still" enable="Y" default="Y"/>
-		<state id="msp_bubble_bubble_gun_shoot.swf" name="shoot" enable="Y"/>
+		<state id="msp_bubble_bubble_gun_still.swf" name="Still" enable="Y" default="Y"/>
+		<state id="msp_bubble_bubble_gun_shoot.swf" name="Shoot" enable="Y"/>
 	</prop>
 	<prop id="saw_gun.swf" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10223" money="0" sharing="0"/>
 	<prop id="msp_boom" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_boom_boomerang_still.swf" enable="Y" is_premium="N" aid="10220" money="0" sharing="0">
-		<state id="msp_boom_boomerang_still.swf" name="still" enable="Y" default="Y"/>
-		<state id="msp_boom_boomerang_rotate.swf" name="rotate" enable="Y"/>
+		<state id="msp_boom_boomerang_still.swf" name="Still" enable="Y" default="Y"/>
+		<state id="msp_boom_boomerang_rotate.swf" name="Rotate" enable="Y"/>
 	</prop>
 	<prop id="surfboard.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10219" money="0" sharing="0"/>
 	<prop id="gun.swf" name="Gun" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10194" money="0" sharing="0"/>

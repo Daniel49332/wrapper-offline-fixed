@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<theme id="chibi" name="Chibi Peepz" cc_theme_id="chibi">
+<theme id="chibi" name="Chibi peepz" cc_theme_id="chibi">
 	<background id="ncc_floor01.swf" name="Interior" enable="Y" default="N" is_premium="N" aid="14773" money="0" sharing="0"/>
 	<background id="ncc_jpschool_outside.swf" name="School outdoors" enable="Y" default="N" is_premium="N" aid="14774" money="0" sharing="0"/>
 	<background id="ncc_jpschoolfront.swf" name="Interior" enable="Y" default="N" is_premium="N" aid="14775" money="0" sharing="0"/>
 	<background id="ncc_floor02.swf" name="Interior" enable="Y" default="N" is_premium="N" aid="14776" money="0" sharing="0"/>
 	<background id="ncc_view_cus.swf" name="Interior" enable="Y" default="N" is_premium="N" aid="14777" money="0" sharing="0"/>
 	<background id="ncc_jpschool_outside2.swf" name="Outdoor" enable="Y" default="N" is_premium="N" aid="14778" money="0" sharing="0"/>
-	<background id="wall11.swf" name="wallpaper" enable="Y" default="N" is_premium="N" aid="14779" money="0" sharing="0"/>
-	<background id="wall12.swf" name="wallpaper" enable="Y" default="N" is_premium="N" aid="14780" money="0" sharing="0"/>
-	<background id="wall13.swf" name="wallpaper" enable="Y" default="N" is_premium="N" aid="14781" money="0" sharing="0"/>
+	<background id="wall11.swf" name="Wallpaper" enable="Y" default="N" is_premium="N" aid="14779" money="0" sharing="0"/>
+	<background id="wall12.swf" name="Wallpaper" enable="Y" default="N" is_premium="N" aid="14780" money="0" sharing="0"/>
+	<background id="wall13.swf" name="Wallpaper" enable="Y" default="N" is_premium="N" aid="14781" money="0" sharing="0"/>
 	<compositebg id="cbg_chibi_street02" name="City street" enable="Y" default="Y" thumb="chibi_street02.png" display_order="90" is_premium="N" money="0" sharing="0" aid="15045">
 	<bg id="cbg_chibi_street02_BG336" index="0">
 		<file>chibi.ncc_jpschool_outside2.swf</file>
@@ -2169,7 +2169,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_sch_sakura" name="sakura" enable="Y" default="N" thumb="sch_sakura.png" display_order="110" is_premium="N" money="0" sharing="0" aid="14975">
+	<compositebg id="cbg_sch_sakura" name="Sakura" enable="Y" default="N" thumb="sch_sakura.png" display_order="110" is_premium="N" money="0" sharing="0" aid="14975">
 	<bg id="cbg_sch_sakura_BG337" index="0">
 		<file>chibi.ncc_floor02.swf</file>
 		<color r="colorA">16764057</color>
@@ -2277,155 +2277,155 @@
 	<prop id="ncc_jptree02.swf" name="Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14652" money="0" sharing="0"/>
 	<prop id="ncc_jptree01.swf" name="Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14653" money="0" sharing="0"/>
 	<prop id="msp_jptable01" name="School desk" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jptable01_ncc_jptable01_front.swf" enable="Y" is_premium="N" aid="14654" money="0" sharing="0">
-		<state id="msp_jptable01_ncc_jptable01_front.swf" name="side" enable="Y" default="Y"/>
-		<state id="msp_jptable01_ncc_jptable01_back.swf" name="side - back" enable="Y"/>
-		<state id="msp_jptable01_ncc_jptable01_cus.swf" name="front" enable="Y"/>
+		<state id="msp_jptable01_ncc_jptable01_front.swf" name="Side" enable="Y" default="Y"/>
+		<state id="msp_jptable01_ncc_jptable01_back.swf" name="Side - back" enable="Y"/>
+		<state id="msp_jptable01_ncc_jptable01_cus.swf" name="Front" enable="Y"/>
 	</prop>
 	<prop id="msp_jpcabinet02" name="Shelves" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpcabinet02_ncc_jpcabinet02_front.swf" enable="Y" is_premium="N" aid="14658" money="0" sharing="0">
-		<state id="msp_jpcabinet02_ncc_jpcabinet02_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jpcabinet02_ncc_jpcabinet02_side.swf" name="side" enable="Y"/>
-		<state id="msp_jpcabinet02_ncc_jpcabinet02_cus.swf" name="flattened" enable="Y"/>
+		<state id="msp_jpcabinet02_ncc_jpcabinet02_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jpcabinet02_ncc_jpcabinet02_side.swf" name="Side" enable="Y"/>
+		<state id="msp_jpcabinet02_ncc_jpcabinet02_cus.swf" name="Flattened" enable="Y"/>
 	</prop>
 	<prop id="msp_jpcabinet03" name="Shelves" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpcabinet03_ncc_jpstorage01_cus.swf" enable="Y" is_premium="N" aid="14662" money="0" sharing="0">
-		<state id="msp_jpcabinet03_ncc_jpstorage01_cus.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jpcabinet03_ncc_jpstorage02_cus.swf" name="individual block" enable="Y"/>
+		<state id="msp_jpcabinet03_ncc_jpstorage01_cus.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jpcabinet03_ncc_jpstorage02_cus.swf" name="Individual block" enable="Y"/>
 	</prop>
 	<prop id="msp_jprectangle02" name="Brick wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jprectangle02_ncc_jprectangle02_front.swf" enable="Y" is_premium="N" aid="14665" money="0" sharing="0">
-		<state id="msp_jprectangle02_ncc_jprectangle02_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jprectangle02_ncc_jprectangle02_side.swf" name="side" enable="Y"/>
+		<state id="msp_jprectangle02_ncc_jprectangle02_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jprectangle02_ncc_jprectangle02_side.swf" name="Side" enable="Y"/>
 	</prop>
 	<prop id="msp_jprectangle" name="Concrete wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jprectangle_ncc_jprectangle_front.swf" enable="Y" is_premium="N" aid="14668" money="0" sharing="0">
-		<state id="msp_jprectangle_ncc_jprectangle_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jprectangle_ncc_jprectangle_side.swf" name="side" enable="Y"/>
+		<state id="msp_jprectangle_ncc_jprectangle_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jprectangle_ncc_jprectangle_side.swf" name="Side" enable="Y"/>
 	</prop>
 	<prop id="ncc_jpposter01.swf" name="Poster" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14671" money="0" sharing="0"/>
 	<prop id="msp_jpplatform" name="Wooden planks" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpplatform_ncc_jpplatform_front.swf" enable="Y" is_premium="N" aid="14672" money="0" sharing="0">
-		<state id="msp_jpplatform_ncc_jpplatform_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jpplatform_ncc_jpplaform_side.swf" name="side" enable="Y"/>
+		<state id="msp_jpplatform_ncc_jpplatform_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jpplatform_ncc_jpplaform_side.swf" name="Side" enable="Y"/>
 	</prop>
 	<prop id="ncc_jpmemoboard.swf" name="Corkboard" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14675" money="0" sharing="0"/>
 	<prop id="msp_jplocker01" name="Lockers" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jplocker01_ncc_jplocker01_front.swf" enable="Y" is_premium="N" aid="14676" money="0" sharing="0">
-		<state id="msp_jplocker01_ncc_jplocker01_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jplocker01_ncc_jplocker01_cus.swf" name="front - flattened" enable="Y"/>
-		<state id="msp_jplocker01_ncc_jplocker01_open.swf" name="side - opened" enable="Y"/>
-		<state id="msp_jplocker01_ncc_jplocker01_side.swf" name="side - closed" enable="Y"/>
+		<state id="msp_jplocker01_ncc_jplocker01_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jplocker01_ncc_jplocker01_cus.swf" name="Front - flattened" enable="Y"/>
+		<state id="msp_jplocker01_ncc_jplocker01_open.swf" name="Side - opened" enable="Y"/>
+		<state id="msp_jplocker01_ncc_jplocker01_side.swf" name="Side - closed" enable="Y"/>
 	</prop>
 	<prop id="msp_jpfence01" name="Fences" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpfence01_ncc_jpfence01.swf" enable="Y" is_premium="N" aid="14681" money="0" sharing="0">
-		<state id="msp_jpfence01_ncc_jpfence01.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jpfence01_ncc_jpfence03.swf" name="side" enable="Y"/>
-		<state id="msp_jpfence01_ncc_jpfence02.swf" name="corner" enable="Y"/>
+		<state id="msp_jpfence01_ncc_jpfence01.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jpfence01_ncc_jpfence03.swf" name="Side" enable="Y"/>
+		<state id="msp_jpfence01_ncc_jpfence02.swf" name="Corner" enable="Y"/>
 	</prop>
 	<prop id="msp_jpdoubledoor" name="Sliding doors" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpdoubledoor_ncc_jpdoubledoor_side_open.swf" enable="Y" is_premium="N" aid="14685" money="0" sharing="0">
-		<state id="msp_jpdoubledoor_ncc_jpdoubledoor_side_open.swf" name="side - open" enable="Y" default="Y"/>
-		<state id="msp_jpdoubledoor_ncc_jpdoubledoor_side_closed.swf" name="side - closed" enable="Y"/>
-		<state id="msp_jpdoubledoor_ncc_jpdoubledoor_front_open.swf" name="front - opened" enable="Y"/>
-		<state id="msp_jpdoubledoor_ncc_jpdoubledoor_front_close.swf" name="front - closed" enable="Y"/>
+		<state id="msp_jpdoubledoor_ncc_jpdoubledoor_side_open.swf" name="Side - open" enable="Y" default="Y"/>
+		<state id="msp_jpdoubledoor_ncc_jpdoubledoor_side_closed.swf" name="Side - closed" enable="Y"/>
+		<state id="msp_jpdoubledoor_ncc_jpdoubledoor_front_open.swf" name="Front - opened" enable="Y"/>
+		<state id="msp_jpdoubledoor_ncc_jpdoubledoor_front_close.swf" name="Front - closed" enable="Y"/>
 	</prop>
 	<prop id="msp_jpcupboard02" name="Cupboard" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpcupboard02_ncc_jpcupboard02_front.swf" enable="Y" is_premium="N" aid="14690" money="0" sharing="0">
-		<state id="msp_jpcupboard02_ncc_jpcupboard02_front.swf" name="front - closed" enable="Y" default="Y"/>
-		<state id="msp_jpcupboard02_ncc_jpcupboard02_frontopen.swf" name="front - opened" enable="Y"/>
-		<state id="msp_jpcupboard02_ncc_jpcupboard02_sideopen.swf" name="side - opened" enable="Y"/>
-		<state id="msp_jpcupboard02_ncc_jpcupboard02_side.swf" name="side - closed" enable="Y"/>
+		<state id="msp_jpcupboard02_ncc_jpcupboard02_front.swf" name="Front - closed" enable="Y" default="Y"/>
+		<state id="msp_jpcupboard02_ncc_jpcupboard02_frontopen.swf" name="Front - opened" enable="Y"/>
+		<state id="msp_jpcupboard02_ncc_jpcupboard02_sideopen.swf" name="Side - opened" enable="Y"/>
+		<state id="msp_jpcupboard02_ncc_jpcupboard02_side.swf" name="Side - closed" enable="Y"/>
 	</prop>
 	<prop id="msp_jpcrmtable01" name="Desk" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpcrmtable01_ncc_jpcrmtable01_front.swf" enable="Y" is_premium="N" aid="14695" money="0" sharing="0">
-		<state id="msp_jpcrmtable01_ncc_jpcrmtable01_front.swf" name="side" enable="Y" default="Y"/>
-		<state id="msp_jpcrmtable01_ncc_jpcrmtable01_cus.swf" name="side 2" enable="Y"/>
+		<state id="msp_jpcrmtable01_ncc_jpcrmtable01_front.swf" name="Side" enable="Y" default="Y"/>
+		<state id="msp_jpcrmtable01_ncc_jpcrmtable01_cus.swf" name="Side 2" enable="Y"/>
 	</prop>
 	<prop id="msp_jpchair" name="School chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpchair_ncc_jpchair_side.swf" enable="Y" is_premium="N" aid="14698" money="0" sharing="0">
-		<state id="msp_jpchair_ncc_jpchair_side.swf" name="side" enable="Y" default="Y"/>
-		<state id="msp_jpchair_ncc_jpchair_back.swf" name="back" enable="Y"/>
-		<state id="msp_jpchair_ncc_jpchair_back2.swf" name="back of the chair" enable="Y"/>
-		<state id="msp_jpchair_ncc_jpchair_cus.swf" name="front" enable="Y"/>
+		<state id="msp_jpchair_ncc_jpchair_side.swf" name="Side" enable="Y" default="Y"/>
+		<state id="msp_jpchair_ncc_jpchair_back.swf" name="Back" enable="Y"/>
+		<state id="msp_jpchair_ncc_jpchair_back2.swf" name="Back of the chair" enable="Y"/>
+		<state id="msp_jpchair_ncc_jpchair_cus.swf" name="Front" enable="Y"/>
 	</prop>
 	<prop id="msp_jpcabinet" name="Drawers" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpcabinet_ncc_jpcabinet_front.swf" enable="Y" is_premium="N" aid="14703" money="0" sharing="0">
-		<state id="msp_jpcabinet_ncc_jpcabinet_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jpcabinet_ncc_jpcabinet_side.swf" name="side" enable="Y"/>
-		<state id="msp_jpcabinet_ncc_jpcabinet_cus.swf" name="flattened" enable="Y"/>
+		<state id="msp_jpcabinet_ncc_jpcabinet_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jpcabinet_ncc_jpcabinet_side.swf" name="Side" enable="Y"/>
+		<state id="msp_jpcabinet_ncc_jpcabinet_cus.swf" name="Flattened" enable="Y"/>
 	</prop>
 	<prop id="ncc_jp_sign_school_front.swf" name="Empty sign" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14707" money="0" sharing="0"/>
 	<prop id="msp_jp_sign_exit" name="Exit sign" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jp_sign_exit_ncc_jp_sign_exit_front.swf" enable="Y" is_premium="N" aid="14708" money="0" sharing="0">
-		<state id="msp_jp_sign_exit_ncc_jp_sign_exit_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jp_sign_exit_ncc_jp_sign_exit_side.swf" name="side" enable="Y"/>
+		<state id="msp_jp_sign_exit_ncc_jp_sign_exit_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jp_sign_exit_ncc_jp_sign_exit_side.swf" name="Side" enable="Y"/>
 	</prop>
 	<prop id="msp_jp_sign_class" name="Classroom sign" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jp_sign_class_ncc_jp_sign_class_front.swf" enable="Y" is_premium="N" aid="14711" money="0" sharing="0">
-		<state id="msp_jp_sign_class_ncc_jp_sign_class_front.swf" name="front - 1A" enable="Y" default="Y"/>
-		<state id="msp_jp_sign_class_ncc_jp_sign_class2_front.swf" name="front - empty" enable="Y"/>
-		<state id="msp_jp_sign_class_ncc_jp_sign_class_side.swf" name="side - right" enable="Y"/>
-		<state id="msp_jp_sign_class_ncc_jp_sign_class_cus.swf" name="side - left" enable="Y"/>
+		<state id="msp_jp_sign_class_ncc_jp_sign_class_front.swf" name="Front - 1a" enable="Y" default="Y"/>
+		<state id="msp_jp_sign_class_ncc_jp_sign_class2_front.swf" name="Front - empty" enable="Y"/>
+		<state id="msp_jp_sign_class_ncc_jp_sign_class_side.swf" name="Side - right" enable="Y"/>
+		<state id="msp_jp_sign_class_ncc_jp_sign_class_cus.swf" name="Side - left" enable="Y"/>
 	</prop>
 	<prop id="ncc_jp_cloud03.swf" name="Cloud" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14716" money="0" sharing="0"/>
 	<prop id="ncc_jp_cloud02.swf" name="Cloud" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14717" money="0" sharing="0"/>
 	<prop id="ncc_jp_cloud01.swf" name="Cloud" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14718" money="0" sharing="0"/>
 	<prop id="msp_jpsllocker01" name="Lockers" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpsllocker01_ncc_jpsllocker01_close.swf" enable="Y" is_premium="N" aid="14719" money="0" sharing="0">
-		<state id="msp_jpsllocker01_ncc_jpsllocker01_close.swf" name="front - closed" enable="Y" default="Y"/>
-		<state id="msp_jpsllocker01_ncc_jpsllocker01_open.swf" name="front - opened" enable="Y"/>
+		<state id="msp_jpsllocker01_ncc_jpsllocker01_close.swf" name="Front - closed" enable="Y" default="Y"/>
+		<state id="msp_jpsllocker01_ncc_jpsllocker01_open.swf" name="Front - opened" enable="Y"/>
 	</prop>
 	<prop id="msp_jpwall03" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpwall03_ncc_jpwall03_front.swf" enable="Y" is_premium="N" aid="14722" money="0" sharing="0">
-		<state id="msp_jpwall03_ncc_jpwall03_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jpwall03_ncc_jpwall03_side.swf" name="side" enable="Y"/>
+		<state id="msp_jpwall03_ncc_jpwall03_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jpwall03_ncc_jpwall03_side.swf" name="Side" enable="Y"/>
 	</prop>
 	<prop id="msp_jpwall04" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpwall04_ncc_jpwall04_front.swf" enable="Y" is_premium="N" aid="14725" money="0" sharing="0">
-		<state id="msp_jpwall04_ncc_jpwall04_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jpwall04_ncc_jpwall04_side.swf" name="side" enable="Y"/>
+		<state id="msp_jpwall04_ncc_jpwall04_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jpwall04_ncc_jpwall04_side.swf" name="Side" enable="Y"/>
 	</prop>
 	<prop id="msp_jpwall01" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpwall01_ncc_jpwall01_front.swf" enable="Y" is_premium="N" aid="14728" money="0" sharing="0">
-		<state id="msp_jpwall01_ncc_jpwall01_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jpwall01_ncc_jpwall01_side.swf" name="side" enable="Y"/>
+		<state id="msp_jpwall01_ncc_jpwall01_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jpwall01_ncc_jpwall01_side.swf" name="Side" enable="Y"/>
 	</prop>
 	<prop id="msp_jpwall02" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpwall02_ncc_jpwall02_front.swf" enable="Y" is_premium="N" aid="14731" money="0" sharing="0">
-		<state id="msp_jpwall02_ncc_jpwall02_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jpwall02_ncc_jpwall02_side.swf" name="side" enable="Y"/>
+		<state id="msp_jpwall02_ncc_jpwall02_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jpwall02_ncc_jpwall02_side.swf" name="Side" enable="Y"/>
 	</prop>
 	<prop id="msp_jpwall05" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpwall05_ncc_jpwall05_front.swf" enable="Y" is_premium="N" aid="14734" money="0" sharing="0">
-		<state id="msp_jpwall05_ncc_jpwall05_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jpwall05_ncc_jpwall05_side.swf" name="side" enable="Y"/>
+		<state id="msp_jpwall05_ncc_jpwall05_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jpwall05_ncc_jpwall05_side.swf" name="Side" enable="Y"/>
 	</prop>
 	<prop id="msp_jpwall06" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpwall06_ncc_jpwall06_front.swf" enable="Y" is_premium="N" aid="14737" money="0" sharing="0">
-		<state id="msp_jpwall06_ncc_jpwall06_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jpwall06_ncc_jpwall06_side.swf" name="side" enable="Y"/>
+		<state id="msp_jpwall06_ncc_jpwall06_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jpwall06_ncc_jpwall06_side.swf" name="Side" enable="Y"/>
 	</prop>
 	<prop id="msp_jpwall07" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpwall07_ncc_jpwall07_front.swf" enable="Y" is_premium="N" aid="14740" money="0" sharing="0">
-		<state id="msp_jpwall07_ncc_jpwall07_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jpwall07_ncc_jpwall07_side.swf" name="side" enable="Y"/>
+		<state id="msp_jpwall07_ncc_jpwall07_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jpwall07_ncc_jpwall07_side.swf" name="Side" enable="Y"/>
 	</prop>
 	<prop id="msp_jpwall08" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpwall08_ncc_jpwall08_front.swf" enable="Y" is_premium="N" aid="14743" money="0" sharing="0">
-		<state id="msp_jpwall08_ncc_jpwall08_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jpwall08_ncc_jpwall08_side.swf" name="side" enable="Y"/>
+		<state id="msp_jpwall08_ncc_jpwall08_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jpwall08_ncc_jpwall08_side.swf" name="Side" enable="Y"/>
 	</prop>
 	<prop id="msp_jpwall09" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpwall09_ncc_jpwall09_front.swf" enable="Y" is_premium="N" aid="14746" money="0" sharing="0">
-		<state id="msp_jpwall09_ncc_jpwall09_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jpwall09_ncc_jpwall09_side.swf" name="side" enable="Y"/>
-		<state id="msp_jpwall09_ncc_jpwall09_front2.swf" name="front 2" enable="Y"/>
+		<state id="msp_jpwall09_ncc_jpwall09_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jpwall09_ncc_jpwall09_side.swf" name="Side" enable="Y"/>
+		<state id="msp_jpwall09_ncc_jpwall09_front2.swf" name="Front 2" enable="Y"/>
 	</prop>
 	<prop id="msp_jp_window_display" name="Window" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jp_window_display_ncc_jp_window_display.swf" enable="Y" is_premium="N" aid="14750" money="0" sharing="0">
-		<state id="msp_jp_window_display_ncc_jp_window_display.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jp_window_display_ncc_jp_window_display_side.swf" name="side" enable="Y"/>
-		<state id="msp_jp_window_display_ncc_jp_window_display_cus.swf" name="side 2" enable="Y"/>
+		<state id="msp_jp_window_display_ncc_jp_window_display.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jp_window_display_ncc_jp_window_display_side.swf" name="Side" enable="Y"/>
+		<state id="msp_jp_window_display_ncc_jp_window_display_cus.swf" name="Side 2" enable="Y"/>
 	</prop>
 	<prop id="ncc_jp_schoolentrance01.swf" name="School entrance" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14754" money="0" sharing="0"/>
 	<prop id="msp_jp_road01" name="Pavement" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jp_road01_ncc_jp_road01_front.swf" enable="Y" is_premium="N" aid="14755" money="0" sharing="0">
-		<state id="msp_jp_road01_ncc_jp_road01_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_jp_road01_ncc_jp_road01_side.swf" name="side" enable="Y"/>
+		<state id="msp_jp_road01_ncc_jp_road01_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_jp_road01_ncc_jp_road01_side.swf" name="Side" enable="Y"/>
 	</prop>
 	<prop id="ncc_jp_plants02.swf" name="Bush" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14758" money="0" sharing="0"/>
 	<prop id="msp_cork_jpboard" name="Blackboard" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cork_jpboard_ncc_cork_jpboard_front.swf" enable="Y" is_premium="N" aid="14759" money="0" sharing="0">
-		<state id="msp_cork_jpboard_ncc_cork_jpboard_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_cork_jpboard_ncc_cork_jpboard_side.swf" name="side" enable="Y"/>
+		<state id="msp_cork_jpboard_ncc_cork_jpboard_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_cork_jpboard_ncc_cork_jpboard_side.swf" name="Side" enable="Y"/>
 	</prop>
 	<prop id="msp_jpsllocker02" name="Locker" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpsllocker02_ncc_jpsllocker02_close.swf" enable="Y" is_premium="N" aid="14762" money="0" sharing="0">
-		<state id="msp_jpsllocker02_ncc_jpsllocker02_close.swf" name="closed" enable="Y" default="Y"/>
-		<state id="msp_jpsllocker02_ncc_jpsllocker02_open.swf" name="opened" enable="Y"/>
-		<state id="msp_jpsllocker02_ncc_jpsllocker02_cus.swf" name="opened - mops" enable="Y"/>
+		<state id="msp_jpsllocker02_ncc_jpsllocker02_close.swf" name="Closed" enable="Y" default="Y"/>
+		<state id="msp_jpsllocker02_ncc_jpsllocker02_open.swf" name="Opened" enable="Y"/>
+		<state id="msp_jpsllocker02_ncc_jpsllocker02_cus.swf" name="Opened - mops" enable="Y"/>
 	</prop>
 	<prop id="ncc_jpbook_front.swf" name="Notebook" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14766" money="0" sharing="0"/>
 	<prop id="ncc_jpslfire.swf" name="Fire extinguisher" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14767" money="0" sharing="0"/>
-	<prop id="square01.swf" name="jp_square" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14768" money="0" sharing="0"/>
-	<prop id="backdrop.swf" name="jp_backdrop" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14769" money="0" sharing="0"/>
-	<prop id="msp_sniper_rooftop" name="jp_sniper_rooftop" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sniper_rooftop_ncc_sniper_rooftop03.swf" enable="Y" is_premium="N" aid="14770" money="0" sharing="0">
-		<state id="msp_sniper_rooftop_ncc_sniper_rooftop02.swf" name="half" enable="Y"/>
-		<state id="msp_sniper_rooftop_ncc_sniper_rooftop03.swf" name="full" enable="Y"/>
+	<prop id="square01.swf" name="Jp_square" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14768" money="0" sharing="0"/>
+	<prop id="backdrop.swf" name="Jp_backdrop" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14769" money="0" sharing="0"/>
+	<prop id="msp_sniper_rooftop" name="Jp_sniper_rooftop" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sniper_rooftop_ncc_sniper_rooftop03.swf" enable="Y" is_premium="N" aid="14770" money="0" sharing="0">
+		<state id="msp_sniper_rooftop_ncc_sniper_rooftop02.swf" name="Half" enable="Y"/>
+		<state id="msp_sniper_rooftop_ncc_sniper_rooftop03.swf" name="Full" enable="Y"/>
 	</prop>
-	<prop id="ncc_jp_grasscover.swf" name="patch of grass" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14973" money="0" sharing="0"/>
+	<prop id="ncc_jp_grasscover.swf" name="Patch of grass" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14973" money="0" sharing="0"/>
 	<prop id="ncc_jp_grass.swf" name="Grass" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14974" money="0" sharing="0"/>
 	<prop id="ncc_jp_bear.swf" name="Teddy bear" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15003" money="0" sharing="0"/>
 	<prop id="ncc_jp_cake.swf" name="Cake" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15004" money="0" sharing="0"/>
@@ -2441,8 +2441,8 @@
 	</prop>
 	<prop id="ncc_ninja_chair01.swf" name="Office chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15014" money="0" sharing="0"/>
 	<prop id="msp_ninja_desk01" name="Desk" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_desk01_ncc_ninja_desk01.swf" enable="Y" is_premium="N" aid="15015" money="0" sharing="0">
-		<state id="msp_ninja_desk01_ncc_ninja_desk01.swf" name="side - books" enable="Y" default="Y"/>
-		<state id="msp_ninja_desk01_ncc_ninja_desk02.swf" name="side" enable="Y"/>
+		<state id="msp_ninja_desk01_ncc_ninja_desk01.swf" name="Side - books" enable="Y" default="Y"/>
+		<state id="msp_ninja_desk01_ncc_ninja_desk02.swf" name="Side" enable="Y"/>
 	</prop>
 	<prop id="ncc_ninja_drawer01.swf" name="Drawers" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15018" money="0" sharing="0"/>
 	<prop id="ncc_ninja_flower.swf" name="Flower" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15019" money="0" sharing="0"/>
@@ -2451,26 +2451,26 @@
 	<prop id="ncc_jp_house03.swf" name="House" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15022" money="0" sharing="0"/>
 	<prop id="ncc_ninja_lamp01.swf" name="Lamp" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15023" money="0" sharing="0"/>
 	<prop id="msp_ninja_tatami" name="Tatami" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_tatami_ncc_ninja_tatami.swf" enable="Y" is_premium="N" aid="15024" money="0" sharing="0">
-		<state id="msp_ninja_tatami_ncc_ninja_tatami.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_ninja_tatami_ncc_ninja_tatami2.swf" name="side" enable="Y"/>
+		<state id="msp_ninja_tatami_ncc_ninja_tatami.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_ninja_tatami_ncc_ninja_tatami2.swf" name="Side" enable="Y"/>
 	</prop>
-	<prop id="msp_ninja_tv" name="Old TV set" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_tv_ncc_ninja_tv01_front.swf" enable="Y" is_premium="N" aid="15027" money="0" sharing="0">
-		<state id="msp_ninja_tv_ncc_ninja_tv01_front.swf" name="front - off" enable="Y" default="Y"/>
-		<state id="msp_ninja_tv_ncc_ninja_tv01_side.swf" name="side - off" enable="Y"/>
-		<state id="msp_ninja_tv_ncc_ninja_tv02_front.swf" name="front - on" enable="Y"/>
-		<state id="msp_ninja_tv_ncc_ninja_tv02_side.swf" name="side - on" enable="Y"/>
+	<prop id="msp_ninja_tv" name="Old tv set" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_tv_ncc_ninja_tv01_front.swf" enable="Y" is_premium="N" aid="15027" money="0" sharing="0">
+		<state id="msp_ninja_tv_ncc_ninja_tv01_front.swf" name="Front - off" enable="Y" default="Y"/>
+		<state id="msp_ninja_tv_ncc_ninja_tv01_side.swf" name="Side - off" enable="Y"/>
+		<state id="msp_ninja_tv_ncc_ninja_tv02_front.swf" name="Front - on" enable="Y"/>
+		<state id="msp_ninja_tv_ncc_ninja_tv02_side.swf" name="Side - on" enable="Y"/>
 	</prop>
 	<prop id="msp_ninja_window" name="Window" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_window_ncc_ninja_window01.swf" enable="Y" is_premium="N" aid="15032" money="0" sharing="0">
-		<state id="msp_ninja_window_ncc_ninja_window01.swf" name="side - closed" enable="Y" default="Y"/>
-		<state id="msp_ninja_window_ncc_ninja_window02.swf" name="side - opened" enable="Y"/>
+		<state id="msp_ninja_window_ncc_ninja_window01.swf" name="Side - closed" enable="Y" default="Y"/>
+		<state id="msp_ninja_window_ncc_ninja_window02.swf" name="Side - opened" enable="Y"/>
 	</prop>
 	<prop id="msp_ninja_wall03" name="Wooden wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_wall03_ncc_ninja_wall03_front.swf" enable="Y" is_premium="N" aid="15035" money="0" sharing="0">
-		<state id="msp_ninja_wall03_ncc_ninja_wall03_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_ninja_wall03_ncc_ninja_wall03_side.swf" name="side" enable="Y"/>
+		<state id="msp_ninja_wall03_ncc_ninja_wall03_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_ninja_wall03_ncc_ninja_wall03_side.swf" name="Side" enable="Y"/>
 	</prop>
 	<prop id="msp_ninja_door01" name="Sliding doors" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_door01_ncc_ninja_door01_close.swf" enable="Y" is_premium="N" aid="15038" money="0" sharing="0">
-		<state id="msp_ninja_door01_ncc_ninja_door01_close.swf" name="close" enable="Y" default="Y"/>
-		<state id="msp_ninja_door01_ncc_ninja_door01_open.swf" name="open" enable="Y"/>
+		<state id="msp_ninja_door01_ncc_ninja_door01_close.swf" name="Close" enable="Y" default="Y"/>
+		<state id="msp_ninja_door01_ncc_ninja_door01_open.swf" name="Open" enable="Y"/>
 	</prop>
 	<effect id="ncc_jp_sakura.swf" type="ANIME" resize="false" move="false" name="Sakura" enable="N" is_premium="N" aid="14976" money="0" sharing="0" display_order="0"/>
 </theme>

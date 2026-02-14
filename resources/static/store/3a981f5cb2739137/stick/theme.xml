@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<theme id="stick" name="Stick Figure">
-	<char id="stickguy" name="StickGuy" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="7434" money="0" sharing="0">
-		<category name="Daily Life">
+<theme id="stick" name="Stick figure">
+	<char id="stickguy" name="Stickguy" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="7434" money="0" sharing="0">
+		<category name="Daily life">
 			<action id="standing.swf" name="Standing" loop="Y" totalframe="1" enable="Y" aid="7435"/>
 			<motion id="walk.swf" name="Walk" loop="Y" totalframe="20" enable="Y" aid="7436"/>
 			<action id="happy.swf" name="Laugh" loop="Y" totalframe="58" enable="Y" aid="7437"/>
@@ -45,7 +45,7 @@
 			<action id="hit_with.swf" name="Hit with stick" loop="Y" totalframe="100" enable="Y" aid="8174">
 				<prop id="stick.swf" aid="8167"/>
 			</action>
-			<action id="kick_jump.swf" name="Jump Kick" loop="Y" totalframe="46" enable="Y" aid="8175"/>
+			<action id="kick_jump.swf" name="Jump kick" loop="Y" totalframe="46" enable="Y" aid="8175"/>
 			<action id="upper_cut.swf" name="Upper cut" loop="Y" totalframe="28" enable="Y" aid="8176"/>
 			<action id="block.swf" name="Block" loop="Y" totalframe="100" enable="Y" aid="8177"/>
 			<action id="fighting_stance1.swf" name="Fighting stance 1" loop="Y" totalframe="18" enable="Y" aid="8178"/>
@@ -93,19 +93,19 @@
 			<action id="fall_down_fast.swf" name="Fall down (instant)" loop="Y" totalframe="60" enable="Y" aid="8204"/>
 			<action id="fall_down_slow.swf" name="Fall down (slow)" loop="Y" totalframe="100" enable="Y" aid="8205"/>
 		</category>
-		<facial id="happy.swf" name="happy" enable="Y" aid="7450"/>
-		<facial id="sad.swf" name="sad" enable="Y" aid="7451"/>
-		<facial id="angry.swf" name="angry" enable="Y" aid="7452"/>
-		<facial id="talk.swf" name="talk" enable="Y" aid="7453"/>
-		<facial id="talk_happy.swf" name="Talk Happy" enable="Y" aid="7454"/>
-		<facial id="talk_angry.swf" name="Talk Angry" enable="Y" aid="7455"/>
-		<facial id="confused.swf" name="confused" enable="Y" aid="7456"/>
-		<facial id="desperate.swf" name="desperate" enable="Y" aid="7457"/>
-		<facial id="cry.swf" name="cry" enable="Y" aid="7458"/>
-		<facial id="shocked.swf" name="shocked" enable="Y" aid="7459"/>
-		<facial id="surprised.swf" name="surprised" enable="Y" aid="7460"/>
-		<facial id="laugh.swf" name="laugh" enable="Y" aid="7461"/>
-		<facial id="default.swf" name="neutral" enable="Y" aid="7462"/>
+		<facial id="happy.swf" name="Happy" enable="Y" aid="7450"/>
+		<facial id="sad.swf" name="Sad" enable="Y" aid="7451"/>
+		<facial id="angry.swf" name="Angry" enable="Y" aid="7452"/>
+		<facial id="talk.swf" name="Talk" enable="Y" aid="7453"/>
+		<facial id="talk_happy.swf" name="Talk happy" enable="Y" aid="7454"/>
+		<facial id="talk_angry.swf" name="Talk angry" enable="Y" aid="7455"/>
+		<facial id="confused.swf" name="Confused" enable="Y" aid="7456"/>
+		<facial id="desperate.swf" name="Desperate" enable="Y" aid="7457"/>
+		<facial id="cry.swf" name="Cry" enable="Y" aid="7458"/>
+		<facial id="shocked.swf" name="Shocked" enable="Y" aid="7459"/>
+		<facial id="surprised.swf" name="Surprised" enable="Y" aid="7460"/>
+		<facial id="laugh.swf" name="Laugh" enable="Y" aid="7461"/>
+		<facial id="default.swf" name="Neutral" enable="Y" aid="7462"/>
 		<colorset enable="Y" aid="7463">
 	<color r="sfSkin">0x000000</color>
 	<color r="sfMouth">0xFFFFFF</color>
@@ -117,8 +117,8 @@
 			<c_area oc="">sfSkin</c_area>
 		</c_parts>
 	</char>
-	<char id="stickgirl" name="StickGirl" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="7464" money="0" sharing="0">
-		<category name="Daily Life">
+	<char id="stickgirl" name="Stickgirl" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="7464" money="0" sharing="0">
+		<category name="Daily life">
 			<action id="standing.swf" name="Standing" loop="Y" totalframe="1" enable="Y" aid="7465"/>
 			<motion id="walk.swf" name="Walk" loop="Y" totalframe="20" enable="Y" aid="7466"/>
 			<action id="happy.swf" name="Laugh" loop="Y" totalframe="58" enable="Y" aid="7467"/>
@@ -180,19 +180,19 @@
 				<prop id="msp_shotgun.msp_shotgun_shotgun_shoot.swf" aid="8107"/>
 			</action>
 		</category>
-		<facial id="happy.swf" name="happy" enable="Y" aid="7480"/>
-		<facial id="sad.swf" name="sad" enable="Y" aid="7481"/>
-		<facial id="angry.swf" name="angry" enable="Y" aid="7482"/>
-		<facial id="talk.swf" name="talk" enable="Y" aid="7483"/>
-		<facial id="talk_happy.swf" name="Talk Happy" enable="Y" aid="7484"/>
-		<facial id="talk_angry.swf" name="Talk Angry" enable="Y" aid="7485"/>
-		<facial id="confused.swf" name="confused" enable="Y" aid="7486"/>
-		<facial id="desperate.swf" name="desperate" enable="Y" aid="7487"/>
-		<facial id="cry.swf" name="cry" enable="Y" aid="7488"/>
-		<facial id="shocked.swf" name="shocked" enable="Y" aid="7489"/>
-		<facial id="surprised.swf" name="surprised" enable="Y" aid="7490"/>
-		<facial id="laugh.swf" name="laugh" enable="Y" aid="7491"/>
-		<facial id="default.swf" name="neutral" enable="Y" aid="7492"/>
+		<facial id="happy.swf" name="Happy" enable="Y" aid="7480"/>
+		<facial id="sad.swf" name="Sad" enable="Y" aid="7481"/>
+		<facial id="angry.swf" name="Angry" enable="Y" aid="7482"/>
+		<facial id="talk.swf" name="Talk" enable="Y" aid="7483"/>
+		<facial id="talk_happy.swf" name="Talk happy" enable="Y" aid="7484"/>
+		<facial id="talk_angry.swf" name="Talk angry" enable="Y" aid="7485"/>
+		<facial id="confused.swf" name="Confused" enable="Y" aid="7486"/>
+		<facial id="desperate.swf" name="Desperate" enable="Y" aid="7487"/>
+		<facial id="cry.swf" name="Cry" enable="Y" aid="7488"/>
+		<facial id="shocked.swf" name="Shocked" enable="Y" aid="7489"/>
+		<facial id="surprised.swf" name="Surprised" enable="Y" aid="7490"/>
+		<facial id="laugh.swf" name="Laugh" enable="Y" aid="7491"/>
+		<facial id="default.swf" name="Neutral" enable="Y" aid="7492"/>
 		<colorset enable="Y" aid="7493">
 	<color r="sfSkin">0x000000</color>
 	<color r="sfMouth">0xFFFFFF</color>
@@ -204,8 +204,8 @@
 			<c_area oc="">sfSkin</c_area>
 		</c_parts>
 	</char>
-	<char id="StickGuy3000" name="StickGuy 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8309" money="0" sharing="0">
-		<category name="Daily Life">
+	<char id="StickGuy3000" name="Stickguy 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8309" money="0" sharing="0">
+		<category name="Daily life">
 			<action id="happy.swf" name="Laugh" loop="Y" totalframe="58" enable="Y" aid="8310"/>
 			<action id="sad.swf" name="Sad" loop="Y" totalframe="50" enable="Y" aid="8311"/>
 			<action id="angry.swf" name="Angry" loop="Y" totalframe="60" enable="Y" aid="8312"/>
@@ -251,7 +251,7 @@
 			<action id="hit_with.swf" name="Hit with stick" loop="Y" totalframe="100" enable="Y" aid="8322">
 				<prop id="stick.swf" aid="8167"/>
 			</action>
-			<action id="kick_jump.swf" name="Jump Kick" loop="Y" totalframe="46" enable="Y" aid="8323"/>
+			<action id="kick_jump.swf" name="Jump kick" loop="Y" totalframe="46" enable="Y" aid="8323"/>
 			<action id="upper_cut.swf" name="Upper cut" loop="Y" totalframe="28" enable="Y" aid="8324"/>
 			<action id="block.swf" name="Block" loop="Y" totalframe="100" enable="Y" aid="8325"/>
 			<action id="fighting_stance1.swf" name="Fighting stance 1" loop="Y" totalframe="18" enable="Y" aid="8326"/>
@@ -301,20 +301,20 @@
 				<prop id="msp_shotgun.msp_shotgun_shotgun_shoot.swf" aid="8107"/>
 			</action>
 		</category>
-		<facial id="happy.swf" name="happy" enable="Y" aid="8368"/>
-		<facial id="sad.swf" name="sad" enable="Y" aid="8369"/>
-		<facial id="angry.swf" name="angry" enable="Y" aid="8370"/>
-		<facial id="talk.swf" name="talk" enable="Y" aid="8371"/>
-		<facial id="talk_happy.swf" name="Talk Happy" enable="Y" aid="8372"/>
-		<facial id="talk_angry.swf" name="Talk Angry" enable="Y" aid="8373"/>
-		<facial id="confused.swf" name="confused" enable="Y" aid="8374"/>
-		<facial id="desperate.swf" name="desperate" enable="Y" aid="8375"/>
-		<facial id="cry.swf" name="cry" enable="Y" aid="8376"/>
-		<facial id="shocked.swf" name="shocked" enable="Y" aid="8377"/>
-		<facial id="surprised.swf" name="surprised" enable="Y" aid="8378"/>
-		<facial id="laugh.swf" name="laugh" enable="Y" aid="8379"/>
-		<facial id="default.swf" name="neutral" enable="Y" aid="8380"/>
-		<facial id="head_shocked.swf" name="massive shock" enable="Y" aid="8381"/>
+		<facial id="happy.swf" name="Happy" enable="Y" aid="8368"/>
+		<facial id="sad.swf" name="Sad" enable="Y" aid="8369"/>
+		<facial id="angry.swf" name="Angry" enable="Y" aid="8370"/>
+		<facial id="talk.swf" name="Talk" enable="Y" aid="8371"/>
+		<facial id="talk_happy.swf" name="Talk happy" enable="Y" aid="8372"/>
+		<facial id="talk_angry.swf" name="Talk angry" enable="Y" aid="8373"/>
+		<facial id="confused.swf" name="Confused" enable="Y" aid="8374"/>
+		<facial id="desperate.swf" name="Desperate" enable="Y" aid="8375"/>
+		<facial id="cry.swf" name="Cry" enable="Y" aid="8376"/>
+		<facial id="shocked.swf" name="Shocked" enable="Y" aid="8377"/>
+		<facial id="surprised.swf" name="Surprised" enable="Y" aid="8378"/>
+		<facial id="laugh.swf" name="Laugh" enable="Y" aid="8379"/>
+		<facial id="default.swf" name="Neutral" enable="Y" aid="8380"/>
+		<facial id="head_shocked.swf" name="Massive shock" enable="Y" aid="8381"/>
 		<colorset enable="Y" aid="8382">
 	<color r="sfSkinHead">0xFFCC99</color>
 	<color r="sfMouth">0xFFFFFF</color>
@@ -332,8 +332,8 @@
 			<c_area oc="">sfSkinLegs</c_area>
 		</c_parts>
 	</char>
-	<char id="stickGirl3000" name="StickBabe 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8383" money="0" sharing="0">
-		<category name="Daily Life">
+	<char id="stickGirl3000" name="Stickbabe 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8383" money="0" sharing="0">
+		<category name="Daily life">
 			<action id="happy.swf" name="Laugh" loop="Y" totalframe="58" enable="Y" aid="8384"/>
 			<action id="sad.swf" name="Sad" loop="Y" totalframe="50" enable="Y" aid="8385"/>
 			<action id="angry.swf" name="Angry" loop="Y" totalframe="60" enable="Y" aid="8386"/>
@@ -402,7 +402,7 @@
 			<action id="hit_with.swf" name="Hit with stick" loop="Y" totalframe="100" enable="Y" aid="9209">
 				<prop id="stick.swf" aid="8167"/>
 			</action>
-			<action id="kick_jump.swf" name="Jump Kick" loop="Y" totalframe="46" enable="Y" aid="9210"/>
+			<action id="kick_jump.swf" name="Jump kick" loop="Y" totalframe="46" enable="Y" aid="9210"/>
 			<action id="upper_cut.swf" name="Upper cut" loop="Y" totalframe="28" enable="Y" aid="9211"/>
 			<action id="block.swf" name="Block" loop="Y" totalframe="100" enable="Y" aid="9212"/>
 			<action id="fighting_stance1.swf" name="Fighting stance 1" loop="Y" totalframe="18" enable="Y" aid="9213"/>
@@ -426,19 +426,19 @@
 			<action id="leap.swf" name="Leap" loop="Y" totalframe="54" enable="Y" aid="9226"/>
 			<action id="land.swf" name="Land" loop="Y" totalframe="46" enable="Y" aid="9227"/>
 		</category>
-		<facial id="happy.swf" name="happy" enable="Y" aid="8417"/>
-		<facial id="sad.swf" name="sad" enable="Y" aid="8418"/>
-		<facial id="angry.swf" name="angry" enable="Y" aid="8419"/>
-		<facial id="talk.swf" name="talk" enable="Y" aid="8420"/>
-		<facial id="talk_happy.swf" name="Talk Happy" enable="Y" aid="8421"/>
-		<facial id="talk_angry.swf" name="Talk Angry" enable="Y" aid="8422"/>
-		<facial id="confused.swf" name="confused" enable="Y" aid="8423"/>
-		<facial id="desperate.swf" name="desperate" enable="Y" aid="8424"/>
-		<facial id="cry.swf" name="cry" enable="Y" aid="8425"/>
-		<facial id="shocked.swf" name="shocked" enable="Y" aid="8426"/>
-		<facial id="surprised.swf" name="surprised" enable="Y" aid="8427"/>
-		<facial id="laugh.swf" name="laugh" enable="Y" aid="8428"/>
-		<facial id="default.swf" name="neutral" enable="Y" aid="8429"/>
+		<facial id="happy.swf" name="Happy" enable="Y" aid="8417"/>
+		<facial id="sad.swf" name="Sad" enable="Y" aid="8418"/>
+		<facial id="angry.swf" name="Angry" enable="Y" aid="8419"/>
+		<facial id="talk.swf" name="Talk" enable="Y" aid="8420"/>
+		<facial id="talk_happy.swf" name="Talk happy" enable="Y" aid="8421"/>
+		<facial id="talk_angry.swf" name="Talk angry" enable="Y" aid="8422"/>
+		<facial id="confused.swf" name="Confused" enable="Y" aid="8423"/>
+		<facial id="desperate.swf" name="Desperate" enable="Y" aid="8424"/>
+		<facial id="cry.swf" name="Cry" enable="Y" aid="8425"/>
+		<facial id="shocked.swf" name="Shocked" enable="Y" aid="8426"/>
+		<facial id="surprised.swf" name="Surprised" enable="Y" aid="8427"/>
+		<facial id="laugh.swf" name="Laugh" enable="Y" aid="8428"/>
+		<facial id="default.swf" name="Neutral" enable="Y" aid="8429"/>
 		<facial id="head_beg.swf" name="Beg" enable="Y" aid="8430"/>
 		<colorset enable="Y" aid="8431">
 	<color r="sfSkinHead">0xFFCC99</color>
@@ -457,8 +457,8 @@
 			<c_area oc="">sfSkinLegs</c_area>
 		</c_parts>
 	</char>
-	<char id="Stickboy3000" name="StickBoy 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="9228" money="0" sharing="0">
-		<category name="Daily Life">
+	<char id="Stickboy3000" name="Stickboy 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="9228" money="0" sharing="0">
+		<category name="Daily life">
 			<action id="happy.swf" name="Laugh" loop="Y" totalframe="58" enable="Y" aid="9229"/>
 			<action id="sad.swf" name="Sad" loop="Y" totalframe="50" enable="Y" aid="9230"/>
 			<action id="angry.swf" name="Angry" loop="Y" totalframe="60" enable="Y" aid="9231"/>
@@ -502,7 +502,7 @@
 			<action id="hit_with.swf" name="Hit with stick" loop="Y" totalframe="100" enable="Y" aid="9240">
 				<prop id="stick.swf" aid="8167"/>
 			</action>
-			<action id="kick_jump.swf" name="Jump Kick" loop="Y" totalframe="46" enable="Y" aid="9241"/>
+			<action id="kick_jump.swf" name="Jump kick" loop="Y" totalframe="46" enable="Y" aid="9241"/>
 			<action id="upper_cut.swf" name="Upper cut" loop="Y" totalframe="28" enable="Y" aid="9242"/>
 			<action id="block.swf" name="Block" loop="Y" totalframe="100" enable="Y" aid="9243"/>
 			<action id="fighting_stance1.swf" name="Fighting stance 1" loop="Y" totalframe="18" enable="Y" aid="9244"/>
@@ -550,20 +550,20 @@
 				<prop id="msp_shotgun.msp_shotgun_shotgun_shoot.swf" aid="8107"/>
 			</action>
 		</category>
-		<facial id="happy.swf" name="happy" enable="Y" aid="9283"/>
-		<facial id="sad.swf" name="sad" enable="Y" aid="9284"/>
-		<facial id="angry.swf" name="angry" enable="Y" aid="9285"/>
-		<facial id="talk.swf" name="talk" enable="Y" aid="9286"/>
-		<facial id="talk_happy.swf" name="Talk Happy" enable="Y" aid="9287"/>
-		<facial id="talk_angry.swf" name="Talk Angry" enable="Y" aid="9288"/>
-		<facial id="confused.swf" name="confused" enable="Y" aid="9289"/>
-		<facial id="desperate.swf" name="desperate" enable="Y" aid="9290"/>
-		<facial id="cry.swf" name="cry" enable="Y" aid="9291"/>
-		<facial id="shocked.swf" name="shocked" enable="Y" aid="9292"/>
-		<facial id="surprised.swf" name="surprised" enable="Y" aid="9293"/>
-		<facial id="laugh.swf" name="laugh" enable="Y" aid="9294"/>
-		<facial id="default.swf" name="neutral" enable="Y" aid="9295"/>
-		<facial id="head_shocked.swf" name="massive shock" enable="Y" aid="9296"/>
+		<facial id="happy.swf" name="Happy" enable="Y" aid="9283"/>
+		<facial id="sad.swf" name="Sad" enable="Y" aid="9284"/>
+		<facial id="angry.swf" name="Angry" enable="Y" aid="9285"/>
+		<facial id="talk.swf" name="Talk" enable="Y" aid="9286"/>
+		<facial id="talk_happy.swf" name="Talk happy" enable="Y" aid="9287"/>
+		<facial id="talk_angry.swf" name="Talk angry" enable="Y" aid="9288"/>
+		<facial id="confused.swf" name="Confused" enable="Y" aid="9289"/>
+		<facial id="desperate.swf" name="Desperate" enable="Y" aid="9290"/>
+		<facial id="cry.swf" name="Cry" enable="Y" aid="9291"/>
+		<facial id="shocked.swf" name="Shocked" enable="Y" aid="9292"/>
+		<facial id="surprised.swf" name="Surprised" enable="Y" aid="9293"/>
+		<facial id="laugh.swf" name="Laugh" enable="Y" aid="9294"/>
+		<facial id="default.swf" name="Neutral" enable="Y" aid="9295"/>
+		<facial id="head_shocked.swf" name="Massive shock" enable="Y" aid="9296"/>
 		<colorset enable="Y" aid="9297">
 	<color r="sfSkinHead">0x996600</color>
 	<color r="sfMouth">0xFFFFFF</color>
@@ -581,8 +581,8 @@
 			<c_area oc="">sfSkinLegs</c_area>
 		</c_parts>
 	</char>
-	<char id="Stickkidgirl3000" name="StickGirl 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="9298" money="0" sharing="0">
-		<category name="Daily Life">
+	<char id="Stickkidgirl3000" name="Stickgirl 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="9298" money="0" sharing="0">
+		<category name="Daily life">
 			<action id="happy.swf" name="Laugh" loop="Y" totalframe="58" enable="Y" aid="9299"/>
 			<action id="sad.swf" name="Sad" loop="Y" totalframe="50" enable="Y" aid="9300"/>
 			<action id="angry.swf" name="Angry" loop="Y" totalframe="60" enable="Y" aid="9301"/>
@@ -626,7 +626,7 @@
 			<action id="hit_with.swf" name="Hit with stick" loop="Y" totalframe="100" enable="Y" aid="9310">
 				<prop id="stick.swf" aid="8167"/>
 			</action>
-			<action id="kick_jump.swf" name="Jump Kick" loop="Y" totalframe="46" enable="Y" aid="9311"/>
+			<action id="kick_jump.swf" name="Jump kick" loop="Y" totalframe="46" enable="Y" aid="9311"/>
 			<action id="upper_cut.swf" name="Upper cut" loop="Y" totalframe="28" enable="Y" aid="9312"/>
 			<action id="block.swf" name="Block" loop="Y" totalframe="100" enable="Y" aid="9313"/>
 			<action id="fighting_stance1.swf" name="Fighting stance 1" loop="Y" totalframe="18" enable="Y" aid="9314"/>
@@ -674,20 +674,20 @@
 				<prop id="msp_shotgun.msp_shotgun_shotgun_shoot.swf" aid="8107"/>
 			</action>
 		</category>
-		<facial id="happy.swf" name="happy" enable="Y" aid="9353"/>
-		<facial id="sad.swf" name="sad" enable="Y" aid="9354"/>
-		<facial id="angry.swf" name="angry" enable="Y" aid="9355"/>
-		<facial id="talk.swf" name="talk" enable="Y" aid="9356"/>
-		<facial id="talk_happy.swf" name="Talk Happy" enable="Y" aid="9357"/>
-		<facial id="talk_angry.swf" name="Talk Angry" enable="Y" aid="9358"/>
-		<facial id="confused.swf" name="confused" enable="Y" aid="9359"/>
-		<facial id="desperate.swf" name="desperate" enable="Y" aid="9360"/>
-		<facial id="cry.swf" name="cry" enable="Y" aid="9361"/>
-		<facial id="shocked.swf" name="shocked" enable="Y" aid="9362"/>
-		<facial id="surprised.swf" name="surprised" enable="Y" aid="9363"/>
-		<facial id="laugh.swf" name="laugh" enable="Y" aid="9364"/>
-		<facial id="default.swf" name="neutral" enable="Y" aid="9365"/>
-		<facial id="head_beg.swf" name="massive shock" enable="Y" aid="9366"/>
+		<facial id="happy.swf" name="Happy" enable="Y" aid="9353"/>
+		<facial id="sad.swf" name="Sad" enable="Y" aid="9354"/>
+		<facial id="angry.swf" name="Angry" enable="Y" aid="9355"/>
+		<facial id="talk.swf" name="Talk" enable="Y" aid="9356"/>
+		<facial id="talk_happy.swf" name="Talk happy" enable="Y" aid="9357"/>
+		<facial id="talk_angry.swf" name="Talk angry" enable="Y" aid="9358"/>
+		<facial id="confused.swf" name="Confused" enable="Y" aid="9359"/>
+		<facial id="desperate.swf" name="Desperate" enable="Y" aid="9360"/>
+		<facial id="cry.swf" name="Cry" enable="Y" aid="9361"/>
+		<facial id="shocked.swf" name="Shocked" enable="Y" aid="9362"/>
+		<facial id="surprised.swf" name="Surprised" enable="Y" aid="9363"/>
+		<facial id="laugh.swf" name="Laugh" enable="Y" aid="9364"/>
+		<facial id="default.swf" name="Neutral" enable="Y" aid="9365"/>
+		<facial id="head_beg.swf" name="Massive shock" enable="Y" aid="9366"/>
 		<colorset enable="Y" aid="9367">
 	<color r="sfSkinHead">0xFF9966</color>
 	<color r="sfMouth">0xFFFFFF</color>
@@ -705,8 +705,8 @@
 			<c_area oc="">sfSkinLegs</c_area>
 		</c_parts>
 	</char>
-	<char id="Stickfat3000" name="FatStick 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="9368" money="0" sharing="0">
-		<category name="Daily Life">
+	<char id="Stickfat3000" name="Fatstick 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="9368" money="0" sharing="0">
+		<category name="Daily life">
 			<action id="happy.swf" name="Laugh" loop="Y" totalframe="58" enable="Y" aid="9369"/>
 			<action id="sad.swf" name="Sad" loop="Y" totalframe="50" enable="Y" aid="9370"/>
 			<action id="angry.swf" name="Angry" loop="Y" totalframe="60" enable="Y" aid="9371"/>
@@ -750,7 +750,7 @@
 			<action id="hit_with.swf" name="Hit with stick" loop="Y" totalframe="100" enable="Y" aid="9380">
 				<prop id="stick.swf" aid="8167"/>
 			</action>
-			<action id="kick_jump.swf" name="Jump Kick" loop="Y" totalframe="46" enable="Y" aid="9381"/>
+			<action id="kick_jump.swf" name="Jump kick" loop="Y" totalframe="46" enable="Y" aid="9381"/>
 			<action id="upper_cut.swf" name="Upper cut" loop="Y" totalframe="28" enable="Y" aid="9382"/>
 			<action id="block.swf" name="Block" loop="Y" totalframe="100" enable="Y" aid="9383"/>
 			<action id="fighting_stance1.swf" name="Fighting stance 1" loop="Y" totalframe="18" enable="Y" aid="9384"/>
@@ -798,20 +798,20 @@
 				<prop id="msp_shotgun.msp_shotgun_shotgun_shoot.swf" aid="8107"/>
 			</action>
 		</category>
-		<facial id="happy.swf" name="happy" enable="Y" aid="9423"/>
-		<facial id="sad.swf" name="sad" enable="Y" aid="9424"/>
-		<facial id="angry.swf" name="angry" enable="Y" aid="9425"/>
-		<facial id="talk.swf" name="talk" enable="Y" aid="9426"/>
-		<facial id="talk_happy.swf" name="Talk Happy" enable="Y" aid="9427"/>
-		<facial id="talk_angry.swf" name="Talk Angry" enable="Y" aid="9428"/>
-		<facial id="confused.swf" name="confused" enable="Y" aid="9429"/>
-		<facial id="desperate.swf" name="desperate" enable="Y" aid="9430"/>
-		<facial id="cry.swf" name="cry" enable="Y" aid="9431"/>
-		<facial id="shocked.swf" name="shocked" enable="Y" aid="9432"/>
-		<facial id="surprised.swf" name="surprised" enable="Y" aid="9433"/>
-		<facial id="laugh.swf" name="laugh" enable="Y" aid="9434"/>
-		<facial id="default.swf" name="neutral" enable="Y" aid="9435"/>
-		<facial id="head_shocked.swf" name="massive shock" enable="Y" aid="9436"/>
+		<facial id="happy.swf" name="Happy" enable="Y" aid="9423"/>
+		<facial id="sad.swf" name="Sad" enable="Y" aid="9424"/>
+		<facial id="angry.swf" name="Angry" enable="Y" aid="9425"/>
+		<facial id="talk.swf" name="Talk" enable="Y" aid="9426"/>
+		<facial id="talk_happy.swf" name="Talk happy" enable="Y" aid="9427"/>
+		<facial id="talk_angry.swf" name="Talk angry" enable="Y" aid="9428"/>
+		<facial id="confused.swf" name="Confused" enable="Y" aid="9429"/>
+		<facial id="desperate.swf" name="Desperate" enable="Y" aid="9430"/>
+		<facial id="cry.swf" name="Cry" enable="Y" aid="9431"/>
+		<facial id="shocked.swf" name="Shocked" enable="Y" aid="9432"/>
+		<facial id="surprised.swf" name="Surprised" enable="Y" aid="9433"/>
+		<facial id="laugh.swf" name="Laugh" enable="Y" aid="9434"/>
+		<facial id="default.swf" name="Neutral" enable="Y" aid="9435"/>
+		<facial id="head_shocked.swf" name="Massive shock" enable="Y" aid="9436"/>
 		<colorset enable="Y" aid="9437">
 	<color r="sfSkinHead">0xFFCC99</color>
 	<color r="sfMouth">0xFFFFFF</color>
@@ -829,8 +829,8 @@
 			<c_area oc="">sfSkinLegs</c_area>
 		</c_parts>
 	</char>
-	<char id="Stickmuscle3000" name="MuscleStick 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="9438" money="0" sharing="0">
-		<category name="Daily Life">
+	<char id="Stickmuscle3000" name="Musclestick 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="9438" money="0" sharing="0">
+		<category name="Daily life">
 			<action id="happy.swf" name="Laugh" loop="Y" totalframe="58" enable="Y" aid="9439"/>
 			<action id="sad.swf" name="Sad" loop="Y" totalframe="50" enable="Y" aid="9440"/>
 			<action id="angry.swf" name="Angry" loop="Y" totalframe="60" enable="Y" aid="9441"/>
@@ -874,7 +874,7 @@
 			<action id="hit_with.swf" name="Hit with stick" loop="Y" totalframe="100" enable="Y" aid="9450">
 				<prop id="stick.swf" aid="8167"/>
 			</action>
-			<action id="kick_jump.swf" name="Jump Kick" loop="Y" totalframe="46" enable="Y" aid="9451"/>
+			<action id="kick_jump.swf" name="Jump kick" loop="Y" totalframe="46" enable="Y" aid="9451"/>
 			<action id="upper_cut.swf" name="Upper cut" loop="Y" totalframe="28" enable="Y" aid="9452"/>
 			<action id="block.swf" name="Block" loop="Y" totalframe="100" enable="Y" aid="9453"/>
 			<action id="fighting_stance1.swf" name="Fighting stance 1" loop="Y" totalframe="18" enable="Y" aid="9454"/>
@@ -922,20 +922,20 @@
 				<prop id="msp_shotgun.msp_shotgun_shotgun_shoot.swf" aid="8107"/>
 			</action>
 		</category>
-		<facial id="happy.swf" name="happy" enable="Y" aid="9493"/>
-		<facial id="sad.swf" name="sad" enable="Y" aid="9494"/>
-		<facial id="angry.swf" name="angry" enable="Y" aid="9495"/>
-		<facial id="talk.swf" name="talk" enable="Y" aid="9496"/>
-		<facial id="talk_happy.swf" name="Talk Happy" enable="Y" aid="9497"/>
-		<facial id="talk_angry.swf" name="Talk Angry" enable="Y" aid="9498"/>
-		<facial id="confused.swf" name="confused" enable="Y" aid="9499"/>
-		<facial id="desperate.swf" name="desperate" enable="Y" aid="9500"/>
-		<facial id="cry.swf" name="cry" enable="Y" aid="9501"/>
-		<facial id="shocked.swf" name="shocked" enable="Y" aid="9502"/>
-		<facial id="surprised.swf" name="surprised" enable="Y" aid="9503"/>
-		<facial id="laugh.swf" name="laugh" enable="Y" aid="9504"/>
-		<facial id="default.swf" name="neutral" enable="Y" aid="9505"/>
-		<facial id="head_shocked.swf" name="massive shock" enable="Y" aid="9506"/>
+		<facial id="happy.swf" name="Happy" enable="Y" aid="9493"/>
+		<facial id="sad.swf" name="Sad" enable="Y" aid="9494"/>
+		<facial id="angry.swf" name="Angry" enable="Y" aid="9495"/>
+		<facial id="talk.swf" name="Talk" enable="Y" aid="9496"/>
+		<facial id="talk_happy.swf" name="Talk happy" enable="Y" aid="9497"/>
+		<facial id="talk_angry.swf" name="Talk angry" enable="Y" aid="9498"/>
+		<facial id="confused.swf" name="Confused" enable="Y" aid="9499"/>
+		<facial id="desperate.swf" name="Desperate" enable="Y" aid="9500"/>
+		<facial id="cry.swf" name="Cry" enable="Y" aid="9501"/>
+		<facial id="shocked.swf" name="Shocked" enable="Y" aid="9502"/>
+		<facial id="surprised.swf" name="Surprised" enable="Y" aid="9503"/>
+		<facial id="laugh.swf" name="Laugh" enable="Y" aid="9504"/>
+		<facial id="default.swf" name="Neutral" enable="Y" aid="9505"/>
+		<facial id="head_shocked.swf" name="Massive shock" enable="Y" aid="9506"/>
 		<colorset enable="Y" aid="9507">
 	<color r="sfSkinHead">0x663300</color>
 	<color r="sfMouth">0xFFFFFF</color>
@@ -954,8 +954,8 @@
 		</c_parts>
 	</char>
 	<background id="bg03.swf" name="City" enable="N" default="N" is_premium="N" aid="7494" money="0" sharing="0"/>
-	<background id="bg04.swf" name="Living Room" enable="N" default="N" is_premium="N" aid="7495" money="0" sharing="0"/>
-	<background id="gradient.swf" name="gradient" enable="Y" is_premium="N" aid="7496" money="0" sharing="0">
+	<background id="bg04.swf" name="Living room" enable="N" default="N" is_premium="N" aid="7495" money="0" sharing="0"/>
+	<background id="gradient.swf" name="Gradient" enable="Y" is_premium="N" aid="7496" money="0" sharing="0">
 		<colorset enable="Y" aid="7497">
 	<color r="gradient">0x333333</color>
 </colorset>
@@ -963,7 +963,7 @@
 	<c_area>gradient</c_area>
 </c_parts>
 	</background>
-	<background id="split_bg.swf" name="split bg" enable="Y" is_premium="N" aid="7498" money="0" sharing="0">
+	<background id="split_bg.swf" name="Split bg" enable="Y" is_premium="N" aid="7498" money="0" sharing="0">
 		<colorset enable="Y" aid="7499">
 	<color r="top">0xFFFFFF</color>
 	<color r="bottom">0x333333</color>
@@ -973,7 +973,7 @@
 	<c_area>bottom</c_area>
 </c_parts>
 	</background>
-	<background id="uniform.swf" name="single uniform" enable="Y" is_premium="N" aid="7500" money="0" sharing="0">
+	<background id="uniform.swf" name="Single uniform" enable="Y" is_premium="N" aid="7500" money="0" sharing="0">
 		<colorset enable="Y" aid="7501">
 	<color r="uniform">0x333333</color>
 </colorset>
@@ -982,8 +982,8 @@
 </c_parts>
 	</background>
 	<background id="bg03a.swf" name="City" enable="Y" default="N" is_premium="N" aid="8910" money="0" sharing="0"/>
-	<background id="bg04a.swf" name="Living Room" enable="Y" default="N" is_premium="N" aid="8911" money="0" sharing="0"/>
-	<compositebg id="cbg_park" name="park" enable="Y" default="N" thumb="park.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="7502">
+	<background id="bg04a.swf" name="Living room" enable="Y" default="N" is_premium="N" aid="8911" money="0" sharing="0"/>
+	<compositebg id="cbg_park" name="Park" enable="Y" default="N" thumb="park.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="7502">
 	<bg id="BG12" index="0">
 		<file>stick.uniform.swf</file>
 		<color r="uniform">16777215</color>
@@ -1309,7 +1309,7 @@
 		<color r="sfOtherProp">3355443</color>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_outdoor" name="outdoor" enable="Y" default="N" thumb="outdoor.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="7503">
+	<compositebg id="cbg_outdoor" name="Outdoor" enable="Y" default="N" thumb="outdoor.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="7503">
 	<bg id="BG12" index="0">
 		<file>stick.uniform.swf</file>
 		<color r="uniform">16777215</color>
@@ -1375,7 +1375,7 @@
 		<color r="sfOtherProp">39168</color>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_bedroom" name="bedroom" enable="Y" default="N" thumb="bedroom.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="7504">
+	<compositebg id="cbg_bedroom" name="Bedroom" enable="Y" default="N" thumb="bedroom.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="7504">
 	<bg id="BG12" index="0">
 		<file>stick.uniform.swf</file>
 		<color r="uniform">16777215</color>
@@ -1461,7 +1461,7 @@
 		<color r="sfOtherProp">6710886</color>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_bar" name="bar" enable="Y" default="N" thumb="bar.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="7505">
+	<compositebg id="cbg_bar" name="Bar" enable="Y" default="N" thumb="bar.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="7505">
 	<bg id="cbg_bar_BG49" index="0">
 		<file>stick.gradient.swf</file>
 		<color r="gradient">10027059</color>
@@ -1547,8 +1547,8 @@
 		<color r="sfOtherProp">3355443</color>
 	</prop>
 </compositebg>
-	<prop id="shotgun.swf" name="shotgun" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7681" money="0" sharing="0"/>
-	<prop id="chair.swf" name="chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7682" money="0" sharing="0">
+	<prop id="shotgun.swf" name="Shotgun" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7681" money="0" sharing="0"/>
+	<prop id="chair.swf" name="Chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7682" money="0" sharing="0">
 		<colorset enable="Y" aid="7683">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -1556,7 +1556,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="sofa.swf" name="sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7684" money="0" sharing="0">
+	<prop id="sofa.swf" name="Sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7684" money="0" sharing="0">
 		<colorset enable="Y" aid="7685">
 	<color r="sfOtherProp">0x663300</color>
 </colorset>
@@ -1564,7 +1564,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="tv.swf" name="tv" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7686" money="0" sharing="0">
+	<prop id="tv.swf" name="Tv" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7686" money="0" sharing="0">
 		<colorset enable="Y" aid="7687">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -1572,7 +1572,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="table02.swf" name="table" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7688" money="0" sharing="0">
+	<prop id="table02.swf" name="Table" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7688" money="0" sharing="0">
 		<colorset enable="Y" aid="7689">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -1580,7 +1580,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="light_switch.swf" name="light switch" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7690" money="0" sharing="0">
+	<prop id="light_switch.swf" name="Light switch" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7690" money="0" sharing="0">
 		<colorset enable="Y" aid="7691">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -1588,7 +1588,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="lamp.swf" name="lamp" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7692" money="0" sharing="0">
+	<prop id="lamp.swf" name="Lamp" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7692" money="0" sharing="0">
 		<colorset enable="Y" aid="7693">
 	<color r="sfOtherProp">0xFFFFFF</color>
 </colorset>
@@ -1596,7 +1596,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="bulb.swf" name="light bulb" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7694" money="0" sharing="0">
+	<prop id="bulb.swf" name="Light bulb" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7694" money="0" sharing="0">
 		<colorset enable="Y" aid="7695">
 	<color r="sfOtherProp">0xFFFFFF</color>
 </colorset>
@@ -1604,7 +1604,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="bed.swf" name="bed" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7696" money="0" sharing="0">
+	<prop id="bed.swf" name="Bed" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7696" money="0" sharing="0">
 		<colorset enable="Y" aid="7697">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -1612,7 +1612,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="closet.swf" name="closet" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7698" money="0" sharing="0">
+	<prop id="closet.swf" name="Closet" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7698" money="0" sharing="0">
 		<colorset enable="Y" aid="7699">
 	<color r="sfOtherProp">0xFFFFFF</color>
 </colorset>
@@ -1620,7 +1620,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="bar.swf" name="bar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7700" money="0" sharing="0">
+	<prop id="bar.swf" name="Bar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7700" money="0" sharing="0">
 		<colorset enable="Y" aid="7701">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -1628,7 +1628,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="bar_chair.swf" name="bar chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7702" money="0" sharing="0">
+	<prop id="bar_chair.swf" name="Bar chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7702" money="0" sharing="0">
 		<colorset enable="Y" aid="7703">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -1636,7 +1636,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="bottle.swf" name="bottle" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7704" money="0" sharing="0">
+	<prop id="bottle.swf" name="Bottle" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7704" money="0" sharing="0">
 		<colorset enable="Y" aid="7705">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -1644,7 +1644,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="glass_beer.swf" name="glass (beer)" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7706" money="0" sharing="0">
+	<prop id="glass_beer.swf" name="Glass (beer)" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7706" money="0" sharing="0">
 		<colorset enable="Y" aid="7707">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -1652,7 +1652,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="skyscraper.swf" name="skyscraper" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7708" money="0" sharing="0">
+	<prop id="skyscraper.swf" name="Skyscraper" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7708" money="0" sharing="0">
 		<colorset enable="Y" aid="7709">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -1660,7 +1660,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="skyscraper02.swf" name="skyscraper" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7710" money="0" sharing="0">
+	<prop id="skyscraper02.swf" name="Skyscraper" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7710" money="0" sharing="0">
 		<colorset enable="Y" aid="7711">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -1668,7 +1668,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="house01.swf" name="house" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7712" money="0" sharing="0">
+	<prop id="house01.swf" name="House" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7712" money="0" sharing="0">
 		<colorset enable="Y" aid="7713">
 	<color r="sfOtherProp">0xFFFFFF</color>
 </colorset>
@@ -1676,7 +1676,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="house02.swf" name="house" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7714" money="0" sharing="0">
+	<prop id="house02.swf" name="House" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7714" money="0" sharing="0">
 		<colorset enable="Y" aid="7715">
 	<color r="sfOtherProp">0xFFFFFF</color>
 </colorset>
@@ -1684,7 +1684,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="traffic_light.swf" name="traffic light" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7716" money="0" sharing="0">
+	<prop id="traffic_light.swf" name="Traffic light" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7716" money="0" sharing="0">
 		<colorset enable="Y" aid="7717">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -1692,7 +1692,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="road01.swf" name="road" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7718" money="0" sharing="0">
+	<prop id="road01.swf" name="Road" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7718" money="0" sharing="0">
 		<colorset enable="Y" aid="7719">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -1700,7 +1700,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="road02.swf" name="road" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7720" money="0" sharing="0">
+	<prop id="road02.swf" name="Road" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7720" money="0" sharing="0">
 		<colorset enable="Y" aid="7721">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -1708,7 +1708,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="bench.swf" name="bench" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7722" money="0" sharing="0">
+	<prop id="bench.swf" name="Bench" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7722" money="0" sharing="0">
 		<colorset enable="Y" aid="7723">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -1716,7 +1716,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="bush.swf" name="bush" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7724" money="0" sharing="0">
+	<prop id="bush.swf" name="Bush" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7724" money="0" sharing="0">
 		<colorset enable="Y" aid="7725">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -1824,7 +1824,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="011.swf" name="Bat Mask" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7526" money="0" sharing="0">
+	<prop id="011.swf" name="Bat mask" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7526" money="0" sharing="0">
 		<colorset enable="Y" aid="7527">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -1834,7 +1834,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="012.swf" name="Robot Helmet" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7528" money="0" sharing="0">
+	<prop id="012.swf" name="Robot helmet" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7528" money="0" sharing="0">
 		<colorset enable="Y" aid="7529">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -1844,7 +1844,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="013.swf" name="Jason Mask" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7530" money="0" sharing="0">
+	<prop id="013.swf" name="Jason mask" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7530" money="0" sharing="0">
 		<colorset enable="Y" aid="7531">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -1854,7 +1854,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="014.swf" name="Paper Bag" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7532" money="0" sharing="0">
+	<prop id="014.swf" name="Paper bag" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7532" money="0" sharing="0">
 		<colorset enable="Y" aid="7533">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -1864,7 +1864,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="015.swf" name="Gas Mask" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7534" money="0" sharing="0">
+	<prop id="015.swf" name="Gas mask" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7534" money="0" sharing="0">
 		<colorset enable="Y" aid="7535">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -1874,7 +1874,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="016.swf" name="Cop Cap" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7536" money="0" sharing="0">
+	<prop id="016.swf" name="Cop cap" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7536" money="0" sharing="0">
 		<colorset enable="Y" aid="7537">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -1884,7 +1884,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="017.swf" name="Doctor Headband" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7538" money="0" sharing="0">
+	<prop id="017.swf" name="Doctor headband" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7538" money="0" sharing="0">
 		<colorset enable="Y" aid="7539">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -1894,7 +1894,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="018.swf" name="Nurse Cap" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7540" money="0" sharing="0">
+	<prop id="018.swf" name="Nurse cap" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7540" money="0" sharing="0">
 		<colorset enable="Y" aid="7541">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -1904,7 +1904,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="019.swf" name="Chef Hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7542" money="0" sharing="0">
+	<prop id="019.swf" name="Chef hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7542" money="0" sharing="0">
 		<colorset enable="Y" aid="7543">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -1914,7 +1914,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="020.swf" name="Firefighter Helmet" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7544" money="0" sharing="0">
+	<prop id="020.swf" name="Firefighter helmet" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7544" money="0" sharing="0">
 		<colorset enable="Y" aid="7545">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -1932,7 +1932,7 @@
 	<c_area oc="">sfHandProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="baseball_bat.swf" name="Baseball Bat" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7548" money="0" sharing="0">
+	<prop id="baseball_bat.swf" name="Baseball bat" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7548" money="0" sharing="0">
 		<colorset enable="Y" aid="7549">
 	<color r="sfHandProp">0x000000</color>
 </colorset>
@@ -1972,7 +1972,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="fire_hydrant.swf" name="fire Hydrant" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7558" money="0" sharing="0">
+	<prop id="fire_hydrant.swf" name="Fire hydrant" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7558" money="0" sharing="0">
 		<colorset enable="Y" aid="7559">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -1988,7 +1988,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="mail_box.swf" name="Mail Box" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7562" money="0" sharing="0">
+	<prop id="mail_box.swf" name="Mail box" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7562" money="0" sharing="0">
 		<colorset enable="Y" aid="7563">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -1996,7 +1996,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="street_light.swf" name="Street Light" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7564" money="0" sharing="0">
+	<prop id="street_light.swf" name="Street light" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7564" money="0" sharing="0">
 		<colorset enable="Y" aid="7565">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -2044,7 +2044,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="foto.swf" name="Photo Frame" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7576" money="0" sharing="0">
+	<prop id="foto.swf" name="Photo frame" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7576" money="0" sharing="0">
 		<colorset enable="Y" aid="7577">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -2060,7 +2060,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="radius_corner.swf" name="Rounded Square Outline" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7580" money="0" sharing="0">
+	<prop id="radius_corner.swf" name="Rounded square outline" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7580" money="0" sharing="0">
 		<colorset enable="Y" aid="7581">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -2076,7 +2076,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="road_sign.swf" name="Ban Sign" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7584" money="0" sharing="0">
+	<prop id="road_sign.swf" name="Ban sign" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7584" money="0" sharing="0">
 		<colorset enable="Y" aid="7585">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -2084,7 +2084,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="square_outline.swf" name="Square Outline" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7586" money="0" sharing="0">
+	<prop id="square_outline.swf" name="Square outline" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7586" money="0" sharing="0">
 		<colorset enable="Y" aid="7587">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -2092,12 +2092,12 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="msp_gun" name="gun" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_gun_gun.swf" enable="Y" is_premium="N" aid="8099" money="0" sharing="0">
-		<state id="msp_gun_gun.swf" name="still" enable="Y" default="Y"/>
-		<state id="msp_gun_gun_shoot_loop.swf" name="shoot (loop)" enable="Y"/>
-		<state id="msp_gun_gun_shoot_once.swf" name="shoot (once)" enable="Y"/>
-		<state id="msp_gun_gun_water.swf" name="shoot water" enable="Y"/>
-		<state id="msp_gun_gun_flag.swf" name="shoot 'BANG' flag" enable="Y"/>
+	<prop id="msp_gun" name="Gun" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_gun_gun.swf" enable="Y" is_premium="N" aid="8099" money="0" sharing="0">
+		<state id="msp_gun_gun.swf" name="Still" enable="Y" default="Y"/>
+		<state id="msp_gun_gun_shoot_loop.swf" name="Shoot (loop)" enable="Y"/>
+		<state id="msp_gun_gun_shoot_once.swf" name="Shoot (once)" enable="Y"/>
+		<state id="msp_gun_gun_water.swf" name="Shoot water" enable="Y"/>
+		<state id="msp_gun_gun_flag.swf" name="Shoot 'bang' flag" enable="Y"/>
 		<colorset enable="Y" aid="8907">
 	<color r="sfHandProp">0x000000</color>
 </colorset>
@@ -2129,10 +2129,10 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="msp_shotgun" name="shotgun" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_shotgun_shotgun.swf" enable="Y" is_premium="N" aid="8105" money="0" sharing="0">
-		<state id="msp_shotgun_shotgun.swf" name="still" enable="Y" default="Y"/>
-		<state id="msp_shotgun_shotgun_shoot.swf" name="shoot (loop)" enable="Y"/>
-		<state id="msp_shotgun_shotgun_shoot_once.swf" name="shoot (once)" enable="Y"/>
+	<prop id="msp_shotgun" name="Shotgun" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_shotgun_shotgun.swf" enable="Y" is_premium="N" aid="8105" money="0" sharing="0">
+		<state id="msp_shotgun_shotgun.swf" name="Still" enable="Y" default="Y"/>
+		<state id="msp_shotgun_shotgun_shoot.swf" name="Shoot (loop)" enable="Y"/>
+		<state id="msp_shotgun_shotgun_shoot_once.swf" name="Shoot (once)" enable="Y"/>
 		<colorset enable="Y" aid="8908">
 	<color r="sfHandProp">0x000000</color>
 </colorset>
@@ -2148,9 +2148,9 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="msp_door" name="door" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_door_door_closed.swf" enable="Y" is_premium="N" aid="7596" money="0" sharing="0">
-		<state id="msp_door_door_closed.swf" name="closed" enable="Y" default="Y"/>
-		<state id="msp_door_door_open.swf" name="opened" enable="Y"/>
+	<prop id="msp_door" name="Door" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_door_door_closed.swf" enable="Y" is_premium="N" aid="7596" money="0" sharing="0">
+		<state id="msp_door_door_closed.swf" name="Closed" enable="Y" default="Y"/>
+		<state id="msp_door_door_open.swf" name="Opened" enable="Y"/>
 		<colorset enable="Y" aid="8905">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -2158,7 +2158,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="msp_phones" name="phones" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_phones_mobile_02.swf" enable="Y" is_premium="N" aid="8109" money="0" sharing="0">
+	<prop id="msp_phones" name="Phones" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_phones_mobile_02.swf" enable="Y" is_premium="N" aid="8109" money="0" sharing="0">
 		<state id="msp_phones_mobile_02.swf" name="Flip phone" enable="Y" default="Y"/>
 		<state id="msp_phones_army_phone.swf" name="Army phone" enable="Y"/>
 		<state id="msp_phones_mobile_03.swf" name="Mobile phone" enable="Y"/>
@@ -2169,7 +2169,7 @@
 	<c_area>sfHandProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="window.swf" name="window" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7599" money="0" sharing="0">
+	<prop id="window.swf" name="Window" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7599" money="0" sharing="0">
 		<colorset enable="Y" aid="7600">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -2177,7 +2177,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="ladder02.swf" name="ladder" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7601" money="0" sharing="0">
+	<prop id="ladder02.swf" name="Ladder" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7601" money="0" sharing="0">
 		<colorset enable="Y" aid="7602">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -2185,13 +2185,13 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="msp_eblast" name="eblast" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_eblast_eblast_medium.swf" enable="Y" is_premium="N" aid="8114" money="0" sharing="0">
+	<prop id="msp_eblast" name="Eblast" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_eblast_eblast_medium.swf" enable="Y" is_premium="N" aid="8114" money="0" sharing="0">
 		<state id="msp_eblast_eblast_short.swf" name="Short" enable="Y"/>
 		<state id="msp_eblast_eblast_medium.swf" name="Medium" enable="Y" default="Y"/>
 		<state id="msp_eblast_eblast_long.swf" name="Long" enable="Y"/>
 		<state id="msp_eblast_eblast_veryshort.swf" name="Very short" enable="Y"/>
 	</prop>
-	<prop id="fence.swf" name="fence" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7603" money="0" sharing="0">
+	<prop id="fence.swf" name="Fence" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7603" money="0" sharing="0">
 		<colorset enable="Y" aid="7604">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -2199,7 +2199,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="signpost.swf" name="signpost" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7605" money="0" sharing="0">
+	<prop id="signpost.swf" name="Signpost" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7605" money="0" sharing="0">
 		<colorset enable="Y" aid="7606">
 	<color r="sfOtherProp">0xFFFFFF</color>
 </colorset>
@@ -2207,7 +2207,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="msp_cloud" name="cloud" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cloud_cloud.swf" enable="Y" is_premium="N" aid="8118" money="0" sharing="0">
+	<prop id="msp_cloud" name="Cloud" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cloud_cloud.swf" enable="Y" is_premium="N" aid="8118" money="0" sharing="0">
 		<state id="msp_cloud_cloud.swf" name="Still" enable="Y" default="Y"/>
 		<state id="msp_cloud_cloud_move.swf" name="Moving" enable="Y"/>
 		<colorset enable="Y" aid="8121">
@@ -2217,8 +2217,8 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="lights.swf" name="lights" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7607" money="0" sharing="0"/>
-	<prop id="question_mark.swf" name="question mark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7608" money="0" sharing="0">
+	<prop id="lights.swf" name="Lights" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7607" money="0" sharing="0"/>
+	<prop id="question_mark.swf" name="Question mark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7608" money="0" sharing="0">
 		<colorset enable="Y" aid="7609">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -2226,7 +2226,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="door.swf" name="door" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7610" money="0" sharing="0">
+	<prop id="door.swf" name="Door" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7610" money="0" sharing="0">
 		<colorset enable="Y" aid="7611">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -2234,7 +2234,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="bat.swf" name="bat" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8122" money="0" sharing="0"/>
+	<prop id="bat.swf" name="Bat" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8122" money="0" sharing="0"/>
 	<prop id="hercule.swf" name="Afro" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8123" money="0" sharing="0">
 		<colorset enable="Y" aid="8124">
 	<color r="sfOutline">0x000000</color>
@@ -2245,9 +2245,9 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="msp_car" name="car" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_car_car01.swf" enable="Y" is_premium="N" aid="7612" money="0" sharing="0">
-		<state id="msp_car_car01.swf" name="still" enable="Y" default="Y"/>
-		<state id="msp_car_car01_moving.swf" name="moving" enable="Y"/>
+	<prop id="msp_car" name="Car" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_car_car01.swf" enable="Y" is_premium="N" aid="7612" money="0" sharing="0">
+		<state id="msp_car_car01.swf" name="Still" enable="Y" default="Y"/>
+		<state id="msp_car_car01_moving.swf" name="Moving" enable="Y"/>
 		<colorset enable="Y" aid="8906">
 	<color r="sfOtherProp">0x333333</color>
 </colorset>
@@ -2285,7 +2285,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="022.swf" name="bandanna" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7617" money="0" sharing="0">
+	<prop id="022.swf" name="Bandanna" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7617" money="0" sharing="0">
 		<colorset enable="Y" aid="7618">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -2305,7 +2305,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="023.swf" name="cap" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7619" money="0" sharing="0">
+	<prop id="023.swf" name="Cap" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7619" money="0" sharing="0">
 		<colorset enable="Y" aid="7620">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -2325,7 +2325,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="024.swf" name="headphone" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7621" money="0" sharing="0">
+	<prop id="024.swf" name="Headphone" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7621" money="0" sharing="0">
 		<colorset enable="Y" aid="7622">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -2345,7 +2345,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="025.swf" name="worker's helmet" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7623" money="0" sharing="0">
+	<prop id="025.swf" name="Worker's helmet" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7623" money="0" sharing="0">
 		<colorset enable="Y" aid="7624">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -2365,7 +2365,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="026.swf" name="lady's hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7625" money="0" sharing="0">
+	<prop id="026.swf" name="Lady's hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7625" money="0" sharing="0">
 		<colorset enable="Y" aid="7626">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -2385,7 +2385,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="027.swf" name="party hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7627" money="0" sharing="0">
+	<prop id="027.swf" name="Party hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7627" money="0" sharing="0">
 		<colorset enable="Y" aid="7628">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -2405,7 +2405,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="028.swf" name="military helmet" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7629" money="0" sharing="0">
+	<prop id="028.swf" name="Military helmet" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7629" money="0" sharing="0">
 		<colorset enable="Y" aid="7630">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -2425,7 +2425,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="029.swf" name="crown" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7631" money="0" sharing="0">
+	<prop id="029.swf" name="Crown" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7631" money="0" sharing="0">
 		<colorset enable="Y" aid="7632">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -2465,7 +2465,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="031.swf" name="cat ears" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7635" money="0" sharing="0">
+	<prop id="031.swf" name="Cat ears" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7635" money="0" sharing="0">
 		<colorset enable="Y" aid="7636">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -2485,7 +2485,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="032.swf" name="graduation hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7637" money="0" sharing="0">
+	<prop id="032.swf" name="Graduation hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7637" money="0" sharing="0">
 		<colorset enable="Y" aid="7638">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -2505,7 +2505,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="033.swf" name="witch hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7639" money="0" sharing="0">
+	<prop id="033.swf" name="Witch hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7639" money="0" sharing="0">
 		<colorset enable="Y" aid="7640">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -2525,7 +2525,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="034.swf" name="pirate hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7641" money="0" sharing="0">
+	<prop id="034.swf" name="Pirate hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7641" money="0" sharing="0">
 		<colorset enable="Y" aid="7642">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -2543,7 +2543,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="035.swf" name="scar" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7643" money="0" sharing="0">
+	<prop id="035.swf" name="Scar" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7643" money="0" sharing="0">
 		<colorset enable="Y" aid="7644">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -2553,7 +2553,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="energy_blast.swf" name="Energy Blast" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8155" money="0" sharing="0">
+	<prop id="energy_blast.swf" name="Energy blast" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8155" money="0" sharing="0">
 		<colorset enable="N" aid="8156">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -2561,7 +2561,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="036.swf" name="surgical mask" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7645" money="0" sharing="0">
+	<prop id="036.swf" name="Surgical mask" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7645" money="0" sharing="0">
 		<colorset enable="Y" aid="7646">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -2571,7 +2571,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="energy_ball.swf" name="Energy Ball" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8157" money="0" sharing="0">
+	<prop id="energy_ball.swf" name="Energy ball" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8157" money="0" sharing="0">
 		<colorset enable="N" aid="8158">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -2579,7 +2579,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="037.swf" name="devil horns" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7647" money="0" sharing="0">
+	<prop id="037.swf" name="Devil horns" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7647" money="0" sharing="0">
 		<colorset enable="Y" aid="7648">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -2589,7 +2589,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="hit_fx.swf" name="hit effect" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8159" money="0" sharing="0">
+	<prop id="hit_fx.swf" name="Hit effect" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8159" money="0" sharing="0">
 		<colorset enable="N" aid="8160">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -2597,7 +2597,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="038.swf" name="rabbit ears" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7649" money="0" sharing="0">
+	<prop id="038.swf" name="Rabbit ears" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7649" money="0" sharing="0">
 		<colorset enable="Y" aid="7650">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -2607,7 +2607,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="power.swf" name="power" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8161" money="0" sharing="0">
+	<prop id="power.swf" name="Power" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8161" money="0" sharing="0">
 		<colorset enable="N" aid="8162">
 	<color r="sfOtherProp">0x000000</color>
 </colorset>
@@ -2615,7 +2615,7 @@
 	<c_area>sfOtherProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="039.swf" name="hairstyle" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7651" money="0" sharing="0">
+	<prop id="039.swf" name="Hairstyle" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7651" money="0" sharing="0">
 		<colorset enable="Y" aid="7652">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -2635,7 +2635,7 @@
 	<c_area oc="">sfOutline</c_area>
 </c_parts>
 	</prop>
-	<prop id="040.swf" name="hairstyle" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7653" money="0" sharing="0">
+	<prop id="040.swf" name="Hairstyle" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="7653" money="0" sharing="0">
 		<colorset enable="Y" aid="7654">
 	<color r="sfOutline">0x000000</color>
 	<color r="sfHeadProp">0xFFFFFF</color>
@@ -2655,7 +2655,7 @@
 	<c_area>sfHeadProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="broom.swf" name="broom" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7655" money="0" sharing="0">
+	<prop id="broom.swf" name="Broom" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7655" money="0" sharing="0">
 		<colorset enable="Y" aid="7656">
 	<color r="sfHandProp">0x000000</color>
 </colorset>
@@ -2671,7 +2671,7 @@
 	<c_area>sfHandProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="diploma.swf" name="diploma" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7657" money="0" sharing="0">
+	<prop id="diploma.swf" name="Diploma" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7657" money="0" sharing="0">
 		<colorset enable="Y" aid="7658">
 	<color r="sfHandProp">0x000000</color>
 </colorset>
@@ -2679,7 +2679,7 @@
 	<c_area oc="">sfHandProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="golf_stick.swf" name="Golf Stick" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8169" money="0" sharing="0">
+	<prop id="golf_stick.swf" name="Golf stick" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8169" money="0" sharing="0">
 		<colorset enable="Y" aid="8170">
 	<color r="sfHandProp">0x000000</color>
 </colorset>
@@ -2687,7 +2687,7 @@
 	<c_area>sfHandProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="cup.swf" name="cup" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7659" money="0" sharing="0">
+	<prop id="cup.swf" name="Cup" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7659" money="0" sharing="0">
 		<colorset enable="Y" aid="7660">
 	<color r="sfHandProp">0x000000</color>
 </colorset>
@@ -2695,7 +2695,7 @@
 	<c_area>sfHandProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="ball.swf" name="ball" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7661" money="0" sharing="0">
+	<prop id="ball.swf" name="Ball" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7661" money="0" sharing="0">
 		<colorset enable="Y" aid="7662">
 	<color r="sfHandProp">0x000000</color>
 </colorset>
@@ -2703,7 +2703,7 @@
 	<c_area>sfHandProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="flag.swf" name="sign" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7663" money="0" sharing="0">
+	<prop id="flag.swf" name="Sign" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7663" money="0" sharing="0">
 		<colorset enable="Y" aid="7664">
 	<color r="sfHandProp">0x000000</color>
 </colorset>
@@ -2711,7 +2711,7 @@
 	<c_area>sfHandProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="spray.swf" name="spray" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7665" money="0" sharing="0">
+	<prop id="spray.swf" name="Spray" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7665" money="0" sharing="0">
 		<colorset enable="Y" aid="7666">
 	<color r="sfHandProp">0x000000</color>
 </colorset>
@@ -2719,7 +2719,7 @@
 	<c_area oc="">sfHandProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="badminton_racket.swf" name="badminton racket" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7667" money="0" sharing="0">
+	<prop id="badminton_racket.swf" name="Badminton racket" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7667" money="0" sharing="0">
 		<colorset enable="Y" aid="7668">
 	<color r="sfHandProp">0x000000</color>
 </colorset>
@@ -2727,7 +2727,7 @@
 	<c_area oc="">sfHandProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="umbrella.swf" name="umbrella" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7669" money="0" sharing="0">
+	<prop id="umbrella.swf" name="Umbrella" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7669" money="0" sharing="0">
 		<colorset enable="Y" aid="7670">
 	<color r="sfHandProp">0x000000</color>
 </colorset>
@@ -2735,7 +2735,7 @@
 	<c_area oc="">sfHandProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="handbag01.swf" name="briefcase" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7671" money="0" sharing="0">
+	<prop id="handbag01.swf" name="Briefcase" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7671" money="0" sharing="0">
 		<colorset enable="Y" aid="7672">
 	<color r="sfHandProp">0x000000</color>
 </colorset>
@@ -2743,7 +2743,7 @@
 	<c_area oc="">sfHandProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="handbag02.swf" name="handbag" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7673" money="0" sharing="0">
+	<prop id="handbag02.swf" name="Handbag" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7673" money="0" sharing="0">
 		<colorset enable="Y" aid="7674">
 	<color r="sfHandProp">0x000000</color>
 </colorset>
@@ -2751,7 +2751,7 @@
 	<c_area oc="">sfHandProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="cellphone.swf" name="cellphone" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7675" money="0" sharing="0">
+	<prop id="cellphone.swf" name="Cellphone" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7675" money="0" sharing="0">
 		<colorset enable="Y" aid="7676">
 	<color r="sfHandProp">0x000000</color>
 </colorset>
@@ -2759,7 +2759,7 @@
 	<c_area oc="">sfHandProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="bouquet.swf" name="bouquet" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7677" money="0" sharing="0">
+	<prop id="bouquet.swf" name="Bouquet" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7677" money="0" sharing="0">
 		<colorset enable="Y" aid="7678">
 	<color r="sfHandProp">0x000000</color>
 </colorset>
@@ -2767,7 +2767,7 @@
 	<c_area oc="">sfHandProp</c_area>
 </c_parts>
 	</prop>
-	<prop id="flower.swf" name="flower" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7679" money="0" sharing="0">
+	<prop id="flower.swf" name="Flower" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7679" money="0" sharing="0">
 		<colorset enable="Y" aid="7680">
 	<color r="sfHandProp">0x000000</color>
 </colorset>

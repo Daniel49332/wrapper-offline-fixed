@@ -521,67 +521,67 @@
 		</actionpack>
 
 		<actionpack id="scifi" name="Sci-Fi Action Pack" money="0" sharing="0" enable="Y">
-			<action id="salute03" name="At attention" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="salute03" name="At attention" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="bow01" name="Bow" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="bow01" name="Bow" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="kneeling01" name="Kneeling" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="kneeling01" name="Kneeling" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="sitting01" name="Kneeling" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="sitting01" name="Kneeling" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="salute01" name="Salute" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="salute01" name="Salute" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="salute02" name="Salute" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="salute02" name="Salute" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="gunwalk" name="Walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sci-Fi">
+			<action id="gunwalk" name="Walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sci-fi">
 				<selection type="facial" facial_id="head_angry" />
 				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
-			<action id="gunpoint" name="Aim" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="gunpoint" name="Aim" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_angry" />
 				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
-			<action id="gunhit" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="gunhit" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_angry" />
 				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
-			<action id="gunhit02" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="gunhit02" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_desperate" />
 				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
-			<action id="gunshoot" name="Shoot" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="gunshoot" name="Shoot" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_angry" />
 				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
-			<action id="gunstand" name="Standing alert" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="gunstand" name="Standing alert" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_angry" />
 				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
-			<action id="dematerialized01" name="De-materialize" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="dematerialized01" name="De-materialize" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="materialized01" name="Materialize" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="materialized01" name="Materialize" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="working02" name="Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="working02" name="Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="working03" name="Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="working03" name="Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="device01" name="Tablet - Look at" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="device01" name="Tablet - Look at" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="write01" name="Tablet - take notes" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="write01" name="Tablet - take notes" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="write02" name="Tablet - take notes" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="write02" name="Tablet - take notes" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
 		</actionpack>
@@ -961,67 +961,67 @@
 		</actionpack>
 
 		<actionpack id="scifi" name="Sci-Fi Action Pack" money="0" sharing="0" enable="Y">
-			<action id="salute03" name="At attention" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="salute03" name="At attention" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="bow01" name="Bow" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="bow01" name="Bow" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="kneeling01" name="Kneeling" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="kneeling01" name="Kneeling" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="sitting01" name="Kneeling" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="sitting01" name="Kneeling" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="salute01" name="Salute" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="salute01" name="Salute" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="salute02" name="Salute" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="salute02" name="Salute" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="gunwalk" name="Walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sci-Fi">
+			<action id="gunwalk" name="Walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sci-fi">
 				<selection type="facial" facial_id="head_angry" />
 				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
-			<action id="gunpoint" name="Aim" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="gunpoint" name="Aim" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_angry" />
 				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
-			<action id="gunhit" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="gunhit" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_angry" />
 				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
-			<action id="gunhit02" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="gunhit02" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_desperate" />
 				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
-			<action id="gunshoot" name="Shoot" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="gunshoot" name="Shoot" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_angry" />
 				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
-			<action id="gunstand" name="Standing alert" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="gunstand" name="Standing alert" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_angry" />
 				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
-			<action id="dematerialized01" name="De-materialize" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="dematerialized01" name="De-materialize" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="materialized01" name="Materialize" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="materialized01" name="Materialize" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="working02" name="Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="working02" name="Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="working03" name="Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="working03" name="Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="device01" name="Tablet - Look at" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="device01" name="Tablet - Look at" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="write01" name="Tablet - take notes" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="write01" name="Tablet - take notes" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="write02" name="Tablet - take notes" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="write02" name="Tablet - take notes" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
 		</actionpack>
@@ -1404,67 +1404,67 @@
 		</actionpack>
 
 		<actionpack id="scifi" name="Sci-Fi Action Pack" money="0" sharing="0" enable="Y">
-			<action id="salute03" name="At attention" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="salute03" name="At attention" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="bow01" name="Bow" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="bow01" name="Bow" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="kneeling01" name="Kneeling" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="kneeling01" name="Kneeling" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="sitting01" name="Kneeling" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="sitting01" name="Kneeling" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="salute01" name="Salute" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="salute01" name="Salute" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="salute02" name="Salute" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="salute02" name="Salute" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="gunwalk" name="Walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sci-Fi">
+			<action id="gunwalk" name="Walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sci-fi">
 				<selection type="facial" facial_id="head_angry" />
 				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
-			<action id="gunpoint" name="Aim" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="gunpoint" name="Aim" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_angry" />
 				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
-			<action id="gunhit" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="gunhit" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_angry" />
 				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
-			<action id="gunhit02" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="gunhit02" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_desperate" />
 				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
-			<action id="gunshoot" name="Shoot" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="gunshoot" name="Shoot" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_angry" />
 				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
-			<action id="gunstand" name="Standing alert" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="gunstand" name="Standing alert" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_angry" />
 				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
-			<action id="dematerialized01" name="De-materialize" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="dematerialized01" name="De-materialize" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="materialized01" name="Materialize" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="materialized01" name="Materialize" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="working02" name="Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="working02" name="Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="working03" name="Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="working03" name="Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="device01" name="Tablet - Look at" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="device01" name="Tablet - Look at" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="write01" name="Tablet - take notes" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="write01" name="Tablet - take notes" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
-			<action id="write02" name="Tablet - take notes" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
+			<action id="write02" name="Tablet - take notes" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-fi">
 				<selection type="facial" facial_id="head_neutral" />
 			</action>
 		</actionpack>

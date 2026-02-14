@@ -35,9 +35,9 @@
 	<background id="city29_bg.swf" name="City - street" enable="N" default="N" is_premium="N" aid="17658" money="0" sharing="0"/>
 	<background id="city30_bg.swf" name="City - fast food" enable="N" default="N" is_premium="N" aid="17659" money="0" sharing="0"/>
 	<background id="city31_bg.swf" name="City - fast food" enable="N" default="N" is_premium="N" aid="17660" money="0" sharing="0"/>
-	<background id="city32_bg.swf" name="City - game center" enable="N" default="N" is_premium="N" aid="17661" money="0" sharing="0"/>
-	<background id="city33_bg.swf" name="City - game center" enable="N" default="N" is_premium="N" aid="17662" money="0" sharing="0"/>
-	<background id="city34_bg.swf" name="City - game center" enable="N" default="N" is_premium="N" aid="17663" money="0" sharing="0"/>
+	<background id="city32_bg.swf" name="City - Game center" enable="N" default="N" is_premium="N" aid="17661" money="0" sharing="0"/>
+	<background id="city33_bg.swf" name="City - Game center" enable="N" default="N" is_premium="N" aid="17662" money="0" sharing="0"/>
+	<background id="city34_bg.swf" name="City - Game center" enable="N" default="N" is_premium="N" aid="17663" money="0" sharing="0"/>
 	<background id="city35_bg.swf" name="City - residential - street" enable="N" default="N" is_premium="N" aid="17664" money="0" sharing="0"/>
 	<background id="city36_bg.swf" name="City - residential - street" enable="N" default="N" is_premium="N" aid="17665" money="0" sharing="0"/>
 	<background id="city37_bg.swf" name="City - residential - street" enable="N" default="N" is_premium="N" aid="17666" money="0" sharing="0"/>
@@ -72,12 +72,12 @@
 	<background id="train06_bg.swf" name="Train inside" enable="N" default="N" is_premium="N" aid="17460" money="0" sharing="0"/>
 	<background id="train02_bg.swf" name="Train track" enable="N" default="N" is_premium="N" aid="17456" money="0" sharing="0"/>
 	<background id="train07_bg.swf" name="Train entrance" enable="N" default="N" is_premium="N" aid="17461" money="0" sharing="0"/>
-	<compositebg id="cbg_dining06" name="Home - Residential building" enable="Y" default="N" thumb="dining06.jpg" display_order="11" is_premium="Y" money="0" sharing="0" aid="17467">
+	<compositebg id="cbg_dining06" name="Home - residential building" enable="Y" default="N" thumb="dining06.jpg" display_order="11" is_premium="Y" money="0" sharing="0" aid="17467">
 	<bg id="cbg_dining06_BG40" index="0">
 		<file>anime.dining06_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_dining02" name="Home - Living room" enable="Y" default="N" thumb="dining02.jpg" display_order="12" is_premium="N" money="0" sharing="0" aid="17463">
+	<compositebg id="cbg_dining02" name="Home - living room" enable="Y" default="N" thumb="dining02.jpg" display_order="12" is_premium="N" money="0" sharing="0" aid="17463">
 	<bg id="cbg_dining02_BG47" index="0">
 		<file>anime.dining02_bg.swf</file>
 	</bg>
@@ -100,7 +100,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_dining01" name="Home - Living room" enable="Y" default="Y" thumb="dining01.jpg" display_order="13" is_premium="N" money="0" sharing="0" aid="17462">
+	<compositebg id="cbg_dining01" name="Home - living room" enable="Y" default="Y" thumb="dining01.jpg" display_order="13" is_premium="N" money="0" sharing="0" aid="17462">
 	<bg id="cbg_dining01_BG56" index="0">
 		<file>anime.dining01_bg.swf</file>
 	</bg>
@@ -114,7 +114,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_dining03" name="Home - Small flat" enable="Y" default="N" thumb="dining03.jpg" display_order="14" is_premium="N" money="0" sharing="0" aid="17464">
+	<compositebg id="cbg_dining03" name="Home - small flat" enable="Y" default="N" thumb="dining03.jpg" display_order="14" is_premium="N" money="0" sharing="0" aid="17464">
 	<bg id="cbg_dining03_BG59" index="0">
 		<file>anime.dining03_bg.swf</file>
 	</bg>
@@ -155,7 +155,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_dining04" name="Home - Small flat" enable="Y" default="N" thumb="dining04.jpg" display_order="15" is_premium="N" money="0" sharing="0" aid="17465">
+	<compositebg id="cbg_dining04" name="Home - small flat" enable="Y" default="N" thumb="dining04.jpg" display_order="15" is_premium="N" money="0" sharing="0" aid="17465">
 	<bg id="cbg_dining04_BG61" index="0">
 		<file>anime.dining04_bg.swf</file>
 	</bg>
@@ -196,12 +196,12 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_dining07" name="Home - Kitchen" enable="Y" default="N" thumb="dining07.jpg" display_order="17" is_premium="N" money="0" sharing="0" aid="17468">
+	<compositebg id="cbg_dining07" name="Home - kitchen" enable="Y" default="N" thumb="dining07.jpg" display_order="17" is_premium="N" money="0" sharing="0" aid="17468">
 	<bg id="cbg_dining07_BG63" index="0">
 		<file>anime.dining07_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_dining05" name="Home - Entrance door" enable="Y" default="N" thumb="dining05.jpg" display_order="18" is_premium="Y" money="0" sharing="0" aid="17466">
+	<compositebg id="cbg_dining05" name="Home - entrance door" enable="Y" default="N" thumb="dining05.jpg" display_order="18" is_premium="Y" money="0" sharing="0" aid="17466">
 	<bg id="cbg_dining05_BG64" index="0">
 		<file>anime.dining05_bg.swf</file>
 	</bg>
@@ -215,7 +215,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_dining08" name="Home - Flat entrance" enable="Y" default="N" thumb="dining08.jpg" display_order="18" is_premium="N" money="0" sharing="0" aid="17469">
+	<compositebg id="cbg_dining08" name="Home - flat entrance" enable="Y" default="N" thumb="dining08.jpg" display_order="18" is_premium="N" money="0" sharing="0" aid="17469">
 	<bg id="cbg_dining08_BG66" index="0">
 		<file>anime.dining08_bg.swf</file>
 	</bg>
@@ -300,7 +300,7 @@
 		<file>anime.street07_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_street08" name="City - Bridge" enable="Y" default="N" thumb="street08.jpg" display_order="58" is_premium="N" money="0" sharing="0" aid="17477">
+	<compositebg id="cbg_street08" name="City - bridge" enable="Y" default="N" thumb="street08.jpg" display_order="58" is_premium="N" money="0" sharing="0" aid="17477">
 	<bg id="cbg_street08_BG85" index="0">
 		<file>anime.street08_bg.swf</file>
 	</bg>
@@ -562,12 +562,12 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_city32" name="City - game center" enable="Y" default="N" thumb="city32.jpg" display_order="78" is_premium="Y" money="0" sharing="0" aid="17674">
+	<compositebg id="cbg_city32" name="City - Game center" enable="Y" default="N" thumb="city32.jpg" display_order="78" is_premium="Y" money="0" sharing="0" aid="17674">
 	<bg id="cbg_city32_BG21" index="0">
 		<file>anime.city32_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_city33" name="City - game center" enable="Y" default="N" thumb="city33.jpg" display_order="79" is_premium="Y" money="0" sharing="0" aid="17675">
+	<compositebg id="cbg_city33" name="City - Game center" enable="Y" default="N" thumb="city33.jpg" display_order="79" is_premium="Y" money="0" sharing="0" aid="17675">
 	<bg id="cbg_city33_BG23" index="0">
 		<file>anime.city33_bg.swf</file>
 	</bg>
@@ -599,7 +599,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_city34" name="City - game center" enable="Y" default="N" thumb="city34.jpg" display_order="80" is_premium="Y" money="0" sharing="0" aid="17676">
+	<compositebg id="cbg_city34" name="City - Game center" enable="Y" default="N" thumb="city34.jpg" display_order="80" is_premium="Y" money="0" sharing="0" aid="17676">
 	<bg id="cbg_city34_BG27" index="0">
 		<file>anime.city34_bg.swf</file>
 	</bg>
@@ -1153,10 +1153,10 @@
 	<prop id="city15_prop01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="17589" money="0" sharing="0"/>
 	<prop id="city16_prop01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="17590" money="0" sharing="0"/>
 	<prop id="msp_city14" name="Traffic light" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_city14_city14_prop01.swf" enable="N" is_premium="N" aid="17591" money="0" sharing="0">
-		<state id="msp_city14_city14_prop01.swf" name="green" enable="Y" default="Y"/>
-		<state id="msp_city14_city14_prop02.swf" name="green to red" enable="Y"/>
-		<state id="msp_city14_city14_prop03.swf" name="red" enable="Y"/>
-		<state id="msp_city14_city14_prop04.swf" name="red to green" enable="Y"/>
+		<state id="msp_city14_city14_prop01.swf" name="Green" enable="Y" default="Y"/>
+		<state id="msp_city14_city14_prop02.swf" name="Green to red" enable="Y"/>
+		<state id="msp_city14_city14_prop03.swf" name="Red" enable="Y"/>
+		<state id="msp_city14_city14_prop04.swf" name="Red to green" enable="Y"/>
 	</prop>
 	<prop id="city21_prop01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="17596" money="0" sharing="0"/>
 	<prop id="dining01_prop01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="17375" money="0" sharing="0"/>

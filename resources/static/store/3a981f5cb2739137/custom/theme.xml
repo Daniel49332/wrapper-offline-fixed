@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<theme id="custom" name="Comedy World" cc_theme_id="family">
+<theme id="custom" name="Comedy world" cc_theme_id="family">
 	<background id="living_room_bg.swf" name="Living room" enable="Y" default="N" is_premium="N" aid="9811" money="0" sharing="0"/>
 	<background id="barn_ext_bg.swf" name="Y" enable="Y" default="N" is_premium="N" aid="9700" money="0" sharing="0">
 		<colorset enable="Y" aid="9701">
@@ -48,7 +48,7 @@
 			<c_area oc="">ccColorA</c_area>
 		</c_parts>
 	</background>
-	<background id="school_locker_bg.swf" name="School Locker Area" enable="Y" default="N" is_premium="N" aid="9535" money="0" sharing="0">
+	<background id="school_locker_bg.swf" name="School locker area" enable="Y" default="N" is_premium="N" aid="9535" money="0" sharing="0">
 		<colorset enable="Y" aid="9536">
 			<color r="ccColorA">0x839559</color>
 		</colorset>
@@ -86,12 +86,12 @@
 	<background id="oscar_sit_bg.swf" name="Movie theatre" enable="Y" default="N" is_premium="N" aid="9775" money="0" sharing="0"/>
 	<background id="oscar_stage_bg.swf" name="Awards ceremony" enable="Y" default="N" is_premium="N" aid="9774" money="0" sharing="0"/>
 	<background id="coffee_shop_bg.swf" name="Coffee shop" enable="Y" default="N" is_premium="N" aid="9751" money="0" sharing="0"/>
-	<background id="bus_stop_bg.swf" name="Bus Stop" enable="Y" default="N" is_premium="N" aid="9750" money="0" sharing="0"/>
-	<background id="donut_shop_bg.swf" name="Donut Shop" enable="Y" default="N" is_premium="N" aid="9749" money="0" sharing="0"/>
+	<background id="bus_stop_bg.swf" name="Bus stop" enable="Y" default="N" is_premium="N" aid="9750" money="0" sharing="0"/>
+	<background id="donut_shop_bg.swf" name="Donut shop" enable="Y" default="N" is_premium="N" aid="9749" money="0" sharing="0"/>
 	<background id="shower_room_bg.swf" name="Shower room" enable="Y" default="N" is_premium="N" aid="9748" money="0" sharing="0"/>
 	<background id="girl_rm_bg.swf" name="" enable="Y" default="N" is_premium="N" aid="9734" money="0" sharing="0"/>
-	<background id="restaurnat_ext_day_bg.swf" name="French restaurant Day" enable="Y" default="N" is_premium="N" aid="9534" money="0" sharing="0"/>
-	<background id="restaurant_ext_bg.swf" name="French restaurant Night" enable="Y" default="N" is_premium="N" aid="9533" money="0" sharing="0"/>
+	<background id="restaurnat_ext_day_bg.swf" name="French restaurant day" enable="Y" default="N" is_premium="N" aid="9534" money="0" sharing="0"/>
+	<background id="restaurant_ext_bg.swf" name="French restaurant night" enable="Y" default="N" is_premium="N" aid="9533" money="0" sharing="0"/>
 	<background id="white_house_ext_bg.swf" name="White house" enable="Y" default="N" is_premium="N" aid="9061" money="0" sharing="0"/>
 	<background id="white_house_bg.swf" name="Oval office" enable="Y" default="N" is_premium="N" aid="9060" money="0" sharing="0"/>
 	<background id="subway_station_bg.swf" name="Subway station" enable="Y" default="N" is_premium="N" aid="9058" money="0" sharing="0"/>
@@ -106,8 +106,8 @@
 	<background id="dining_room.swf" name="Reception hall" enable="Y" default="N" is_premium="N" aid="9049" money="0" sharing="0"/>
 	<background id="corridor.swf" name="Corridor" enable="Y" default="N" is_premium="N" aid="9048" money="0" sharing="0"/>
 	<background id="toy_workshop_bg.swf" name="Toy workshop" enable="Y" default="N" is_premium="N" aid="9062" money="0" sharing="0"/>
-	<background id="santacastle.swf" name="Santa Castle" enable="Y" default="N" is_premium="N" aid="9063" money="0" sharing="0"/>
-	<background id="restaurant_int_bg.swf" name="French restaurant Interior" enable="Y" default="N" is_premium="N" aid="9531" money="0" sharing="0">
+	<background id="santacastle.swf" name="Santa castle" enable="Y" default="N" is_premium="N" aid="9063" money="0" sharing="0"/>
+	<background id="restaurant_int_bg.swf" name="French restaurant interior" enable="Y" default="N" is_premium="N" aid="9531" money="0" sharing="0">
 		<colorset enable="Y" aid="9532">
 			<color r="ccColorA">0x5B3E52</color>
 		</colorset>
@@ -127,14 +127,14 @@
 	<background id="hospital_rm_bg.swf" name="Hospital room" enable="Y" default="N" is_premium="N" aid="9140" money="0" sharing="0"/>
 	<background id="supermarket_bg.swf" name="Supermarket" enable="Y" default="N" is_premium="N" aid="9139" money="0" sharing="0"/>
 	<background id="police_station_bg.swf" name="Police station" enable="Y" default="N" is_premium="N" aid="9138" money="0" sharing="0"/>
-	<background id="house_ext_bg.swf" name="house ext" enable="Y" default="N" is_premium="N" aid="9137" money="0" sharing="0"/>
+	<background id="house_ext_bg.swf" name="House ext" enable="Y" default="N" is_premium="N" aid="9137" money="0" sharing="0"/>
 	<background id="front_yard_bg.swf" name="Front yard" enable="Y" default="N" is_premium="N" aid="9136" money="0" sharing="0"/>
 	<background id="court_room_interior_bg.swf" name="Court room" enable="Y" default="N" is_premium="N" aid="9135" money="0" sharing="0"/>
 	<background id="court_room_ext_bg.swf" name="Court room" enable="Y" default="N" is_premium="N" aid="9134" money="0" sharing="0"/>
 	<background id="convinient_store_cashier_bg.swf" name="Convinient store cashier" enable="Y" default="N" is_premium="N" aid="9133" money="0" sharing="0"/>
 	<background id="convinient_store_bg.swf" name="Convinient store" enable="Y" default="N" is_premium="N" aid="9132" money="0" sharing="0"/>
 	<background id="classroom.swf" name="Potion room" enable="Y" default="N" is_premium="N" aid="9047" money="0" sharing="0"/>
-	<background id="snowynight.swf" name="Snowy Night" enable="Y" default="N" is_premium="N" aid="9064" money="0" sharing="0"/>
+	<background id="snowynight.swf" name="Snowy night" enable="Y" default="N" is_premium="N" aid="9064" money="0" sharing="0"/>
 	<background id="subway_train_bg.swf" name="Subway train" enable="Y" default="N" is_premium="N" aid="9059" money="0" sharing="0"/>
 	<compositebg id="cbg_bedroom" name="Bedroom" enable="Y" default="Y" thumb="bedroom.png" display_order="1" is_premium="N" money="0" sharing="0" aid="9065">
 		<bg id="cbg_bedroom_BG65" index="0">
@@ -241,7 +241,7 @@
 			<rotation>0</rotation>
 		</prop>
 	</compositebg>
-	<compositebg id="cbg_office_pentry" name="Office Pentry" enable="Y" default="N" thumb="office_pentry.png" display_order="4" is_premium="N" money="0" sharing="0" aid="9068">
+	<compositebg id="cbg_office_pentry" name="Office pentry" enable="Y" default="N" thumb="office_pentry.png" display_order="4" is_premium="N" money="0" sharing="0" aid="9068">
 		<bg id="cbg_office_pentry_BG102" index="0">
 			<file>custom.office_pentry_bg.swf</file>
 		</bg>
@@ -1534,7 +1534,7 @@
 			<rotation>0</rotation>
 		</prop>
 	</compositebg>
-	<compositebg id="cbg_camp_int" name="Military Camp interior" enable="Y" default="N" thumb="camp_interior.jpg" display_order="35" is_premium="N" money="0" sharing="0" aid="9706">
+	<compositebg id="cbg_camp_int" name="Military camp interior" enable="Y" default="N" thumb="camp_interior.jpg" display_order="35" is_premium="N" money="0" sharing="0" aid="9706">
 		<bg id="cbg_camp_int_BG2" index="0">
 			<file>custom.camp_int_bg.swf</file>
 		</bg>
@@ -2183,7 +2183,7 @@
 			<rotation>0</rotation>
 		</prop>
 	</compositebg>
-	<compositebg id="cbg_bus_stop" name="Bus Stop" enable="Y" default="N" thumb="bus_stop.jpg" display_order="44" is_premium="N" money="0" sharing="0" aid="9753">
+	<compositebg id="cbg_bus_stop" name="Bus stop" enable="Y" default="N" thumb="bus_stop.jpg" display_order="44" is_premium="N" money="0" sharing="0" aid="9753">
 		<bg id="cbg_bus_stop_BG2" index="0">
 			<file>custom.bus_stop_bg.swf</file>
 		</bg>
@@ -2215,7 +2215,7 @@
 			<rotation>0</rotation>
 		</prop>
 	</compositebg>
-	<compositebg id="cbg_donut_shop" name="Donut Shop" enable="Y" default="N" thumb="donut_shop.jpg" display_order="45" is_premium="N" money="0" sharing="0" aid="9754">
+	<compositebg id="cbg_donut_shop" name="Donut shop" enable="Y" default="N" thumb="donut_shop.jpg" display_order="45" is_premium="N" money="0" sharing="0" aid="9754">
 		<bg id="cbg_donut_shop_BG2" index="0">
 			<file>custom.donut_shop_bg.swf</file>
 		</bg>
@@ -2971,53 +2971,53 @@
 			<rotation>0</rotation>
 		</prop>
 	</compositebg>
-	<prop id="cc_ak47.swf" name="AK47" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9004" money="0" sharing="0"/>
-	<prop id="cc_arrow.swf" name="arrow" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9005" money="0" sharing="0"/>
-	<prop id="cc_book.swf" name="book" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9006" money="0" sharing="0"/>
-	<prop id="cc_briefcase.swf" name="brief case" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="0" sharing="0"/>
-	<prop id="cc_cake.swf" name="cake" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9008" money="0" sharing="0"/>
-	<prop id="cc_camera.swf" name="camera" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9009" money="0" sharing="0"/>
-	<prop id="cc_camera_with_flash.swf" name="camera with flash" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9010" money="0" sharing="0"/>
-	<prop id="cc_carton_box.swf" name="carton box" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9011" money="0" sharing="0"/>
-	<prop id="cc_cross.swf" name="cross" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9012" money="0" sharing="0"/>
-	<prop id="cc_diamond_ring.swf" name="diamond ring" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9013" money="0" sharing="0"/>
+	<prop id="cc_ak47.swf" name="Ak47" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9004" money="0" sharing="0"/>
+	<prop id="cc_arrow.swf" name="Arrow" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9005" money="0" sharing="0"/>
+	<prop id="cc_book.swf" name="Book" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9006" money="0" sharing="0"/>
+	<prop id="cc_briefcase.swf" name="Brief case" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9007" money="0" sharing="0"/>
+	<prop id="cc_cake.swf" name="Cake" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9008" money="0" sharing="0"/>
+	<prop id="cc_camera.swf" name="Camera" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9009" money="0" sharing="0"/>
+	<prop id="cc_camera_with_flash.swf" name="Camera with flash" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9010" money="0" sharing="0"/>
+	<prop id="cc_carton_box.swf" name="Carton box" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9011" money="0" sharing="0"/>
+	<prop id="cc_cross.swf" name="Cross" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9012" money="0" sharing="0"/>
+	<prop id="cc_diamond_ring.swf" name="Diamond ring" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9013" money="0" sharing="0"/>
 	<prop id="cc_febex_envelope02.swf" name="Febex envelope" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22030" money="0" sharing="0"/>
 	<prop id="cc_febex_envelope.swf" name="Febex envelope" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9014" money="0" sharing="0"/>
-	<prop id="cc_hammer.swf" name="hammer" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9016" money="0" sharing="0"/>
-	<prop id="cc_interview_cup.swf" name="interview cup" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9017" money="0" sharing="0"/>
-	<prop id="cc_martini_glass.swf" name="martini class" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9018" money="0" sharing="0"/>
-	<prop id="cc_microphone.swf" name="microphone" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9019" money="0" sharing="0"/>
-	<prop id="cc_micstand.swf" name="micstand" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9020" money="0" sharing="0"/>
-	<prop id="cc_milk.swf" name="milk" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="0" sharing="0"/>
-	<prop id="cc_necklace.swf" name="necklace" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="0" sharing="0"/>
-	<prop id="cc_paint_roller.swf" name="paint roller" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9023" money="0" sharing="0"/>
-	<prop id="cc_rose.swf" name="rose" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9024" money="0" sharing="0"/>
-	<prop id="cc_saw.swf" name="saw" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9025" money="0" sharing="0"/>
-	<prop id="cc_screwdriver.swf" name="screw driver" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9026" money="0" sharing="0"/>
-	<prop id="cc_secretfolder.swf" name="secret folder" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="0" sharing="0"/>
-	<prop id="cc_spanner.swf" name="spanner" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9028" money="0" sharing="0"/>
-	<prop id="cc_spinbat.swf" name="Spin Bat" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9029" money="0" sharing="0"/>
-	<prop id="cc_tick.swf" name="tick" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9030" money="0" sharing="0"/>
-	<prop id="cc_tool_box.swf" name="tool box" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9031" money="0" sharing="0"/>
-	<prop id="cc_walking_stick.swf" name="walking stick" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9032" money="0" sharing="0"/>
-	<prop id="cc_wine1.swf" name="wine1" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="0" sharing="0"/>
-	<prop id="cc_wool_ball.swf" name="wool ball" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9034" money="0" sharing="0"/>
-	<prop id="cc_angel ring.swf" name="angel ring" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="9035" money="0" sharing="0"/>
-	<prop id="cc_crown.swf" name="crown" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="9036" money="0" sharing="0"/>
-	<prop id="cc_devilcorn.swf" name="devil horn" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="9037" money="0" sharing="0"/>
-	<prop id="cc_rabitear.swf" name="rabbit ear" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="9038" money="0" sharing="0"/>
-	<prop id="cc_coffin.swf" name="coffin" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9039" money="0" sharing="0"/>
-	<prop id="cc_flying_ufo.swf" name="flying UFO" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9040" money="0" sharing="0"/>
-	<prop id="cc_foldedchair.swf" name="folding chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="0" sharing="0"/>
-	<prop id="cc_lightray.swf" name="light ray" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9042" money="0" sharing="0"/>
-	<prop id="cc_mosaic.swf" name="mosaic" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9043" money="0" sharing="0"/>
-	<prop id="cc_mosaic_02.swf" name="mosaic02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9044" money="0" sharing="0"/>
-	<prop id="cc_road_block.swf" name="road block" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9045" money="0" sharing="0"/>
-	<prop id="cc_table1.swf" name="table" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9046" money="0" sharing="0"/>
+	<prop id="cc_hammer.swf" name="Hammer" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9016" money="0" sharing="0"/>
+	<prop id="cc_interview_cup.swf" name="Interview cup" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9017" money="0" sharing="0"/>
+	<prop id="cc_martini_glass.swf" name="Martini class" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9018" money="0" sharing="0"/>
+	<prop id="cc_microphone.swf" name="Microphone" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9019" money="0" sharing="0"/>
+	<prop id="cc_micstand.swf" name="Micstand" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9020" money="0" sharing="0"/>
+	<prop id="cc_milk.swf" name="Milk" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9021" money="0" sharing="0"/>
+	<prop id="cc_necklace.swf" name="Necklace" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9022" money="0" sharing="0"/>
+	<prop id="cc_paint_roller.swf" name="Paint roller" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9023" money="0" sharing="0"/>
+	<prop id="cc_rose.swf" name="Rose" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9024" money="0" sharing="0"/>
+	<prop id="cc_saw.swf" name="Saw" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9025" money="0" sharing="0"/>
+	<prop id="cc_screwdriver.swf" name="Screw driver" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9026" money="0" sharing="0"/>
+	<prop id="cc_secretfolder.swf" name="Secret folder" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9027" money="0" sharing="0"/>
+	<prop id="cc_spanner.swf" name="Spanner" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9028" money="0" sharing="0"/>
+	<prop id="cc_spinbat.swf" name="Spin bat" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9029" money="0" sharing="0"/>
+	<prop id="cc_tick.swf" name="Tick" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9030" money="0" sharing="0"/>
+	<prop id="cc_tool_box.swf" name="Tool box" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9031" money="0" sharing="0"/>
+	<prop id="cc_walking_stick.swf" name="Walking stick" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9032" money="0" sharing="0"/>
+	<prop id="cc_wine1.swf" name="Wine1" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9033" money="0" sharing="0"/>
+	<prop id="cc_wool_ball.swf" name="Wool ball" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9034" money="0" sharing="0"/>
+	<prop id="cc_angel ring.swf" name="Angel ring" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="9035" money="0" sharing="0"/>
+	<prop id="cc_crown.swf" name="Crown" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="9036" money="0" sharing="0"/>
+	<prop id="cc_devilcorn.swf" name="Devil horn" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="9037" money="0" sharing="0"/>
+	<prop id="cc_rabitear.swf" name="Rabbit ear" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="9038" money="0" sharing="0"/>
+	<prop id="cc_coffin.swf" name="Coffin" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9039" money="0" sharing="0"/>
+	<prop id="cc_flying_ufo.swf" name="Flying ufo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9040" money="0" sharing="0"/>
+	<prop id="cc_foldedchair.swf" name="Folding chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9041" money="0" sharing="0"/>
+	<prop id="cc_lightray.swf" name="Light ray" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9042" money="0" sharing="0"/>
+	<prop id="cc_mosaic.swf" name="Mosaic" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9043" money="0" sharing="0"/>
+	<prop id="cc_mosaic_02.swf" name="Mosaic02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9044" money="0" sharing="0"/>
+	<prop id="cc_road_block.swf" name="Road block" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9045" money="0" sharing="0"/>
+	<prop id="cc_table1.swf" name="Table" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9046" money="0" sharing="0"/>
 	<prop id="bedroom_lamp.swf" name="Lamp" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8932" money="0" sharing="0"/>
-	<prop id="msp_bedroom_blanket" name="blanket" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_bedroom_blanket_bedroom_blanket_1.swf" enable="Y" is_premium="N" aid="8933" money="0" sharing="0">
-		<state id="msp_bedroom_blanket_bedroom_blanket_1.swf" name="single" enable="Y" default="Y"/>
-		<state id="msp_bedroom_blanket_bedroom_blanket_2.swf" name="double" enable="Y"/>
+	<prop id="msp_bedroom_blanket" name="Blanket" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_bedroom_blanket_bedroom_blanket_1.swf" enable="Y" is_premium="N" aid="8933" money="0" sharing="0">
+		<state id="msp_bedroom_blanket_bedroom_blanket_1.swf" name="Single" enable="Y" default="Y"/>
+		<state id="msp_bedroom_blanket_bedroom_blanket_2.swf" name="Double" enable="Y"/>
 	</prop>
 	<prop id="bedroom_blanket_bed.swf" name="Bed" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8936" money="0" sharing="0"/>
 	<prop id="bedroom_drawer02.swf" name="Drawer" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9082" money="0" sharing="0"/>
@@ -3063,16 +3063,16 @@
 	<prop id="toy_workshop_drum.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8977" money="0" sharing="0"/>
 	<prop id="sitting_room_sofa.swf" name="Sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8993" money="0" sharing="0"/>
 	<prop id="sitting_room_sofa2.swf" name="Sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9001" money="0" sharing="0"/>
-	<prop id="cc_beanie_hat.swf" name="Beanie Hat With Ball" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8994" money="0" sharing="0"/>
-	<prop id="cc_beanie_hat_ball.swf" name="Beanie Hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8995" money="0" sharing="0"/>
-	<prop id="cc_ear_muffs.swf" name="Ear Muffs" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8996" money="0" sharing="0"/>
-	<prop id="cc_elf_hat.swf" name="Elf Hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8997" money="0" sharing="0"/>
-	<prop id="msp_toy_workshop_doorframe" name="doorframe" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_toy_workshop_doorframe_toy_workshop_doorframe1.swf" enable="Y" is_premium="N" aid="8978" money="0" sharing="0">
-		<state id="msp_toy_workshop_doorframe_toy_workshop_doorframe1.swf" name="closed" enable="Y" default="Y"/>
-		<state id="msp_toy_workshop_doorframe_toy_workshop_doorframe2.swf" name="open" enable="Y"/>
+	<prop id="cc_beanie_hat.swf" name="Beanie hat with ball" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8994" money="0" sharing="0"/>
+	<prop id="cc_beanie_hat_ball.swf" name="Beanie hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8995" money="0" sharing="0"/>
+	<prop id="cc_ear_muffs.swf" name="Ear muffs" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8996" money="0" sharing="0"/>
+	<prop id="cc_elf_hat.swf" name="Elf hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8997" money="0" sharing="0"/>
+	<prop id="msp_toy_workshop_doorframe" name="Doorframe" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_toy_workshop_doorframe_toy_workshop_doorframe1.swf" enable="Y" is_premium="N" aid="8978" money="0" sharing="0">
+		<state id="msp_toy_workshop_doorframe_toy_workshop_doorframe1.swf" name="Closed" enable="Y" default="Y"/>
+		<state id="msp_toy_workshop_doorframe_toy_workshop_doorframe2.swf" name="Open" enable="Y"/>
 	</prop>
-	<prop id="cc_ushanka_hat.swf" name="Ushanka Hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8999" money="0" sharing="0"/>
-	<prop id="cc_ushanka_hat_wool.swf" name="Ushanka Hat With Wool" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="9000" money="0" sharing="0"/>
+	<prop id="cc_ushanka_hat.swf" name="Ushanka hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8999" money="0" sharing="0"/>
+	<prop id="cc_ushanka_hat_wool.swf" name="Ushanka hat with wool" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="9000" money="0" sharing="0"/>
 	<prop id="msp_forearmup" name="Forearm" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_forearmup_cc_hand_up_large.swf" enable="Y" is_premium="N" aid="9083" money="0" sharing="0">
 		<state id="msp_forearmup_cc_hand_up_large.swf" name="Large" enable="Y" default="Y"/>
 		<state id="msp_forearmup_cc_hand_up_med.swf" name="Medium" enable="Y"/>
@@ -3145,7 +3145,7 @@
 	<prop id="supermarket_cloth_tray.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9124" money="0" sharing="0"/>
 	<prop id="supermarket_pants_tray.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9125" money="0" sharing="0"/>
 	<prop id="hospital_rm_bed.swf" name="Bed" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9126" money="0" sharing="0"/>
-	<prop id="cc_foldchair.swf" name="folding chair" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9015" money="0" sharing="0"/>
+	<prop id="cc_foldchair.swf" name="Folding chair" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9015" money="0" sharing="0"/>
 	<prop id="msp_hosiptal_blanket" name="Blanket" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_hosiptal_blanket_hospital_rm_blanket_full.swf" enable="Y" is_premium="N" aid="9127" money="0" sharing="0">
 		<state id="msp_hosiptal_blanket_hospital_rm_blanket_empty.swf" name="Empty" enable="Y"/>
 		<state id="msp_hosiptal_blanket_hospital_rm_blanket_full.swf" name="Occupied" enable="Y" default="Y"/>
@@ -3156,8 +3156,8 @@
 		<state id="msp_clock_cc_clock_move.swf" name="Moving" enable="Y" default="Y"/>
 		<state id="msp_clock_cc_clock_no_move.swf" name="Still" enable="Y"/>
 	</prop>
-	<prop id="cc_calendar.swf" name="calendar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9156" money="0" sharing="0"/>
-	<prop id="cc_tick1.swf" name="check" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9157" money="0" sharing="0">
+	<prop id="cc_calendar.swf" name="Calendar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9156" money="0" sharing="0"/>
+	<prop id="cc_tick1.swf" name="Check" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9157" money="0" sharing="0">
 		<colorset enable="Y" aid="9158">
 			<color r="ccColorA">0xFFFFFF</color>
 		</colorset>
@@ -3165,7 +3165,7 @@
 			<c_area oc="">ccColorA</c_area>
 		</c_parts>
 	</prop>
-	<prop id="cc_cross1.swf" name="cross" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9161" money="0" sharing="0">
+	<prop id="cc_cross1.swf" name="Cross" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9161" money="0" sharing="0">
 		<colorset enable="Y" aid="9162">
 			<color r="ccColorA">0xFFFFFF</color>
 		</colorset>
@@ -3173,7 +3173,7 @@
 			<c_area oc="">ccColorA</c_area>
 		</c_parts>
 	</prop>
-	<prop id="cc_arrow1.swf" name="arrow" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9165" money="0" sharing="0">
+	<prop id="cc_arrow1.swf" name="Arrow" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9165" money="0" sharing="0">
 		<colorset enable="Y" aid="9166">
 			<color r="ccColorA">0xFFFFFF</color>
 		</colorset>
@@ -3181,7 +3181,7 @@
 			<c_area oc="">ccColorA</c_area>
 		</c_parts>
 	</prop>
-	<prop id="cc_tick2.swf" name="check" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9159" money="0" sharing="0">
+	<prop id="cc_tick2.swf" name="Check" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9159" money="0" sharing="0">
 		<colorset enable="Y" aid="9160">
 			<color r="ccColorA">0xFFFFFF</color>
 		</colorset>
@@ -3189,7 +3189,7 @@
 			<c_area oc="">ccColorA</c_area>
 		</c_parts>
 	</prop>
-	<prop id="cc_cross2.swf" name="cross" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9163" money="0" sharing="0">
+	<prop id="cc_cross2.swf" name="Cross" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9163" money="0" sharing="0">
 		<colorset enable="Y" aid="9164">
 			<color r="ccColorA">0xFFFFFF</color>
 		</colorset>
@@ -3197,7 +3197,7 @@
 			<c_area oc="">ccColorA</c_area>
 		</c_parts>
 	</prop>
-	<prop id="cc_arrow2.swf" name="arrow" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9167" money="0" sharing="0">
+	<prop id="cc_arrow2.swf" name="Arrow" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9167" money="0" sharing="0">
 		<colorset enable="Y" aid="9168">
 			<color r="ccColorA">0xFFFFFF</color>
 		</colorset>
@@ -3265,7 +3265,7 @@
 		<state id="msp_dish_msp_computer_cc_dish_01.swf" name="Empty" enable="Y"/>
 		<state id="msp_dish_msp_computer_cc_dish_02.swf" name="Food" enable="Y" default="Y"/>
 	</prop>
-	<prop id="cc_tv_back.swf" name="TV back view" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9192" money="0" sharing="0">
+	<prop id="cc_tv_back.swf" name="Tv back view" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9192" money="0" sharing="0">
 		<colorset enable="Y" aid="9193">
 			<color r="ccColorA">0x946538</color>
 		</colorset>
@@ -3273,7 +3273,7 @@
 			<c_area oc="">ccColorA</c_area>
 		</c_parts>
 	</prop>
-	<prop id="cc_tv_front.swf" name="TV front view" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9194" money="0" sharing="0">
+	<prop id="cc_tv_front.swf" name="Tv front view" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9194" money="0" sharing="0">
 		<colorset enable="Y" aid="9195">
 			<color r="ccColorA">0x946538</color>
 		</colorset>
@@ -3638,21 +3638,21 @@
 			<c_area oc="">ccColorA</c_area>
 		</c_parts>
 	</prop>
-	<prop id="xm_bear.swf" name="Xmas Bear" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8981" money="0" sharing="0"/>
-	<prop id="xm_bell.swf" name="Xmas Bell" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8982" money="0" sharing="0"/>
-	<prop id="xm_candle.swf" name="candle" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8983" money="0" sharing="0"/>
-	<prop id="xm_cookies.swf" name="cookies" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8984" money="0" sharing="0"/>
-	<prop id="xm_decoball.swf" name="decoball" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8985" money="0" sharing="0"/>
+	<prop id="xm_bear.swf" name="Xmas bear" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8981" money="0" sharing="0"/>
+	<prop id="xm_bell.swf" name="Xmas bell" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8982" money="0" sharing="0"/>
+	<prop id="xm_candle.swf" name="Candle" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8983" money="0" sharing="0"/>
+	<prop id="xm_cookies.swf" name="Cookies" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8984" money="0" sharing="0"/>
+	<prop id="xm_decoball.swf" name="Decoball" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8985" money="0" sharing="0"/>
 	<prop id="xm_gift.swf" name="Gift" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8986" money="0" sharing="0"/>
-	<prop id="xm_jettoy.swf" name="jet toy" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8987" money="0" sharing="0"/>
-	<prop id="xm_sock.swf" name="Xmas Sock" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8988" money="0" sharing="0"/>
-	<prop id="xm_stick.swf" name="Xmas Stick" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8989" money="0" sharing="0"/>
-	<prop id="xm_hat.swf" name="Christmas Hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8990" money="0" sharing="0"/>
+	<prop id="xm_jettoy.swf" name="Jet toy" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8987" money="0" sharing="0"/>
+	<prop id="xm_sock.swf" name="Xmas sock" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8988" money="0" sharing="0"/>
+	<prop id="xm_stick.swf" name="Xmas stick" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8989" money="0" sharing="0"/>
+	<prop id="xm_hat.swf" name="Christmas hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8990" money="0" sharing="0"/>
 	<prop id="xm_tree.swf" name="Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8991" money="0" sharing="0"/>
 	<prop id="xm_turkey.swf" name="Turkey" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8992" money="0" sharing="0"/>
 	<prop id="xm_tree.swf" name="Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8930" money="0" sharing="0"/>
 	<prop id="xm_turkey.swf" name="Turkey" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8931" money="0" sharing="0"/>
-	<prop id="cc_mosse_hat.swf" name="Moose Hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8998" money="0" sharing="0"/>
+	<prop id="cc_mosse_hat.swf" name="Moose hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8998" money="0" sharing="0"/>
 	<prop id="cc_mosse_hat02.swf" name="Moose hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="9640" money="0" sharing="0">
 		<colorset enable="Y" aid="9641">
 			<color r="ccHColorA">0x990000</color>
@@ -3663,12 +3663,12 @@
 	</prop>
 	<prop id="house_deco.swf" name="Decoration" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9002" money="0" sharing="0"/>
 	<prop id="house_top.swf" name="Decoration" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9003" money="0" sharing="0"/>
-	<prop id="sorting_hat_still.swf" name="Sorting Hat (still)" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8913" money="0" sharing="0"/>
-	<prop id="sorting_hat_talk.swf" name="Sorting Hat (talk)" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8914" money="0" sharing="0"/>
+	<prop id="sorting_hat_still.swf" name="Sorting hat (still)" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8913" money="0" sharing="0"/>
+	<prop id="sorting_hat_talk.swf" name="Sorting hat (talk)" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8914" money="0" sharing="0"/>
 	<prop id="broomstick.swf" name="Broomstick" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8915" money="0" sharing="0"/>
 	<prop id="snitch.swf" name="Golden snitch" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8916" money="0" sharing="0"/>
 	<prop id="owl.swf" name="Owl" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8917" money="0" sharing="0"/>
-	<prop id="magic_wand.swf" name="Magic Wand" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8918" money="0" sharing="0"/>
+	<prop id="magic_wand.swf" name="Magic wand" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8918" money="0" sharing="0"/>
 	<prop id="magic_book.swf" name="Book" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8919" money="0" sharing="0"/>
 	<prop id="feather_pen.swf" name="Feather" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8920" money="0" sharing="0"/>
 	<prop id="owl_cage.swf" name="Cage" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8921" money="0" sharing="0"/>
@@ -3746,8 +3746,8 @@
 	<prop id="barn_int_fence.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9664" money="0" sharing="0"/>
 	<prop id="barn_int_stool.swf" name="Stool" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9665" money="0" sharing="0"/>
 	<prop id="msp_milk_bucket" name="Bucket" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_milk_bucket_barn_int_milk_bucket02.swf" enable="Y" is_premium="N" aid="9666" money="0" sharing="0">
-		<state id="msp_milk_bucket_barn_int_milk_bucket01.swf" name="full" enable="Y"/>
-		<state id="msp_milk_bucket_barn_int_milk_bucket02.swf" name="empty" enable="Y" default="Y"/>
+		<state id="msp_milk_bucket_barn_int_milk_bucket01.swf" name="Full" enable="Y"/>
+		<state id="msp_milk_bucket_barn_int_milk_bucket02.swf" name="Empty" enable="Y" default="Y"/>
 		<colorset enable="Y" aid="9669">
 			<color r="ccColorA">0xD5D8CD</color>
 		</colorset>
@@ -3814,15 +3814,15 @@
 	<prop id="boy_rm_chair01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9714" money="0" sharing="0"/>
 	<prop id="boy_rm_chair02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9715" money="0" sharing="0"/>
 	<prop id="msp_boy_rm_blanket" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_boy_rm_blanket_boy_rm_blanket01.swf" enable="Y" is_premium="N" aid="9716" money="0" sharing="0">
-		<state id="msp_boy_rm_blanket_boy_rm_blanket01.swf" name="empty" enable="Y" default="Y"/>
-		<state id="msp_boy_rm_blanket_boy_rm_blanket02.swf" name="occupied" enable="Y"/>
+		<state id="msp_boy_rm_blanket_boy_rm_blanket01.swf" name="Empty" enable="Y" default="Y"/>
+		<state id="msp_boy_rm_blanket_boy_rm_blanket02.swf" name="Occupied" enable="Y"/>
 	</prop>
 	<prop id="girl_rm_table.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9719" money="0" sharing="0"/>
 	<prop id="girl_rm_chair01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9720" money="0" sharing="0"/>
 	<prop id="girl_rm_chair02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9721" money="0" sharing="0"/>
 	<prop id="msp_girl_rm_blanket" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_girl_rm_blanket_girl_rm_blanket01.swf" enable="Y" is_premium="N" aid="9722" money="0" sharing="0">
-		<state id="msp_girl_rm_blanket_girl_rm_blanket01.swf" name="empty" enable="Y" default="Y"/>
-		<state id="msp_girl_rm_blanket_girl_rm_blanket02.swf" name="occupied" enable="Y"/>
+		<state id="msp_girl_rm_blanket_girl_rm_blanket01.swf" name="Empty" enable="Y" default="Y"/>
+		<state id="msp_girl_rm_blanket_girl_rm_blanket02.swf" name="Occupied" enable="Y"/>
 	</prop>
 	<prop id="cc_shuriken01.swf" name="Shuriken" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9725" money="0" sharing="0">
 		<colorset enable="Y" aid="9726">
@@ -3905,9 +3905,9 @@
 		<state id="msp_living_rm_door_living_room_door_close.swf" name="Closed" enable="Y" default="Y"/>
 		<state id="msp_living_rm_door_living_room_door_open.swf" name="Open" enable="Y"/>
 	</prop>
-	<prop id="msp_TV_version" name="TV" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_TV_version_living_room_tv01.swf" enable="Y" is_premium="N" aid="9798" money="0" sharing="0">
-		<state id="msp_TV_version_living_room_tv01.swf" name="flat screen" enable="Y" default="Y"/>
-		<state id="msp_TV_version_living_room_tv02.swf" name="old television" enable="Y"/>
+	<prop id="msp_TV_version" name="Tv" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_TV_version_living_room_tv01.swf" enable="Y" is_premium="N" aid="9798" money="0" sharing="0">
+		<state id="msp_TV_version_living_room_tv01.swf" name="Flat screen" enable="Y" default="Y"/>
+		<state id="msp_TV_version_living_room_tv02.swf" name="Old television" enable="Y"/>
 	</prop>
 	<prop id="bar_table.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9801" money="0" sharing="0"/>
 	<prop id="msp_bar_door" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_bar_door_bar_door_close.swf" enable="Y" is_premium="N" aid="9802" money="0" sharing="0">

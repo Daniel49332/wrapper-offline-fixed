@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<theme id="ninja" name="Chibi Ninjas" cc_theme_id="ninja">
+<theme id="ninja" name="Chibi ninjas" cc_theme_id="ninja">
 	<background id="ncc_ninja_bg05.swf" name="Forest" enable="Y" default="N" is_premium="N" aid="15134" money="0" sharing="0"/>
 	<background id="ncc_ninja_bg06.swf" name="Forest" enable="Y" default="N" is_premium="N" aid="15135" money="0" sharing="0"/>
 	<background id="ncc_ninja_outdoor_1.swf" name="Forest" enable="Y" default="N" is_premium="N" aid="15137" money="0" sharing="0"/>
@@ -144,7 +144,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_ninja_torii" name="Old Town" enable="Y" default="N" thumb="ninja_torii.png" display_order="3" is_premium="N" money="0" sharing="0" aid="15199">
+	<compositebg id="cbg_ninja_torii" name="Old town" enable="Y" default="N" thumb="ninja_torii.png" display_order="3" is_premium="N" money="0" sharing="0" aid="15199">
 	<bg id="cbg_ninja_torii_BG9" index="0">
 		<file>ninja.ncc_ninja_outdoor_3.swf</file>
 	</bg>
@@ -260,7 +260,7 @@
 		<color r="ccColorA">10053222</color>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_ninja_roof" name="Old Town" enable="Y" default="N" thumb="ninja_roof.png" display_order="4" is_premium="N" money="0" sharing="0" aid="15200">
+	<compositebg id="cbg_ninja_roof" name="Old town" enable="Y" default="N" thumb="ninja_roof.png" display_order="4" is_premium="N" money="0" sharing="0" aid="15200">
 	<bg id="cbg_ninja_roof_BG9" index="0">
 		<file>ninja.ncc_ninja_bg05.swf</file>
 	</bg>
@@ -967,17 +967,17 @@
 	<prop id="ncc_ninja_fishhold.swf" name="Fish on a stick" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15119" money="0" sharing="0" handstyle="stick"/>
 	<prop id="msp_ncc_ninja_mgun01" name="Machine gun" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_ncc_ninja_mgun01_ncc_gun_still.swf" enable="Y" is_premium="N" aid="15120" money="0" sharing="0" handstyle="gun">
 		<tag>gun</tag>
-		<state id="msp_ncc_ninja_mgun01_ncc_gun_fire.swf" name="automatic mode" enable="Y"/>
-		<state id="msp_ncc_ninja_mgun01_ncc_gun_loop.swf" name="burst mode" enable="Y"/>
-		<state id="msp_ncc_ninja_mgun01_ncc_gun_once.swf" name="shoot once" enable="Y"/>
-		<state id="msp_ncc_ninja_mgun01_ncc_gun_still.swf" name="still" enable="Y" default="Y"/>
+		<state id="msp_ncc_ninja_mgun01_ncc_gun_fire.swf" name="Automatic mode" enable="Y"/>
+		<state id="msp_ncc_ninja_mgun01_ncc_gun_loop.swf" name="Burst mode" enable="Y"/>
+		<state id="msp_ncc_ninja_mgun01_ncc_gun_once.swf" name="Shoot once" enable="Y"/>
+		<state id="msp_ncc_ninja_mgun01_ncc_gun_still.swf" name="Still" enable="Y" default="Y"/>
 	</prop>
 	<prop id="msp_ncc_ninja_mgun02" name="Machine gun" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_ncc_ninja_mgun02_ncc_gun_still.swf" enable="Y" is_premium="N" aid="15125" money="0" sharing="0" handstyle="gun">
 		<tag>gun</tag>
-		<state id="msp_ncc_ninja_mgun02_ncc_gun_fire.swf" name="automatic mode" enable="Y"/>
-		<state id="msp_ncc_ninja_mgun02_ncc_gun_loop.swf" name="burst mode" enable="Y"/>
-		<state id="msp_ncc_ninja_mgun02_ncc_gun_once.swf" name="shoot once" enable="Y"/>
-		<state id="msp_ncc_ninja_mgun02_ncc_gun_still.swf" name="still" enable="Y" default="Y"/>
+		<state id="msp_ncc_ninja_mgun02_ncc_gun_fire.swf" name="Automatic mode" enable="Y"/>
+		<state id="msp_ncc_ninja_mgun02_ncc_gun_loop.swf" name="Burst mode" enable="Y"/>
+		<state id="msp_ncc_ninja_mgun02_ncc_gun_once.swf" name="Shoot once" enable="Y"/>
+		<state id="msp_ncc_ninja_mgun02_ncc_gun_still.swf" name="Still" enable="Y" default="Y"/>
 	</prop>
 	<prop id="ncc_ninja_prop11.swf" name="Explosion cloud" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15180" money="0" sharing="0"/>
 	<prop id="ncc_ninja_prop12.swf" name="Snowy mountain" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15181" money="0" sharing="0"/>
@@ -994,19 +994,19 @@
 	<prop id="ncc_02ninja_jutte.swf" name="Jutte" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15192" money="0" sharing="0" handstyle="stick"/>
 	<prop id="ncc_02ninja_lantern01.swf" name="Lantern" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15193" money="0" sharing="0" handstyle="stick"/>
 	<prop id="msp_shuriken02" name="Shuriken" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_shuriken02_03ninja_shuriken02.swf" enable="Y" is_premium="N" aid="15194" money="0" sharing="0" handstyle="flat">
-		<state id="msp_shuriken02_ncc_03ninja_shuriken02a.swf" name="rotating" enable="Y"/>
-		<state id="msp_shuriken02_ncc_03ninja_shuriken02b.swf" name="in wall" enable="Y"/>
-		<state id="msp_shuriken02_03ninja_shuriken02.swf" name="still" enable="Y" default="Y"/>
+		<state id="msp_shuriken02_ncc_03ninja_shuriken02a.swf" name="Rotating" enable="Y"/>
+		<state id="msp_shuriken02_ncc_03ninja_shuriken02b.swf" name="In wall" enable="Y"/>
+		<state id="msp_shuriken02_03ninja_shuriken02.swf" name="Still" enable="Y" default="Y"/>
 	</prop>
 	<prop id="ncc_ninja_house01.swf" name="Wooden house" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15047" money="0" sharing="0"/>
 	<prop id="ncc_ninja_house02.swf" name="Wooden house" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15048" money="0" sharing="0"/>
 	<prop id="ncc_ninja_house03.swf" name="Wooden house" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15049" money="0" sharing="0"/>
 	<prop id="ncc_ninja_house04.swf" name="Wooden house" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15050" money="0" sharing="0"/>
 	<prop id="msp_ninjadoor01" name="Sliding doors" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninjadoor01_ncc_ninjadoor_front_close.swf" enable="Y" is_premium="N" aid="15051" money="0" sharing="0">
-		<state id="msp_ninjadoor01_ncc_ninjadoor_front_close.swf" name="front - closed" enable="Y" default="Y"/>
-		<state id="msp_ninjadoor01_ncc_ninjadoor_front_open.swf" name="front - opened" enable="Y"/>
-		<state id="msp_ninjadoor01_ncc_ninjadoor_side_close.swf" name="side - closed" enable="Y"/>
-		<state id="msp_ninjadoor01_ncc_ninjadoor_side_open.swf" name="side - opened" enable="Y"/>
+		<state id="msp_ninjadoor01_ncc_ninjadoor_front_close.swf" name="Front - closed" enable="Y" default="Y"/>
+		<state id="msp_ninjadoor01_ncc_ninjadoor_front_open.swf" name="Front - opened" enable="Y"/>
+		<state id="msp_ninjadoor01_ncc_ninjadoor_side_close.swf" name="Side - closed" enable="Y"/>
+		<state id="msp_ninjadoor01_ncc_ninjadoor_side_open.swf" name="Side - opened" enable="Y"/>
 	</prop>
 	<prop id="ncc_ninja_adbox01.swf" name="Sign" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15056" money="0" sharing="0"/>
 	<prop id="ncc_ninja_adbox02.swf" name="Sign" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15057" money="0" sharing="0"/>
@@ -1014,12 +1014,12 @@
 	<prop id="ncc_ninja_boxchair.swf" name="Step" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15059" money="0" sharing="0"/>
 	<prop id="ncc_ninja_bucket.swf" name="Bucket" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15060" money="0" sharing="0"/>
 	<prop id="msp_ninja_deco01" name="Katana stand" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_deco01_ncc_ninja_deco02.swf" enable="Y" is_premium="N" aid="15061" money="0" sharing="0">
-		<state id="msp_ninja_deco01_ncc_ninja_deco01.swf" name="tall" enable="Y"/>
-		<state id="msp_ninja_deco01_ncc_ninja_deco02.swf" name="short" enable="Y" default="Y"/>
+		<state id="msp_ninja_deco01_ncc_ninja_deco01.swf" name="Tall" enable="Y"/>
+		<state id="msp_ninja_deco01_ncc_ninja_deco02.swf" name="Short" enable="Y" default="Y"/>
 	</prop>
 	<prop id="msp_ninja_fish01" name="Fireplace" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_fish01_ncc_ninja_fish01.swf" enable="Y" is_premium="N" aid="15064" money="0" sharing="0">
-		<state id="msp_ninja_fish01_ncc_ninja_fish01.swf" name="no fire" enable="Y" default="Y"/>
-		<state id="msp_ninja_fish01_ncc_ninja_fish02.swf" name="fire" enable="Y"/>
+		<state id="msp_ninja_fish01_ncc_ninja_fish01.swf" name="No fire" enable="Y" default="Y"/>
+		<state id="msp_ninja_fish01_ncc_ninja_fish02.swf" name="Fire" enable="Y"/>
 	</prop>
 	<prop id="ncc_ninja_flower.swf" name="Flower" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15067" money="0" sharing="0"/>
 	<prop id="ncc_ninja_light01.swf" name="Table lantern" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15068" money="0" sharing="0"/>
@@ -1030,37 +1030,37 @@
 	<prop id="ncc_ninja_painting03.swf" name="Painting" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15073" money="0" sharing="0"/>
 	<prop id="ncc_ninja_pot.swf" name="Hanged cooking pot" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15074" money="0" sharing="0"/>
 	<prop id="msp_ninja_pray" name="Prayer tablet" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_pray_ncc_ninja_pray01.swf" enable="Y" is_premium="N" aid="15075" money="0" sharing="0">
-		<state id="msp_ninja_pray_ncc_ninja_pray01.swf" name="single - empty" enable="Y" default="Y"/>
-		<state id="msp_ninja_pray_ncc_ninja_pray02.swf" name="single - written on" enable="Y"/>
-		<state id="msp_ninja_pray_ncc_ninja_pray03.swf" name="many - written on" enable="Y"/>
+		<state id="msp_ninja_pray_ncc_ninja_pray01.swf" name="Single - empty" enable="Y" default="Y"/>
+		<state id="msp_ninja_pray_ncc_ninja_pray02.swf" name="Single - written on" enable="Y"/>
+		<state id="msp_ninja_pray_ncc_ninja_pray03.swf" name="Many - written on" enable="Y"/>
 	</prop>
 	<prop id="ncc_ninja_seat.swf" name="Cushion" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15079" money="0" sharing="0"/>
 	<prop id="msp_ninja_tree" name="Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_tree_ncc_ninja_tree01.swf" enable="Y" is_premium="N" aid="15080" money="0" sharing="0">
-		<state id="msp_ninja_tree_ncc_ninja_tree01.swf" name="full" enable="Y" default="Y"/>
-		<state id="msp_ninja_tree_ncc_ninja_tree02.swf" name="no branch" enable="Y"/>
-		<state id="msp_ninja_tree_ncc_ninja_tree03.swf" name="branch only" enable="Y"/>
+		<state id="msp_ninja_tree_ncc_ninja_tree01.swf" name="Full" enable="Y" default="Y"/>
+		<state id="msp_ninja_tree_ncc_ninja_tree02.swf" name="No branch" enable="Y"/>
+		<state id="msp_ninja_tree_ncc_ninja_tree03.swf" name="Branch only" enable="Y"/>
 	</prop>
 	<prop id="msp_ninja_window" name="Window" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_window_ncc_ninja_window01.swf" enable="Y" is_premium="N" aid="15084" money="0" sharing="0">
-		<state id="msp_ninja_window_ncc_ninja_window01.swf" name="side - closed" enable="Y" default="Y"/>
-		<state id="msp_ninja_window_ncc_ninja_window02.swf" name="side - opened" enable="Y"/>
+		<state id="msp_ninja_window_ncc_ninja_window01.swf" name="Side - closed" enable="Y" default="Y"/>
+		<state id="msp_ninja_window_ncc_ninja_window02.swf" name="Side - opened" enable="Y"/>
 	</prop>
 	<prop id="ncc_ninja_wood.swf" name="Plank" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15087" money="0" sharing="0"/>
 	<prop id="ncc_ninja_wood01.swf" name="Huge trunk" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15088" money="0" sharing="0"/>
 	<prop id="msp_ninja_wall01" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_wall01_ncc_ninja_wall01_front.swf" enable="Y" is_premium="N" aid="15089" money="0" sharing="0">
-		<state id="msp_ninja_wall01_ncc_ninja_wall01_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_ninja_wall01_ncc_ninja_wall01_side.swf" name="side" enable="Y"/>
+		<state id="msp_ninja_wall01_ncc_ninja_wall01_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_ninja_wall01_ncc_ninja_wall01_side.swf" name="Side" enable="Y"/>
 	</prop>
 	<prop id="msp_ninja_wall02" name="Wall with opening" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_wall02_ncc_ninja_wall02_front.swf" enable="Y" is_premium="N" aid="15092" money="0" sharing="0">
-		<state id="msp_ninja_wall02_ncc_ninja_wall02_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_ninja_wall02_ncc_ninja_wall02_side.swf" name="side" enable="Y"/>
+		<state id="msp_ninja_wall02_ncc_ninja_wall02_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_ninja_wall02_ncc_ninja_wall02_side.swf" name="Side" enable="Y"/>
 	</prop>
 	<prop id="msp_ninja_wall03" name="Wooden wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_wall03_ncc_ninja_wall03_front.swf" enable="Y" is_premium="N" aid="15095" money="0" sharing="0">
-		<state id="msp_ninja_wall03_ncc_ninja_wall03_front.swf" name="front" enable="Y" default="Y"/>
-		<state id="msp_ninja_wall03_ncc_ninja_wall03_side.swf" name="side" enable="Y"/>
+		<state id="msp_ninja_wall03_ncc_ninja_wall03_front.swf" name="Front" enable="Y" default="Y"/>
+		<state id="msp_ninja_wall03_ncc_ninja_wall03_side.swf" name="Side" enable="Y"/>
 	</prop>
 	<prop id="msp_ninja_door01" name="Sliding doors" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_door01_ncc_ninja_door01_close.swf" enable="Y" is_premium="N" aid="15098" money="0" sharing="0">
-		<state id="msp_ninja_door01_ncc_ninja_door01_close.swf" name="close" enable="Y" default="Y"/>
-		<state id="msp_ninja_door01_ncc_ninja_door01_open.swf" name="open" enable="Y"/>
+		<state id="msp_ninja_door01_ncc_ninja_door01_close.swf" name="Close" enable="Y" default="Y"/>
+		<state id="msp_ninja_door01_ncc_ninja_door01_open.swf" name="Open" enable="Y"/>
 	</prop>
 	<prop id="ncc_ninja_drawer02.swf" name="Drawers" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15101" money="0" sharing="0"/>
 	<effect id="ncc_ninja_fx02.swf" type="ANIME" resize="false" move="false" name="Hit" enable="N" is_premium="N" aid="15157" money="0" sharing="0" display_order="0"/>

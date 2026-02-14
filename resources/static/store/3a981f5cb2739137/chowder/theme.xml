@@ -76,7 +76,7 @@
 		<category name="Standing">
 			<action id="standing.swf" name="Frontview" loop="Y" totalframe="55" enable="Y" aid="8751"/>
 			<action id="backview.swf" name="Backview" loop="Y" totalframe="60" enable="Y" aid="8752"/>
-			<action id="lean_against.swf" name="lean against" loop="Y" totalframe="1" enable="Y" aid="8753"/>
+			<action id="lean_against.swf" name="Lean against" loop="Y" totalframe="1" enable="Y" aid="8753"/>
 		</category>
 		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="80" enable="Y" aid="8762"/>
 		<action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="8763"/>
@@ -802,7 +802,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<prop id="kitchen_dirty_prop01.swf" name="prop 01" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8653" money="0" sharing="0"/>
+	<prop id="kitchen_dirty_prop01.swf" name="Prop 01" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8653" money="0" sharing="0"/>
 	<prop id="spoon02.swf" name="Spoon" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8856" money="0" sharing="0"/>
 	<prop id="bowl02.swf" name="Bowl" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8857" money="0" sharing="0"/>
 	<prop id="fork02.swf" name="Fork" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8858" money="0" sharing="0"/>
@@ -813,7 +813,7 @@
 	<prop id="balloon02.swf" name="Balloons" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8864" money="0" sharing="0"/>
 	<prop id="clabbage_cobbler02.swf" name="Clabbage cobbler" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8865" money="0" sharing="0"/>
 	<prop id="nofruit02.swf" name="Nofruit" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8866" money="0" sharing="0"/>
-	<prop id="flibbius_flabbius02.swf" name="Flibbius Flabbius" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8867" money="0" sharing="0">
+	<prop id="flibbius_flabbius02.swf" name="Flibbius flabbius" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8867" money="0" sharing="0">
 		<colorset enable="Y" aid="8868">
 	<color r="chProp01">0x1FBE1D</color>
 </colorset>
@@ -829,7 +829,7 @@
 	<c_area>chProp01</c_area>
 </c_parts>
 	</prop>
-	<prop id="powdered_flart02.swf" name="Powdered Flarts" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8871" money="0" sharing="0">
+	<prop id="powdered_flart02.swf" name="Powdered flarts" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8871" money="0" sharing="0">
 		<colorset enable="Y" aid="8872">
 	<color r="chProp01">0x99173D</color>
 </colorset>
@@ -837,9 +837,9 @@
 	<c_area>chProp01</c_area>
 </c_parts>
 	</prop>
-	<prop id="mevilled_eggs02.swf" name="Mevilled Eggs" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8873" money="0" sharing="0"/>
-	<prop id="twelve_legs_cave_frog02.swf" name="twelve legs cave frog" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8874" money="0" sharing="0"/>
-	<prop id="tubblekin02.swf" name="tubblekin" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8875" money="0" sharing="0"/>
+	<prop id="mevilled_eggs02.swf" name="Mevilled eggs" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8873" money="0" sharing="0"/>
+	<prop id="twelve_legs_cave_frog02.swf" name="Twelve legs cave frog" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8874" money="0" sharing="0"/>
+	<prop id="tubblekin02.swf" name="Tubblekin" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8875" money="0" sharing="0"/>
 	<prop id="pot02.swf" name="Pot" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8854" money="0" sharing="0">
 		<colorset enable="Y" aid="8855">
 	<color r="chProp01">0xE4C364</color>
@@ -849,24 +849,24 @@
 </c_parts>
 	</prop>
 	<prop id="truffles.swf" name="Truffles" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8671" money="0" sharing="0"/>
-	<prop id="inside_prop03.swf" name="prop 03" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8670" money="0" sharing="0"/>
-	<prop id="kitchen_dirty_prop02.swf" name="prop 02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8654" money="0" sharing="0"/>
-	<prop id="kitchen_dirty_prop03.swf" name="prop 03" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8655" money="0" sharing="0"/>
-	<prop id="bedroom_prop01.swf" name="prop 01" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8656" money="0" sharing="0"/>
-	<prop id="bedroom_prop02.swf" name="prop 02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8657" money="0" sharing="0"/>
-	<prop id="bedroom_prop03.swf" name="prop 03" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8658" money="0" sharing="0"/>
-	<prop id="street_prop01.swf" name="prop 01" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8659" money="0" sharing="0"/>
-	<prop id="street_prop02.swf" name="prop 02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8660" money="0" sharing="0"/>
+	<prop id="inside_prop03.swf" name="Prop 03" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8670" money="0" sharing="0"/>
+	<prop id="kitchen_dirty_prop02.swf" name="Prop 02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8654" money="0" sharing="0"/>
+	<prop id="kitchen_dirty_prop03.swf" name="Prop 03" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8655" money="0" sharing="0"/>
+	<prop id="bedroom_prop01.swf" name="Prop 01" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8656" money="0" sharing="0"/>
+	<prop id="bedroom_prop02.swf" name="Prop 02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8657" money="0" sharing="0"/>
+	<prop id="bedroom_prop03.swf" name="Prop 03" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8658" money="0" sharing="0"/>
+	<prop id="street_prop01.swf" name="Prop 01" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8659" money="0" sharing="0"/>
+	<prop id="street_prop02.swf" name="Prop 02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8660" money="0" sharing="0"/>
 	<prop id="market_prop01.swf" name="Gazpacho" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8661" money="0" sharing="0"/>
-	<prop id="market_prop02.swf" name="prop 02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8662" money="0" sharing="0"/>
-	<prop id="market_prop03.swf" name="prop 03" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8663" money="0" sharing="0"/>
-	<prop id="city_prop01.swf" name="prop 01" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8664" money="0" sharing="0"/>
-	<prop id="city_prop02.swf" name="prop 02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8665" money="0" sharing="0"/>
-	<prop id="city_prop03.swf" name="prop 03" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8666" money="0" sharing="0"/>
-	<prop id="front_prop01.swf" name="prop 01" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8667" money="0" sharing="0"/>
-	<prop id="inside_prop01.swf" name="prop 01" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8668" money="0" sharing="0"/>
-	<prop id="inside_prop02.swf" name="prop 02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8669" money="0" sharing="0"/>
-	<prop id="melon02.swf" name="melon" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8876" money="0" sharing="0">
+	<prop id="market_prop02.swf" name="Prop 02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8662" money="0" sharing="0"/>
+	<prop id="market_prop03.swf" name="Prop 03" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8663" money="0" sharing="0"/>
+	<prop id="city_prop01.swf" name="Prop 01" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8664" money="0" sharing="0"/>
+	<prop id="city_prop02.swf" name="Prop 02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8665" money="0" sharing="0"/>
+	<prop id="city_prop03.swf" name="Prop 03" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8666" money="0" sharing="0"/>
+	<prop id="front_prop01.swf" name="Prop 01" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8667" money="0" sharing="0"/>
+	<prop id="inside_prop01.swf" name="Prop 01" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8668" money="0" sharing="0"/>
+	<prop id="inside_prop02.swf" name="Prop 02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8669" money="0" sharing="0"/>
+	<prop id="melon02.swf" name="Melon" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8876" money="0" sharing="0">
 		<colorset enable="Y" aid="8877">
 	<color r="chProp01">0xD29A39</color>
 </colorset>
@@ -874,7 +874,7 @@
 	<c_area>chProp01</c_area>
 </c_parts>
 	</prop>
-	<prop id="coconut02.swf" name="coconut" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8878" money="0" sharing="0">
+	<prop id="coconut02.swf" name="Coconut" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8878" money="0" sharing="0">
 		<colorset enable="Y" aid="8879">
 	<color r="chProp01">0x9D8065</color>
 </colorset>
@@ -883,10 +883,10 @@
 </c_parts>
 	</prop>
 	<prop id="msp_food_box" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_food_box_food_box_open.swf" enable="Y" is_premium="N" aid="10057" money="0" sharing="0">
-		<state id="msp_food_box_food_box_closed.swf" name="closed" enable="Y"/>
-		<state id="msp_food_box_food_box_open.swf" name="open" enable="Y" default="Y"/>
+		<state id="msp_food_box_food_box_closed.swf" name="Closed" enable="Y"/>
+		<state id="msp_food_box_food_box_open.swf" name="Open" enable="Y" default="Y"/>
 	</prop>
-	<prop id="glasses.swf" name="glasses for Endive" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="10060" money="0" sharing="0"/>
+	<prop id="glasses.swf" name="Glasses for endive" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="10060" money="0" sharing="0"/>
 	<prop id="street_house01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10061" money="0" sharing="0"/>
 	<prop id="street_house02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10062" money="0" sharing="0"/>
 	<prop id="endive_chair01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10063" money="0" sharing="0"/>
@@ -898,16 +898,16 @@
 	<prop id="pantry_prop01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10069" money="0" sharing="0"/>
 	<prop id="pantry_prop02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10070" money="0" sharing="0"/>
 	<prop id="msp_entry_door" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_entry_door_entry_door_closed.swf" enable="N" is_premium="N" aid="10071" money="0" sharing="0">
-		<state id="msp_entry_door_entry_door_open.swf" name="open" enable="Y"/>
-		<state id="msp_entry_door_entry_door_closed.swf" name="closed" enable="Y" default="Y"/>
+		<state id="msp_entry_door_entry_door_open.swf" name="Open" enable="Y"/>
+		<state id="msp_entry_door_entry_door_closed.swf" name="Closed" enable="Y" default="Y"/>
 	</prop>
 	<prop id="bridge_prop01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10074" money="0" sharing="0"/>
-	<prop id="spoon02.swf" name="spoon" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10075" money="0" sharing="0"/>
+	<prop id="spoon02.swf" name="Spoon" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10075" money="0" sharing="0"/>
 	<prop id="pantry_table.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10076" money="0" sharing="0"/>
-	<prop id="notes.swf" name="notes" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10056" money="0" sharing="0"/>
-	<prop id="pan.swf" name="pan" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10055" money="0" sharing="0"/>
-	<prop id="pencil.swf" name="pencil" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10054" money="0" sharing="0"/>
-	<prop id="blue_fruit02.swf" name="blueFruit" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8880" money="0" sharing="0">
+	<prop id="notes.swf" name="Notes" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10056" money="0" sharing="0"/>
+	<prop id="pan.swf" name="Pan" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10055" money="0" sharing="0"/>
+	<prop id="pencil.swf" name="Pencil" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10054" money="0" sharing="0"/>
+	<prop id="blue_fruit02.swf" name="Bluefruit" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8880" money="0" sharing="0">
 		<colorset enable="Y" aid="8881">
 	<color r="chProp01">0x1DC0B4</color>
 </colorset>
@@ -915,7 +915,7 @@
 	<c_area>chProp01</c_area>
 </c_parts>
 	</prop>
-	<prop id="orange02.swf" name="orange" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8882" money="0" sharing="0">
+	<prop id="orange02.swf" name="Orange" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8882" money="0" sharing="0">
 		<colorset enable="Y" aid="8883">
 	<color r="chProp01">0xFD9924</color>
 </colorset>
@@ -923,9 +923,9 @@
 	<c_area>chProp01</c_area>
 </c_parts>
 	</prop>
-	<prop id="baffledorf02.swf" name="baffledorf" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8884" money="0" sharing="0"/>
-	<prop id="dofopod02.swf" name="dofopod" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8885" money="0" sharing="0"/>
-	<prop id="apple02.swf" name="apple" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8886" money="0" sharing="0">
+	<prop id="baffledorf02.swf" name="Baffledorf" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8884" money="0" sharing="0"/>
+	<prop id="dofopod02.swf" name="Dofopod" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8885" money="0" sharing="0"/>
+	<prop id="apple02.swf" name="Apple" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8886" money="0" sharing="0">
 		<colorset enable="Y" aid="8887">
 	<color r="chProp01">0xF03D3D</color>
 </colorset>
@@ -936,14 +936,14 @@
 	<prop id="metal_ball02.swf" name="Metal ball" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8888" money="0" sharing="0"/>
 	<prop id="rock02.swf" name="Rock" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8889" money="0" sharing="0"/>
 	<prop id="nofruit_moving02.swf" name="Nofruit moving" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8890" money="0" sharing="0"/>
-	<prop id="roller.swf" name="roller" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10046" money="0" sharing="0"/>
-	<prop id="book.swf" name="book" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10047" money="0" sharing="0"/>
-	<prop id="fruit.swf" name="fruit" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10048" money="0" sharing="0"/>
-	<prop id="cake.swf" name="cake" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10049" money="0" sharing="0"/>
-	<prop id="big_roller.swf" name="big roller" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10050" money="0" sharing="0"/>
-	<prop id="spoon.swf" name="spoon" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10051" money="0" sharing="0"/>
-	<prop id="marsipan.swf" name="marsipan" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10052" money="0" sharing="0"/>
-	<prop id="barrel.swf" name="barrel" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10053" money="0" sharing="0"/>
+	<prop id="roller.swf" name="Roller" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10046" money="0" sharing="0"/>
+	<prop id="book.swf" name="Book" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10047" money="0" sharing="0"/>
+	<prop id="fruit.swf" name="Fruit" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10048" money="0" sharing="0"/>
+	<prop id="cake.swf" name="Cake" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10049" money="0" sharing="0"/>
+	<prop id="big_roller.swf" name="Big roller" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10050" money="0" sharing="0"/>
+	<prop id="spoon.swf" name="Spoon" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10051" money="0" sharing="0"/>
+	<prop id="marsipan.swf" name="Marsipan" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10052" money="0" sharing="0"/>
+	<prop id="barrel.swf" name="Barrel" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10053" money="0" sharing="0"/>
 	<prop id="entry_door_over.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10077" money="0" sharing="0"/>
 	<prop id="pot.swf" name="Pot" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8541" money="0" sharing="0">
 		<colorset enable="Y" aid="8542">
@@ -957,14 +957,14 @@
 		<state id="msp_fireplace_fireplace_fire.swf" name="Fire" enable="Y" default="Y"/>
 		<state id="msp_fireplace_fireplace_nofire.swf" name="No fire" enable="Y"/>
 	</prop>
-	<prop id="msp_big_pot" name="Big Pot" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_big_pot_big_pot.swf" enable="Y" is_premium="N" aid="8571" money="0" sharing="0">
+	<prop id="msp_big_pot" name="Big pot" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_big_pot_big_pot.swf" enable="Y" is_premium="N" aid="8571" money="0" sharing="0">
 		<state id="msp_big_pot_big_pot.swf" name="Empty" enable="Y" default="Y"/>
 		<state id="msp_big_pot_msp_big_boiling_pot.swf" name="Boiling" enable="Y"/>
 	</prop>
 	<prop id="chipper_chopper_still.swf" name="Ole chipper chopper - still" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8574" money="0" sharing="0"/>
 	<prop id="chipper_chopper_process.swf" name="Ole chipper chopper - processing" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8575" money="0" sharing="0"/>
 	<prop id="chipper_chopper_output.swf" name="Ole chipper chopper - output" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8576" money="0" sharing="0"/>
-	<prop id="msp_chipper_chopper" name="monster" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_chipper_chopper_chipper_chopper_still.swf" enable="Y" is_premium="N" aid="8577" money="0" sharing="0">
+	<prop id="msp_chipper_chopper" name="Monster" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_chipper_chopper_chipper_chopper_still.swf" enable="Y" is_premium="N" aid="8577" money="0" sharing="0">
 		<state id="msp_chipper_chopper_chipper_chopper_still.swf" name="Still" enable="Y" default="Y"/>
 		<state id="msp_chipper_chopper_chipper_chopper_process.swf" name="Processing" enable="Y"/>
 		<state id="msp_chipper_chopper_chipper_chopper_output.swf" name="Output" enable="Y"/>
@@ -977,8 +977,8 @@
 	</prop>
 	<prop id="rubbish_head.swf" name="Rubbish on face" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8582" money="0" sharing="0"/>
 	<prop id="stuff_head.swf" name="Stuff on head" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8583" money="0" sharing="0"/>
-	<prop id="explosion.swf" name="explosion FX" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8584" money="0" sharing="0"/>
-	<prop id="recipe_book.swf" name="recipe book from opening scene" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8585" money="0" sharing="0"/>
+	<prop id="explosion.swf" name="Explosion FX" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8584" money="0" sharing="0"/>
+	<prop id="recipe_book.swf" name="Recipe book from opening scene" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8585" money="0" sharing="0"/>
 	<prop id="mess_of_goop.swf" name="Mess of goop" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8586" money="0" sharing="0">
 		<colorset enable="Y" aid="8587">
 	<color r="chProp01">0x66A622</color>
@@ -991,7 +991,7 @@
 	<prop id="fire.swf" name="Fire" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8589" money="0" sharing="0"/>
 	<prop id="clabbage_cobbler.swf" name="Clabbage cobbler" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8590" money="0" sharing="0"/>
 	<prop id="nofruit.swf" name="Nofruit" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8591" money="0" sharing="0"/>
-	<prop id="flibbius_flabbius.swf" name="Flibbius Flabbius" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8592" money="0" sharing="0">
+	<prop id="flibbius_flabbius.swf" name="Flibbius flabbius" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8592" money="0" sharing="0">
 		<colorset enable="Y" aid="8593">
 	<color r="chProp01">0x1FBE1D</color>
 </colorset>
@@ -1017,7 +1017,7 @@
 	<prop id="knife.swf" name="Knife" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8545" money="0" sharing="0"/>
 	<prop id="monster_still.swf" name="Monster - still" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8546" money="0" sharing="0"/>
 	<prop id="monster_spit.swf" name="Monster - spit" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8547" money="0" sharing="0"/>
-	<prop id="msp_monster" name="monster" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_monster_monster_still.swf" enable="Y" is_premium="N" aid="8548" money="0" sharing="0">
+	<prop id="msp_monster" name="Monster" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_monster_monster_still.swf" enable="Y" is_premium="N" aid="8548" money="0" sharing="0">
 		<state id="msp_monster_monster_still.swf" name="Still" enable="Y" default="Y"/>
 		<state id="msp_monster_monster_spit.swf" name="Spit" enable="Y"/>
 		<colorset enable="Y" aid="8551">
@@ -1039,7 +1039,7 @@
 	<prop id="fork.swf" name="Fork" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8555" money="0" sharing="0"/>
 	<prop id="stick.swf" name="Stick" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8556" money="0" sharing="0"/>
 	<prop id="bag.swf" name="Bags" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8557" money="0" sharing="0"/>
-	<prop id="stink_fx.swf" name="Stink fx" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8559" money="0" sharing="0"/>
+	<prop id="stink_fx.swf" name="Stink FX" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8559" money="0" sharing="0"/>
 	<prop id="stinksack_chopper.swf" name="Stinksack chopper" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8560" money="0" sharing="0"/>
 	<prop id="kimchi_float.swf" name="Kimchi - float" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8561" money="0" sharing="0"/>
 	<prop id="kimchi_move.swf" name="Kimchi - move" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8562" money="0" sharing="0"/>
@@ -1064,9 +1064,9 @@
 		<state id="msp_flufferbun_flufferbun.swf" name="Still" enable="Y" default="Y"/>
 		<state id="msp_flufferbun_flufferbun_hit.swf" name="Hit" enable="Y"/>
 	</prop>
-	<prop id="baffledorf.swf" name="baffledorf" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8632" money="0" sharing="0"/>
-	<prop id="dofopod.swf" name="dofopod" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8633" money="0" sharing="0"/>
-	<prop id="apple.swf" name="apple" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8634" money="0" sharing="0">
+	<prop id="baffledorf.swf" name="Baffledorf" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8632" money="0" sharing="0"/>
+	<prop id="dofopod.swf" name="Dofopod" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8633" money="0" sharing="0"/>
+	<prop id="apple.swf" name="Apple" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8634" money="0" sharing="0">
 		<colorset enable="Y" aid="8635">
 	<color r="chProp01">0xF03D3D</color>
 </colorset>
@@ -1089,15 +1089,15 @@
 	<c_area>chProp01</c_area>
 </c_parts>
 	</prop>
-	<prop id="kitchen01_prop01.swf" name="prop 01" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8645" money="0" sharing="0"/>
-	<prop id="kitchen01_prop02.swf" name="prop 02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8646" money="0" sharing="0"/>
-	<prop id="kitchen01_prop03.swf" name="prop 03" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8647" money="0" sharing="0"/>
-	<prop id="kitchen02_prop01.swf" name="prop 01" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8648" money="0" sharing="0"/>
-	<prop id="kitchen02_prop02.swf" name="prop 02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8649" money="0" sharing="0"/>
-	<prop id="kitchen03_prop01.swf" name="prop 01" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8650" money="0" sharing="0"/>
-	<prop id="kitchen03_prop02.swf" name="prop 02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8651" money="0" sharing="0"/>
-	<prop id="flufferbun.swf" name="flufferbun" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8628" money="0" sharing="0"/>
-	<prop id="orange.swf" name="orange" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8626" money="0" sharing="0">
+	<prop id="kitchen01_prop01.swf" name="Prop 01" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8645" money="0" sharing="0"/>
+	<prop id="kitchen01_prop02.swf" name="Prop 02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8646" money="0" sharing="0"/>
+	<prop id="kitchen01_prop03.swf" name="Prop 03" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8647" money="0" sharing="0"/>
+	<prop id="kitchen02_prop01.swf" name="Prop 01" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8648" money="0" sharing="0"/>
+	<prop id="kitchen02_prop02.swf" name="Prop 02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8649" money="0" sharing="0"/>
+	<prop id="kitchen03_prop01.swf" name="Prop 01" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8650" money="0" sharing="0"/>
+	<prop id="kitchen03_prop02.swf" name="Prop 02" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8651" money="0" sharing="0"/>
+	<prop id="flufferbun.swf" name="Flufferbun" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8628" money="0" sharing="0"/>
+	<prop id="orange.swf" name="Orange" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8626" money="0" sharing="0">
 		<colorset enable="Y" aid="8627">
 	<color r="chProp01">0xFD9924</color>
 </colorset>
@@ -1105,8 +1105,8 @@
 	<c_area>chProp01</c_area>
 </c_parts>
 	</prop>
-	<prop id="kitchen03_prop03.swf" name="prop 03" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8652" money="0" sharing="0"/>
-	<prop id="powdered_flart.swf" name="Powdered Flarts" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8598" money="0" sharing="0">
+	<prop id="kitchen03_prop03.swf" name="Prop 03" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8652" money="0" sharing="0"/>
+	<prop id="powdered_flart.swf" name="Powdered flarts" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8598" money="0" sharing="0">
 		<colorset enable="Y" aid="8599">
 	<color r="chProp01">0x99173D</color>
 </colorset>
@@ -1114,10 +1114,10 @@
 	<c_area>chProp01</c_area>
 </c_parts>
 	</prop>
-	<prop id="mevilled_eggs.swf" name="Mevilled Eggs" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8600" money="0" sharing="0"/>
-	<prop id="flibbius_flabbiusplant_still.swf" name="Flibbius Flabbius plant - still" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8601" money="0" sharing="0"/>
-	<prop id="flibbius_flabbiusplant_spit.swf" name="Flibbius Flabbius plant - spit" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8602" money="0" sharing="0"/>
-	<prop id="msp_flibbius_flabbiusplant" name="Flibbius_Flabbiusplant" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_flibbius_flabbiusplant_flibbius_flabbiusplant_still.swf" enable="Y" is_premium="N" aid="8603" money="0" sharing="0">
+	<prop id="mevilled_eggs.swf" name="Mevilled eggs" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8600" money="0" sharing="0"/>
+	<prop id="flibbius_flabbiusplant_still.swf" name="Flibbius flabbius plant - still" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8601" money="0" sharing="0"/>
+	<prop id="flibbius_flabbiusplant_spit.swf" name="Flibbius flabbius plant - spit" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8602" money="0" sharing="0"/>
+	<prop id="msp_flibbius_flabbiusplant" name="Flibbius_flabbiusplant" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_flibbius_flabbiusplant_flibbius_flabbiusplant_still.swf" enable="Y" is_premium="N" aid="8603" money="0" sharing="0">
 		<state id="msp_flibbius_flabbiusplant_flibbius_flabbiusplant_still.swf" name="Still" enable="Y" default="Y"/>
 		<state id="msp_flibbius_flabbiusplant_flibbius_flabbiusplant_spit.swf" name="Spit" enable="Y"/>
 	</prop>
@@ -1126,9 +1126,9 @@
 		<state id="msp_stinksack_stinksack.swf" name="Still" enable="Y" default="Y"/>
 		<state id="msp_stinksack_stinksack_fx.swf" name="Smoke" enable="Y"/>
 	</prop>
-	<prop id="twelve_legs_cave_frog.swf" name="twelve legs cave frog" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8610" money="0" sharing="0"/>
-	<prop id="tubblekin.swf" name="tubblekin" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8611" money="0" sharing="0"/>
-	<prop id="melon.swf" name="melon" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8612" money="0" sharing="0">
+	<prop id="twelve_legs_cave_frog.swf" name="Twelve legs cave frog" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8610" money="0" sharing="0"/>
+	<prop id="tubblekin.swf" name="Tubblekin" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8611" money="0" sharing="0"/>
+	<prop id="melon.swf" name="Melon" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8612" money="0" sharing="0">
 		<colorset enable="Y" aid="8613">
 	<color r="chProp01">0xD29A39</color>
 </colorset>
@@ -1136,17 +1136,17 @@
 	<c_area>chProp01</c_area>
 </c_parts>
 	</prop>
-	<prop id="jellyberries.swf" name="jellyberries" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8614" money="0" sharing="0"/>
+	<prop id="jellyberries.swf" name="Jellyberries" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8614" money="0" sharing="0"/>
 	<prop id="msp_jellyberries" name="Jellyberries" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jellyberries_jellyberries.swf" enable="Y" is_premium="N" aid="8615" money="0" sharing="0">
 		<state id="msp_jellyberries_jellyberries.swf" name="Still" enable="Y" default="Y"/>
 		<state id="msp_jellyberries_jellyberries_hit.swf" name="Hit" enable="Y"/>
 	</prop>
-	<prop id="dadgerbean.swf" name="dadgerbean" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8618" money="0" sharing="0"/>
+	<prop id="dadgerbean.swf" name="Dadgerbean" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8618" money="0" sharing="0"/>
 	<prop id="msp_dadgerbean" name="Dadgerbean" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_dadgerbean_dadgerbean.swf" enable="Y" is_premium="N" aid="8619" money="0" sharing="0">
 		<state id="msp_dadgerbean_dadgerbean.swf" name="Still" enable="Y" default="Y"/>
 		<state id="msp_dadgerbean_dadgerbean_hit.swf" name="Hit" enable="Y"/>
 	</prop>
-	<prop id="coconut.swf" name="coconut" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8622" money="0" sharing="0">
+	<prop id="coconut.swf" name="Coconut" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8622" money="0" sharing="0">
 		<colorset enable="Y" aid="8623">
 	<color r="chProp01">0x9D8065</color>
 </colorset>
@@ -1154,7 +1154,7 @@
 	<c_area>chProp01</c_area>
 </c_parts>
 	</prop>
-	<prop id="blue_fruit.swf" name="blueFruit" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8624" money="0" sharing="0">
+	<prop id="blue_fruit.swf" name="Bluefruit" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8624" money="0" sharing="0">
 		<colorset enable="Y" aid="8625">
 	<color r="chProp01">0x1DC0B4</color>
 </colorset>
@@ -1163,9 +1163,9 @@
 </c_parts>
 	</prop>
 	<prop id="snail_car.swf" name="Snail car" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8558" money="0" sharing="0"/>
-	<prop id="snail_car_cover.swf" name="Snail car Cover" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8852" money="0" sharing="0"/>
+	<prop id="snail_car_cover.swf" name="Snail car cover" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8852" money="0" sharing="0"/>
 	<effect id="transition01_FI.swf" type="ANIME" resize="false" move="false" name="Lemons in" enable="Y" is_premium="N" aid="8848" money="0" sharing="0" display_order="0"/>
 	<effect id="transition01_FO.swf" type="ANIME" resize="false" move="false" name="Lemons out" enable="Y" is_premium="N" aid="8849" money="0" sharing="0" display_order="0"/>
-	<effect id="transition02_FI.swf" type="ANIME" resize="false" move="false" name="Yellow peppers In" enable="Y" is_premium="N" aid="8850" money="0" sharing="0" display_order="0"/>
-	<effect id="transition02_FO.swf" type="ANIME" resize="false" move="false" name="Yellow peppers Out" enable="Y" is_premium="N" aid="8851" money="0" sharing="0" display_order="0"/>
+	<effect id="transition02_FI.swf" type="ANIME" resize="false" move="false" name="Yellow peppers in" enable="Y" is_premium="N" aid="8850" money="0" sharing="0" display_order="0"/>
+	<effect id="transition02_FO.swf" type="ANIME" resize="false" move="false" name="Yellow peppers out" enable="Y" is_premium="N" aid="8851" money="0" sharing="0" display_order="0"/>
 </theme>

@@ -738,25 +738,25 @@
 			<action id="guy_in_love" name="In Love" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_inlove"/>
 			</action>
-			<action id="guy_stand01" name="Standing with transition" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_stand01" name="Standing with transition" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_stand02" name="One hand on hips" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_stand02" name="One hand on hips" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_sitting01" name="Sitting on the floor" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_sitting01" name="Sitting on the floor" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_sitting02" name="Sitting on a chair" loop="Y" totalframe="60" enable="N" is_motion="N" category="Poses / Gestures">
+			<action id="guy_sitting02" name="Sitting on a chair" loop="Y" totalframe="60" enable="N" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_sitting03" name="Sitting on a chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_sitting03" name="Sitting on a chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_cross_arm" name="Crossed arms" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_cross_arm" name="Crossed arms" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_hand_on_hip" name="Hands on hips" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_hand_on_hip" name="Hands on hips" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
 			<action id="guy_talk01" name="Talk neutral" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -765,16 +765,16 @@
 			<action id="guy_talk02" name="Talk angry" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_talk_angry"/>
 			</action>
-			<action id="guy_point01" name="Point straight" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_point01" name="Point straight" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_point02" name="Point down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_point02" name="Point down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_look_down"/>
 			</action>
-			<action id="guy_point03" name="Point up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_point03" name="Point up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_point04" name="Come here!" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_point04" name="Come here!" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_angry"/>
 			</action>
 			<action id="guy_walk" name="Walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
@@ -814,28 +814,28 @@
 			<action id="guy_in_love_ani" name="In Love" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_inlove"/>
 			</action>
-			<action id="guy_stand01_still" name="Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_stand01_still" name="Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_stand02_ani" name="One hand on hips" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_stand02_ani" name="One hand on hips" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_cross_arm_ani" name="Crossed arms" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_cross_arm_ani" name="Crossed arms" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_hand_on_hip_ani" name="Hands on hips" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_hand_on_hip_ani" name="Hands on hips" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_point01_ani" name="Point straight" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_point01_ani" name="Point straight" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_point02_ani" name="Point down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_point02_ani" name="Point down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_look_down"/>
 			</action>
-			<action id="guy_point03_ani" name="Point up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_point03_ani" name="Point up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_point04_ani" name="Come here!" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_point04_ani" name="Come here!" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_angry"/>
 			</action>
 			<action id="guy_surprised_ani" name="Surprised" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
@@ -843,13 +843,13 @@
 			</action>
 		</actionpack>
 <actionpack id="animecommon" name="Common Actions" money="0" sharing="0" enable="Y">
-			<action id="guy_b2_stand01" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_b2_stand01" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_b2_stand02" name="Stand" loop="Y" totalframe="60" enable="N" is_motion="N" category="Poses / Gestures">
+			<action id="guy_b2_stand02" name="Stand" loop="Y" totalframe="60" enable="N" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_b2_stand03" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_b2_stand03" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
 			<action id="guy_b2_cheer_ani" name="Yoshi!" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
@@ -879,16 +879,16 @@
 			<action id="guy_b2_sleep" name="Sleep" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_eye_closed"/>
 			</action>
-			<action id="guy_b2_sittingonchair" name="Sitting - on chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_b2_sittingonchair" name="Sitting - on chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_b2_sittingonchair02" name="Sitting - on chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_b2_sittingonchair02" name="Sitting - on chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
 			<action id="guy_b2_sadwalk" name="Walk - sad" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
 				<selection type="facial" facial_id="head_sad"/>
 			</action>
-			<action id="guy_b2_lookupsky" name="Shield eyes" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_b2_lookupsky" name="Shield eyes" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_look_up"/>
 			</action>
 			<action id="guy_b2_victory02" name="Victory" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
@@ -900,22 +900,22 @@
 			<action id="guy_b2_reject" name="Unacceptable!" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_angry"/>
 			</action>
-			<action id="guy_b2_point01" name="Point" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_b2_point01" name="Point" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
 			<action id="guy_b2_excited" name="Cheering" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_happy"/>
 			</action>
-			<action id="guy_b2_sit01" name="Sitting - Indian style" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_b2_sit01" name="Sitting - Indian style" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_b2_sit02" name="Sitting - Indian style" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_b2_sit02" name="Sitting - Indian style" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_b2_sit03" name="Sitting - Relaxed" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_b2_sit03" name="Sitting - Relaxed" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_b2_lie_down01" name="Lying down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="guy_b2_lie_down01" name="Lying down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
 			<action id="guy_b2_hifive01" name="High five" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -1593,25 +1593,25 @@
 			<action id="in_love" name="In Love" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_inlove"/>
 			</action>
-			<action id="stand01" name="Standing with transition" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="stand01" name="Standing with transition" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="stand02" name="One hand on hips" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="stand02" name="One hand on hips" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="sitting01" name="Sitting on the floor" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="sitting01" name="Sitting on the floor" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="sitting02" name="Sitting on a chair" loop="Y" totalframe="60" enable="N" is_motion="N" category="Poses / Gestures">
+			<action id="sitting02" name="Sitting on a chair" loop="Y" totalframe="60" enable="N" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="sitting03" name="Sitting on a chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="sitting03" name="Sitting on a chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="cross_arm" name="Crossed arms" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="cross_arm" name="Crossed arms" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="hand_on_hip" name="Hands on hips" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="hand_on_hip" name="Hands on hips" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
 			<action id="talk01" name="Talk neutral" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -1620,16 +1620,16 @@
 			<action id="talk02" name="Talk happy" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_talk_happy"/>
 			</action>
-			<action id="point01" name="Point straight" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="point01" name="Point straight" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="point02" name="Point down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="point02" name="Point down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_look_down"/>
 			</action>
-			<action id="point03" name="Point up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="point03" name="Point up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="point04" name="Come here!" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="point04" name="Come here!" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_angry"/>
 			</action>
 			<action id="walk" name="Walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
@@ -1669,28 +1669,28 @@
 			<action id="in_love_ani" name="In Love" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_inlove"/>
 			</action>
-			<action id="stand01_still" name="Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="stand01_still" name="Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="stand02_ani" name="One hand on hips" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="stand02_ani" name="One hand on hips" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="cross_arm_ani" name="Crossed arms" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="cross_arm_ani" name="Crossed arms" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="hand_on_hip_ani" name="Hands on hips" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="hand_on_hip_ani" name="Hands on hips" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="point01_ani" name="Point straight" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="point01_ani" name="Point straight" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="point02_ani" name="Point down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="point02_ani" name="Point down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_look_down"/>
 			</action>
-			<action id="point03_ani" name="Point up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="point03_ani" name="Point up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="point04_ani" name="Come here!" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="point04_ani" name="Come here!" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_angry"/>
 			</action>
 			<action id="surprised_ani" name="Surprised" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
@@ -1698,13 +1698,13 @@
 			</action>
 		</actionpack>
 <actionpack id="animecommon" name="Common Actions" money="0" sharing="0" enable="Y">
-			<action id="b2_stand01" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="b2_stand01" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="b2_stand02" name="Stand" loop="Y" totalframe="60" enable="N" is_motion="N" category="Poses / Gestures">
+			<action id="b2_stand02" name="Stand" loop="Y" totalframe="60" enable="N" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="b2_stand03" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="b2_stand03" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
 			<action id="b2_cheer_ani" name="Yoshi!" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
@@ -1734,16 +1734,16 @@
 			<action id="b2_sleep" name="Sleep" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_eye_closed"/>
 			</action>
-			<action id="b2_sittingonchair" name="Sitting - on chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="b2_sittingonchair" name="Sitting - on chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="b2_sittingonchair02" name="Sitting - on chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="b2_sittingonchair02" name="Sitting - on chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
 			<action id="b2_sadwalk" name="Walk - sad" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
 				<selection type="facial" facial_id="head_sad"/>
 			</action>
-			<action id="b2_lookupsky" name="Shield eyes" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="b2_lookupsky" name="Shield eyes" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_look_up"/>
 			</action>
 			<action id="b2_victory02" name="Victory" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
@@ -1755,22 +1755,22 @@
 			<action id="b2_reject" name="Unacceptable!" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_angry"/>
 			</action>
-			<action id="b2_point01" name="Point" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="b2_point01" name="Point" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
 			<action id="b2_excited" name="Cheering" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_happy"/>
 			</action>
-			<action id="b2_sit01" name="Sitting - Indian style" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="b2_sit01" name="Sitting - Indian style" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="b2_sit02" name="Sitting - Indian style" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="b2_sit02" name="Sitting - Indian style" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="b2_sit03" name="Sitting - Relaxed" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="b2_sit03" name="Sitting - Relaxed" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="b2_lie_down01" name="Lying down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
+			<action id="b2_lie_down01" name="Lying down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
 			<action id="b2_hifive01" name="High five" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">

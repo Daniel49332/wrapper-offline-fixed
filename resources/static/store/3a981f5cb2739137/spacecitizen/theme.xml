@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<theme id="spacecitizen" name="Space Citizens" cc_theme_id="spacecitizen">
+<theme id="spacecitizen" name="Space citizens" cc_theme_id="spacecitizen">
 	<background id="space01_bg.swf" name="" enable="N" default="N" is_premium="N" aid="20514" money="0" sharing="0"/>
 	<background id="space16_bg.swf" name="" enable="N" default="N" is_premium="N" aid="20529" money="0" sharing="0"/>
 	<background id="space15_bg.swf" name="" enable="N" default="N" is_premium="N" aid="20528" money="0" sharing="0"/>
@@ -221,26 +221,26 @@
 	<prop id="explosion03.swf" name="Explosion" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="20488" money="0" sharing="0"/>
 	<prop id="planet01.swf" name="Planet" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="20489" money="0" sharing="0"/>
 	<prop id="msp_spaceship02" name="Spaceship" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_spaceship02_ship02.swf" enable="Y" is_premium="N" aid="20490" money="0" sharing="0">
-		<state id="msp_spaceship02_ship02.swf" name="forward" enable="Y" default="Y"/>
-		<state id="msp_spaceship02_ship02_down.swf" name="side - take off" enable="Y"/>
-		<state id="msp_spaceship02_ship02_fire.swf" name="side - fire lasers" enable="Y"/>
-		<state id="msp_spaceship02_ship02_fire_b.swf" name="side - fire cannon" enable="Y"/>
-		<state id="msp_spaceship02_ship02_side.swf" name="side - forward" enable="Y"/>
-		<state id="msp_spaceship02_ship02_still.swf" name="side - still" enable="Y"/>
-		<state id="msp_spaceship02_ship02_topstill.swf" name="still" enable="Y"/>
+		<state id="msp_spaceship02_ship02.swf" name="Forward" enable="Y" default="Y"/>
+		<state id="msp_spaceship02_ship02_down.swf" name="Side - take off" enable="Y"/>
+		<state id="msp_spaceship02_ship02_fire.swf" name="Side - fire lasers" enable="Y"/>
+		<state id="msp_spaceship02_ship02_fire_b.swf" name="Side - fire cannon" enable="Y"/>
+		<state id="msp_spaceship02_ship02_side.swf" name="Side - forward" enable="Y"/>
+		<state id="msp_spaceship02_ship02_still.swf" name="Side - still" enable="Y"/>
+		<state id="msp_spaceship02_ship02_topstill.swf" name="Still" enable="Y"/>
 	</prop>
 	<prop id="msp_explosion" name="Explosion" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_explosion_explosion01.swf" enable="Y" is_premium="N" aid="20498" money="0" sharing="0">
-		<state id="msp_explosion_explosion01.swf" name="loop" enable="Y" default="Y"/>
-		<state id="msp_explosion_explosion02.swf" name="multi" enable="Y"/>
-		<state id="msp_explosion_explosion03.swf" name="once" enable="Y"/>
+		<state id="msp_explosion_explosion01.swf" name="Loop" enable="Y" default="Y"/>
+		<state id="msp_explosion_explosion02.swf" name="Multi" enable="Y"/>
+		<state id="msp_explosion_explosion03.swf" name="Once" enable="Y"/>
 	</prop>
 	<prop id="msp_sci_ship01" name="Spaceship" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sci_ship01_ship01.swf" enable="Y" is_premium="N" aid="20502" money="0" sharing="0">
-		<state id="msp_sci_ship01_ship01.swf" name="forward" enable="Y" default="Y"/>
-		<state id="msp_sci_ship01_ship01_down.swf" name="side - take off" enable="Y"/>
-		<state id="msp_sci_ship01_ship01_fire.swf" name="side - fire lasers" enable="Y"/>
-		<state id="msp_sci_ship01_ship01_side.swf" name="side - forward" enable="Y"/>
-		<state id="msp_sci_ship01_ship01_still.swf" name="side - still" enable="Y"/>
-		<state id="msp_sci_ship01_ship01_topstill.swf" name="still" enable="Y"/>
+		<state id="msp_sci_ship01_ship01.swf" name="Forward" enable="Y" default="Y"/>
+		<state id="msp_sci_ship01_ship01_down.swf" name="Side - take off" enable="Y"/>
+		<state id="msp_sci_ship01_ship01_fire.swf" name="Side - fire lasers" enable="Y"/>
+		<state id="msp_sci_ship01_ship01_side.swf" name="Side - forward" enable="Y"/>
+		<state id="msp_sci_ship01_ship01_still.swf" name="Side - still" enable="Y"/>
+		<state id="msp_sci_ship01_ship01_topstill.swf" name="Still" enable="Y"/>
 	</prop>
 	<prop id="05gun01_still.swf" name="Gun" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="20509" money="0" sharing="0" handstyle="gun"/>
 	<prop id="05gun02_still.swf" name="Gun" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="20510" money="0" sharing="0" handstyle="gun"/>
