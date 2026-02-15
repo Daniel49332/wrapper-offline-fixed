@@ -11,15 +11,14 @@ const DEV_PORT = viteConfig.server.port || 5173;
 const BASE_OPTIONS = {
 	bundle: true,
 	external: [
+		"electron",
 		"@ffmpeg-installer/ffmpeg",
 		"@ffprobe-installer/ffprobe",
-		"electron",
-		"es6-promise",
 		"formidable",
-		"jimp",
 	],
 	platform: "node",
 	target: "node14",
+	minify: true,
 };
 
 const readEnv = () => {
@@ -37,11 +36,6 @@ let options = {
 		define: readEnv(),
 		entryPoints: ["src/main/index.ts"],
 		outfile: "dist/main.js",
-	},
-	preload: {
-		...BASE_OPTIONS,
-		entryPoints: ["src/preload.js"],
-		outfile: "dist/preload.js",
 	},
 };
 
@@ -81,8 +75,7 @@ function restartMain() {
 
 async function initContexts() {
 	return {
-		main: await context(options.main),
-		preload: await context(options.preload)
+		main: await context(options.main)
 	};
 }
 
@@ -155,7 +148,6 @@ if (process.argv.includes("--dev")) {
 				"@ffmpeg-installer/ffmpeg",
 				"@ffprobe-installer/ffprobe",
 				"formidable",
-				"jimp",
 			].indexOf(a[0]) != -1;
 		})),
 		scripts: {
@@ -165,7 +157,7 @@ if (process.argv.includes("--dev")) {
 	};
 	writeFileSync("dist/package.json", JSON.stringify(pkgJson));
 	spawn(
-		"npm i --audit=false --fund=false --loglevel=error --no-package-lock",
+		"npm i --omit=dev --no-bin-links --audit=false --fund=false --loglevel=error --no-package-lock",
 		{
 			shell: true,
 			cwd: join(import.meta.dirname, "../dist"),
