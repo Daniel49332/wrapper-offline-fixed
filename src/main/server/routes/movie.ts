@@ -53,9 +53,10 @@ group.route("GET", "/api/movie/list", (req, res) => {
 			return res.json({ movies });
 		case "movie":
 		default:
-			movies = Database.select("movies");
+			const dbRes = Database.select("movies");
+			movies = Array.isArray(dbRes) ? dbRes : []; 
 	}
-	movies = movies.filter(m => {
+	movies = (movies || []).filter(m => {
 		return basePath ? m.parent_id == basePath : !m.parent_id;
 	});
 	const folders = Database.select("movie_folders", {

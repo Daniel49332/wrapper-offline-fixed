@@ -207,7 +207,7 @@ export default class MovieModel {
 		}
 	}
 	static renameFolder(path:string, newName:string) {
-		let movies = database.select("movies");
+		let movies = (database.select("movies") || []) as Movie[];
 		movies = movies.filter((m) => m.parent_id && m.parent_id.startsWith(path));
 		console.log(path)
 		for (const movie of movies) {
@@ -227,8 +227,8 @@ export default class MovieModel {
 	}
 	static deleteFolder(path:string) {
 		let newParent = path.split("/").slice(0, -1).join("/") ?? "";
-		const movies = database.select("movies").filter(m => {
-			return m.parent_id && m.parent_id.startsWith(path)
+		const movies = (database.select("movies") || []).filter(m => {
+        return m.parent_id && m.parent_id.startsWith(path)
 		});
 		const ids = movies.map(m => [m.id, m.parent_id]);
 		for (const [id, path] of ids) {
@@ -243,16 +243,10 @@ export default class MovieModel {
 		}
 	}
 	static exists(id:string): boolean {
-		if (
-			!database.get("movies", id) &&
-			database.select("assets", {
-				id: id,
-				type: "movie"
-			}).length <= 0
-		) {
-			return false;
-		}
-		return true;
+		const inMovies = database.get("movies", id);
+		const inAssets = (database.select("assets", { id: id, type: "movie" }) || []).length > 0;
+		
+		return !!(inMovies || inAssets);
 	}
 	static thumb(id:string) {
 		const filepath = join(this.folder, `${id}.png`);

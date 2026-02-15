@@ -137,14 +137,14 @@ export class Database {
 		where?:Record<string, string | string[]>
 	):DBJsonArrayProp<K>[] {
 		this.refresh();
-
-		const category = this.json[from];
-		const filtered = category.filter((val:Record<string, unknown>) => {
+		const category = (this.json[from] || []) as Record<string, unknown>[];
+		const filtered = (category || []).filter((val: Record<string, unknown>) => {
 			for (const [key, value] of Object.entries(where || {})) {
 				if (typeof value == "object") {
-					return value.includes((val[key] || "").toString());
-				}
-				if (val[key] && val[key] != value) {
+					if (!value.includes((val[key] || "").toString())) {
+						return false;
+					}
+				} else if (val[key] && val[key] != value) {
 					return false;
 				}
 			}

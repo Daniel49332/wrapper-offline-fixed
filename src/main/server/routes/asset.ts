@@ -48,7 +48,8 @@ group.route("GET", "/api/asset/list", (req, res) => {
 	const filter = {
 		type: ["bg", "prop", "sound"] as any as Asset["type"]
 	};
-	res.json(AssetModel.list(filter, false));
+	const list = AssetModel.list(filter, false) || [];
+	res.json(list);
 });
 group.route("POST", "/api_v2/assets/imported", (req, res) => {
 	if (!req.body.data.type) {
