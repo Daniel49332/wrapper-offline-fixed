@@ -175,13 +175,13 @@ group.route("POST", "/api_v2/asset/update/", (req, res) => {
 group.route("POST", "/api/asset/upload", async (req, res) => {
 	const file = req.files.import;
 	if (typeof file === "undefined" || !req.body.type || !req.body.subtype) {
-		return res.status(400).json({msg:"Missing required parameters."});
+		return res.status(400).json({msg:"Missing required parameters"});
 	}
 	const { filepath } = file;
 	const filename = path.parse(file.originalFilename).name;
 	const ext = (await fromFile(filepath))?.ext;
 	if (typeof ext === "undefined") {
-		return res.status(400).json({msg:"File type could not be determined."});
+		return res.status(400).json({msg:"File type could not be determined"});
 	}
 	let info:Partial<Asset> = {
 		type: req.body.type,
@@ -191,7 +191,7 @@ group.route("POST", "/api/asset/upload", async (req, res) => {
 
 	const ok = info.subtype == "video" ? "video" : info.type;
 	if ((fileTypes[ok] || []).indexOf(ext) < 0) {
-		return res.status(400).json({msg:"Invalid file type."});
+		return res.status(400).json({msg:"Invalid file type"});
 	}
 	try {
 		switch (info.type) {
@@ -289,7 +289,7 @@ group.route("POST", "/api/asset/upload", async (req, res) => {
 				break;
 			}
 			default: {
-				return res.status(400).json({msg:"Invalid asset type."});
+				return res.status(400).json({msg:"Invalid asset type"});
 			}
 		}
 		res.json(info);
@@ -312,7 +312,7 @@ group.route("POST", "/goapi/saveSound/", async (req, res) => {
 		filepath = req.files.Filedata.filepath;
 		ext = (await fromFile(filepath))?.ext;
 		if (!ext) {
-			return res.status(400).json({msg:"File type could not be determined."});
+			return res.status(400).json({msg:"File type could not be determined"});
 		}
 	}
 	let info:Partial<Asset> = {
@@ -363,7 +363,7 @@ group.route("POST", "/goapi/saveSound/", async (req, res) => {
 	} catch (e) {
 		console.error("Mic save post-processing error:", e);
 		if (fs.existsSync(filepath)) fs.unlinkSync(filepath);
-		res.end(`1<error><code>ERR_ASSET_500</code><message>Mic processing failed</message></error>`);
+			res.end(`1<error><code>ERR_ASSET_500</code><message>Mic processing failed</message></error>`);
 	}
 });
 
