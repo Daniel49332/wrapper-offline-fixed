@@ -326,7 +326,6 @@ group.route("POST", "/goapi/saveSound/", async (req, res) => {
 			stream = await fileUtil.convertToMp3(filepath, ext);
 			const temppath = path.join(Directories.asset, `${randomBytes(16).toString("hex")}.mp3`);
 			tempToUnlink = temppath;
-
 			const writeStream = fs.createWriteStream(temppath);
 			await new Promise((resolve, reject) => {
 				stream.pipe(writeStream)
@@ -338,19 +337,33 @@ group.route("POST", "/goapi/saveSound/", async (req, res) => {
 			}
 			filepath = temppath;
 		}
-		info.duration = await mp3Duration(filepath) * 1e3;
-		const id = await AssetModel.save(filepath, "mp3", info as Asset);
-
+		const ffdata = await asyncFfprobe(filepath);
+		const duration = Math.floor(ffdata.format.duration * 1e3);
+		const meta = {
+			duration: duration,
+			type: "sound",
+			subtype: info.subtype || "voiceover",
+			title: info.title || "Mic recording"
+		};
+		const id = await AssetModel.save(filepath, "mp3", meta);
 		if (tempToUnlink && fs.existsSync(tempToUnlink)) {
 			fs.unlinkSync(tempToUnlink);
 		}
 		if (isRecord && ext == "mp3" && fs.existsSync(filepath)) {
 			fs.unlinkSync(filepath);
 		}
-		res.end(`0<response><asset><id>${id}</id><enc_asset_id>${id}</enc_asset_id><type>sound</type><subtype>${info.subtype}</subtype><title>${info.title}</title><published>0</published><tags></tags><duration>${info.duration}</duration><downloadtype>progressive</downloadtype><file>${id}</file></asset></response>`);
+		const safeTitle = (meta.title || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+		const responseXml = `<asset><id>${id}</id><enc_asset_id>${id}</enc_asset_id><type>sound</type><subtype>${meta.subtype}</subtype><title>${safeTitle}</title><published>0</published><tags></tags><duration>${duration}</duration><downloadtype>progressive</downloadtype><file>${id}</file></asset>`;
+		
+		res.setHeader("Content-Type", "text/html; charset=UTF-8");
+		res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+		res.setHeader("Pragma", "no-cache");
+		res.setHeader("Expires", "0");
+		res.end(`0<response>${responseXml}</response>`);
 	} catch (e) {
-		console.error(req.parsedUrl.pathname, "failed. Error:", e);
-		res.status(500).json({status:"error"});
+		console.error("Mic save post-processing error:", e);
+		if (fs.existsSync(filepath)) fs.unlinkSync(filepath);
+		res.end(`1<error><code>ERR_ASSET_500</code><message>Mic processing failed</message></error>`);
 	}
 });
 
