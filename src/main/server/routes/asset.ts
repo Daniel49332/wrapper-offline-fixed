@@ -353,7 +353,7 @@ group.route("POST", "/goapi/saveSound/", async (req, res) => {
 			fs.unlinkSync(filepath);
 		}
 		const safeTitle = (meta.title || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-		const responseXml = `<asset><id>${id}</id><enc_asset_id>${id}</enc_asset_id><type>sound</type><subtype>voiceover</subtype><title>${safeTitle}</title><published>0</published><tags>speech</tags><duration>${duration}</duration><downloadtype>progressive</downloadtype><file>${id}</file></asset>`;
+		const responseXml = `<asset><id>${id}</id><enc_asset_id>${id}</enc_asset_id><type>sound</type><subtype>voiceover</subtype><title>${safeTitle}</title><published>1</published><tags>speech</tags><duration>${duration}</duration><downloadtype>progressive</downloadtype><file>${id}</file></asset>`;
 		res.setHeader("Content-Type", "text/html; charset=UTF-8");
 		res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
 		res.setHeader("Pragma", "no-cache");
