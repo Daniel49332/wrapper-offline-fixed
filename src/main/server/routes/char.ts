@@ -11,7 +11,14 @@ const defaultTypes = {
 	cctoonadventure: "default",
 	family: "adam",
 };
-
+const bfTypes = {
+	man: "default&ft=_sticky_filter_guy",
+	woman: "default&ft=_sticky_filter_girl",
+	boy: "kid&ft=_sticky_filter_littleboy",
+	girl: "kid&ft=_sticky_filter_littlegirl",
+	heavy_man: "heavy&ft=_sticky_filter_heavyguy",
+	heavy_woman: "heavy&ft=_sticky_filter_heavygirl"
+};
 const thumbUrl = process.env.THUMB_BASE_URL;
 const group = new httpz.Group();
 
@@ -23,7 +30,6 @@ group.route("GET", "/api/char/list", (req, res) => {
 	}
 	return res.json(Database.select("assets", filter));
 });
-
 group.route("POST", "/goapi/getCcCharCompositionXml/", (req, res) => {
 	const id = req.body.assetId;
 	if (typeof id == "undefined") {
@@ -43,17 +49,15 @@ group.route("POST", "/goapi/getCcCharCompositionXml/", (req, res) => {
 		res.status(500).end("1");
 	}
 });
-
 group.route("GET", /\/stock_thumbs\/([\S]+)/, (req, res) => {
 	const filepath = path.join(__dirname, "../../", thumbUrl, req.matches[1]);
 	if (fs.existsSync(filepath)) {
 		fs.createReadStream(filepath).pipe(res);
 	} else {
-		console.warn(req.parsedUrl.pathname, "attempted on nonexistent asset.");
+		console.warn(req.parsedUrl.pathname, "Attempted on nonexistent asset");
 		res.status(404).end();
 	}
 });
-
 group.route("GET", /\/go\/character_creator\/(\w+)(\/\w+)?(\/.+)?$/, (req, res) => {
 	let [, theme, mode, id] = req.matches;
 
@@ -66,16 +70,15 @@ group.route("GET", /\/go\/character_creator\/(\w+)(\/\w+)?(\/.+)?$/, (req, res) 
 			redirect = `/cc?themeId=${theme}&original_asset_id=${id.substring(1)}${external}`;
 			break;
 		} default: {
-			const type = req.query.type || defaultTypes[theme] || "";
+			const type = theme == "business" ?
+				bfTypes[req.query.type || "woman"] || "":
+				req.query.type || defaultTypes[theme] || "";
 			redirect = `/cc?themeId=${theme}&bs=${type}${external}`;
 			break;
 		}
 	}
-	
 	res.redirect(redirect);
 });
-
-
 group.route("POST", "/goapi/saveCCCharacter/", (req, res) => {
 	if (!req.body.body || !req.body.thumbdata || !req.body.themeId) {
 		return res.status(400).end("Missing one or more fields");
@@ -93,7 +96,6 @@ group.route("POST", "/goapi/saveCCCharacter/", (req, res) => {
 	CharModel.saveThumb(id, thumb);
 	res.end("0" + id);
 });
-
 group.route("POST", "/goapi/saveCCThumbs/", (req, res) => {
 	const id = req.body.assetId;
 	if (typeof id == "undefined" || !req.body.thumbdata) {
@@ -108,7 +110,6 @@ group.route("POST", "/goapi/saveCCThumbs/", (req, res) => {
 		res.end("1");
 	}
 });
-
 group.route("*", "/api/char/upload", (req, res) => {
 	const charFile = req.files.import;
 	if (!charFile) return res.status(400).json({ msg: "No file uploaded" });
