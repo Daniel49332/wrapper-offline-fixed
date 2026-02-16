@@ -18,17 +18,19 @@ group.route("POST", /\/goapi\/assignwatermark\/movie\/([\S]+)\/([\S]+)/, (req, r
 	const mId = req.matches[1];
 	let wId = req.matches[2];
 
-	if (wId == "0dhteqDBt5nY") { // reset the wm if it's the none id
-		wId = undefined;
-	} else if (wId != "0vTLbQy9hG7k" && !WatermarkModel.exists(wId)) {
-		return res.status(404).end("1Watermark does not exist");
+	if (wId == "0dhteqDBt5nY" || wId == "none") {
+		wId = "none";
+	}
+	
+	if (mId === "0") {
+		Settings.defaultWatermark = wId;
+		return res.end("0");
 	}
 
 	if (MovieModel.setWatermark(mId, wId)) {
 		res.end("0");
-		res.log(`Watermark #${wId} assigned to movie #${mId}`);
 	} else {
-		res.status(404).end("1Movie does not exist");
+		res.status(404).end("Movie does not exist");
 	}
 });
 group.route("POST", "/api/watermark/set_default", (req, res) => {
