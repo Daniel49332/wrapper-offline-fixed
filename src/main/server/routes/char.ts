@@ -11,14 +11,7 @@ const defaultTypes = {
 	cctoonadventure: "default",
 	family: "adam",
 };
-const bfTypes = {
-	man: "default&ft=_sticky_filter_guy",
-	woman: "default&ft=_sticky_filter_girl",
-	boy: "kid&ft=_sticky_filter_littleboy",
-	girl: "kid&ft=_sticky_filter_littlegirl",
-	heavy_man: "heavy&ft=_sticky_filter_heavyguy",
-	heavy_woman: "heavy&ft=_sticky_filter_heavygirl"
-};
+
 const thumbUrl = process.env.THUMB_BASE_URL;
 const group = new httpz.Group();
 
@@ -70,9 +63,6 @@ group.route("GET", /\/go\/character_creator\/(\w+)(\/\w+)?(\/.+)?$/, (req, res) 
 			redirect = `/cc?themeId=${theme}&original_asset_id=${id.substring(1)}${external}`;
 			break;
 		} default: {
-			const type = theme == "business" ?
-				bfTypes[req.query.type || "woman"] || "":
-				req.query.type || defaultTypes[theme] || "";
 			redirect = `/cc?themeId=${theme}&bs=${type}${external}`;
 			break;
 		}
