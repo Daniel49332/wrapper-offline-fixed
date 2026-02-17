@@ -2600,6 +2600,142 @@
 			"arg": "Dog",
 			"desc": "Dog"
 		},
+		"amy_pw": {
+			"country": "GB",
+			"language": "en",
+			"gender": "F",
+			"source": "pollypluswavenet",
+			"arg": "Amy",
+			"desc": "Amy (PW)"
+		},
+		"brian_pw": {
+			"country": "GB",
+			"language": "en",
+			"gender": "M",
+			"source": "pollypluswavenet",
+			"arg": "Brian",
+			"desc": "Brian (PW)"
+		},
+		"chantal_pw": {
+			"country": "CA",
+			"language": "fr",
+			"gender": "F",
+			"source": "pollypluswavenet",
+			"arg": "Chantal",
+			"desc": "Chantal (PW)"
+		},
+		"emma_pw": {
+			"country": "GB",
+			"language": "en",
+			"gender": "F",
+			"source": "pollypluswavenet",
+			"arg": "Emma",
+			"desc": "Emma (PW)"
+		},
+		"hans_pw": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+			"source": "pollypluswavenet",
+			"arg": "Hans",
+			"desc": "Hans (PW)"
+		},
+		"ivy_pw": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "pollypluswavenet",
+			"arg": "Ivy",
+			"desc": "Ivy (PW)"
+		},
+		"joanna_pw": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "pollypluswavenet",
+			"arg": "Joanna",
+			"desc": "Joanna (PW)"
+		},
+		"joey_pw": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "pollypluswavenet",
+			"arg": "Joey",
+			"desc": "Joey (PW)"
+		},
+		"justin_pw": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "pollypluswavenet",
+			"arg": "Justin",
+			"desc": "Justin (PW)"
+		},
+		"kendra_pw": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "pollypluswavenet",
+			"arg": "Kendra",
+			"desc": "Kendra (PW)"
+		},
+		"kimberly_pw": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "pollypluswavenet",
+			"arg": "Kimberly",
+			"desc": "Kimberly (PW)"
+		},
+		"mathieu_pw": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+			"source": "pollypluswavenet",
+			"arg": "Mathieu",
+			"desc": "Mathieu (PW)"
+		},
+		"maxim_pw": {
+			"country": "RU",
+			"language": "ru",
+			"gender": "M",
+			"source": "pollypluswavenet",
+			"arg": "Maxim",
+			"desc": "Maxim (PW)"
+		},
+		"mizuki_pw": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "F",
+			"source": "pollypluswavenet",
+			"arg": "Mizuki",
+			"desc": "Mizuki (PW)"
+		},
+		"nicole_pw": {
+			"country": "AU",
+			"language": "en",
+			"gender": "F",
+			"source": "pollypluswavenet",
+			"arg": "Nicole",
+			"desc": "Nicole (PW)"
+		},
+		"raveena_pw": {
+			"country": "IN",
+			"language": "en",
+			"gender": "F",
+			"source": "pollypluswavenet",
+			"arg": "Raveena",
+			"desc": "Raveena (PW)"
+		},
+		"salli_pw": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "pollypluswavenet",
+			"arg": "Salli",
+			"desc": "Salli (PW)"
+		},
 		"zeina": {
 			"country": "SA",
 			"language": "ar",
@@ -2616,15 +2752,6 @@
 			"arg": "/english/australian/48-male-voice-russell.html",
 			"desc": "Russell"
 		},
-		"russell-TTSTool": {
-			"country": "AU",
-			"language": "en",
-			"gender": "M",
-			"source": "readaloud",
-			"arg": "Amazon Australian English (Russell)",
-			"lang": "en-AU",
-			"desc": "Russell (TTSTool)"
-		},
 		"nicole": {
 			"country": "AU",
 			"language": "en",
@@ -2632,15 +2759,6 @@
 			"source": "readloud",
 			"arg": "/english/australian/43-female-voice-nicole.html",
 			"desc": "Nicole"
-		},
-		"nicole-TTSTool": {
-			"country": "AU",
-			"language": "en",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon Australian English (Nicole)",
-			"lang": "en-AU",
-			"desc": "Nicole (TTSTool)"
 		},
 		"ricardo": {
 			"country": "BR",
@@ -2650,15 +2768,6 @@
 			"arg": "/portuguese/brasilian/46-voz-masculina-ricardo.html",
 			"desc": "Ricardo"
 		},
-		"ricardo-TTSTool": {
-			"country": "BR",
-			"language": "pt",
-			"gender": "M",
-			"source": "readaloud",
-			"arg": "Amazon Brazilian Portuguese (Ricardo)",
-			"lang": "pt-BR",
-			"desc": "Ricardo (TTSTool)"
-		},
 		"camila": {
 			"country": "BR",
 			"language": "pt",
@@ -2666,15 +2775,6 @@
 			"source": "pollytwo",
 			"arg": "Camila",
 			"desc": "Camila"
-		},
-		"vitoria-TTSTool": {
-			"country": "BR",
-			"language": "pt",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon Brazilian Portuguese (Vitoria)",
-			"lang": "pt-BR",
-			"desc": "Vitória (TTSTool)"
 		},
 		"amy": {
 			"country": "GB",
@@ -2684,15 +2784,6 @@
 			"arg": "/english/british/5-female-voice-amy.html",
 			"desc": "Amy (Readloud)"
 		},
-		"amy-TTSTool": {
-			"country": "GB",
-			"language": "en",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon British English (Amy)",
-			"lang": "en-GB",
-			"desc": "Amy (TTSTool)"
-		},
 		"emma": {
 			"country": "GB",
 			"language": "en",
@@ -2700,15 +2791,6 @@
 			"source": "readloud",
 			"arg": "/english/british/17-female-voice-emma.html",
 			"desc": "Emma"
-		},
-		"emma-TTSTool": {
-			"country": "GB",
-			"language": "en",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon British English (Emma)",
-			"lang": "en-GB",
-			"desc": "Emma (TTSTool)"
 		},
 		"brian": {
 			"country": "GB",
@@ -2718,15 +2800,6 @@
 			"arg": "/english/british/1-male-voice-brian.html",
 			"desc": "Brian"
 		},
-		"brian-TTSTool": {
-			"country": "GB",
-			"language": "en",
-			"gender": "M",
-			"source": "readaloud",
-			"arg": "Amazon British English (Brian)",
-			"lang": "en-GB",
-			"desc": "Brian (TTSTool)"
-		},
 		"chantal": {
 			"country": "CA",
 			"language": "fr",
@@ -2734,15 +2807,6 @@
 			"source": "readloud",
 			"arg": "/french/canadian/13-voix-de-femme-chantal.html",
 			"desc": "Chantal"
-		},
-		"chantal-TTSTool": {
-			"country": "CA",
-			"language": "fr",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon Canadian French (Chantal)",
-			"lang": "fr-CA",
-			"desc": "Chantal (TTSTool)"
 		},
 		"enrique": {
 			"country": "ES",
@@ -2752,15 +2816,6 @@
 			"arg": "/spanish/castilian/18-voz-masculina-enrique.html",
 			"desc": "Enrique"
 		},
-		"enrique-TTSTool": {
-			"country": "ES",
-			"language": "es",
-			"gender": "M",
-			"source": "readaloud",
-			"arg": "Amazon Castilian Spanish (Enrique)",
-			"lang": "es-ES",
-			"desc": "Enrique (TTSTool)"
-		},
 		"conchita": {
 			"country": "ES",
 			"language": "es",
@@ -2768,15 +2823,6 @@
 			"source": "readloud",
 			"arg": "/spanish/castilian/14-voz-femenina-conchita.html",
 			"desc": "Conchita"
-		},
-		"conchita-TTSTool": {
-			"country": "ES",
-			"language": "es",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon Castilian Spanish (Conchita)",
-			"lang": "es-ES",
-			"desc": "Conchita (TTSTool)"
 		},
 		"lucia": {
 			"country": "ES",
@@ -2794,15 +2840,6 @@
 			"arg": "/danish/37-mandlig-stemme-mads.html",
 			"desc": "Mads"
 		},
-		"mads-TTSTool": {
-			"country": "DK",
-			"language": "da",
-			"gender": "M",
-			"source": "readaloud",
-			"arg": "Amazon Danish (Mads)",
-			"lang": "da-DK",
-			"desc": "Mads (TTSTool)"
-		},
 		"naja": {
 			"country": "DK",
 			"language": "da",
@@ -2810,15 +2847,6 @@
 			"source": "readloud",
 			"arg": "/danish/42-kvinde-stemme-naja.html",
 			"desc": "Naja"
-		},
-		"naja-TTSTool": {
-			"country": "DK",
-			"language": "da",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon Danish (Naja)",
-			"lang": "da-DK",
-			"desc": "Naja (TTSTool)"
 		},
 		"lotte": {
 			"country": "NL",
@@ -2828,15 +2856,6 @@
 			"arg": "/dutch/36-vrouwelijke-stem-lotte.html",
 			"desc": "Lotte"
 		},
-		"lotte-TTSTool": {
-			"country": "NL",
-			"language": "nl",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon Dutch (Lotte)",
-			"lang": "nl-NL",
-			"desc": "Lotte (TTSTool)"
-		},
 		"ruben": {
 			"country": "NL",
 			"language": "nl",
@@ -2845,24 +2864,6 @@
 			"arg": "/dutch/47-mannelijke-stem-ruben.html",
 			"desc": "Ruben"
 		},
-		"ruben-TTSTool": {
-			"country": "NL",
-			"language": "nl",
-			"gender": "M",
-			"source": "readaloud",
-			"arg": "Amazon Dutch (Ruben)",
-			"lang": "nl-NL",
-			"desc": "Ruben (TTSTool)"
-		},
-		"celine-TTSTool": {
-			"country": "FR",
-			"language": "fr",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon French (Celine)",
-			"lang": "fr-FR",
-			"desc": "Céline (TTSTool)"
-		},
 		"mathieu": {
 			"country": "FR",
 			"language": "fr",
@@ -2870,15 +2871,6 @@
 			"source": "readloud",
 			"arg": "/french/40-voix-masculine-mathieu.html",
 			"desc": "Mathieu"
-		},
-		"mathieu-TTSTool": {
-			"country": "FR",
-			"language": "fr",
-			"gender": "M",
-			"source": "readaloud",
-			"arg": "Amazon French (Mathieu)",
-			"lang": "fr-FR",
-			"desc": "Mathieu (TTSTool)"
 		},
 		"lea": {
 			"country": "FR",
@@ -2896,15 +2888,6 @@
 			"arg": "/german/24-mannerstimme-hans.html",
 			"desc": "Hans"
 		},
-		"hans-TTSTool": {
-			"country": "DE",
-			"language": "de",
-			"gender": "M",
-			"source": "readaloud",
-			"arg": "Amazon German (Hans)",
-			"lang": "de-DE",
-			"desc": "Hans (TTSTool)"
-		},
 		"marlene": {
 			"country": "DE",
 			"language": "de",
@@ -2912,15 +2895,6 @@
 			"source": "readloud",
 			"arg": "/german/39-frauenstimme-marlene.html",
 			"desc": "Marlene"
-		},
-		"marlene-TTSTool": {
-			"country": "DE",
-			"language": "de",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon German (Marlene)",
-			"lang": "de-DE",
-			"desc": "Marlene (TTSTool)"
 		},
 		"karl": {
 			"country": "IS",
@@ -2930,33 +2904,6 @@
 			"arg": "/icelandic/31-male-rodd-karl.html",
 			"desc": "Karl"
 		},
-		"karl-TTSTool": {
-			"country": "IS",
-			"language": "is",
-			"gender": "M",
-			"source": "readaloud",
-			"arg": "Amazon Icelandic (Karl)",
-			"lang": "is-IS",
-			"desc": "Karl (TTSTool)"
-		},
-		"dora-TTSTool": {
-			"country": "IS",
-			"language": "is",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon Icelandic (Dora)",
-			"lang": "is-IS",
-			"desc": "Dóra (TTSTool)"
-		},
-		"raveena-TTSTool": {
-			"country": "IN",
-			"language": "en",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon Indian English (Raveena)",
-			"lang": "en-IN",
-			"desc": "Raveena (TTSTool)"
-		},
 		"giorgio": {
 			"country": "IT",
 			"language": "it",
@@ -2964,15 +2911,6 @@
 			"source": "readloud",
 			"arg": "/italian/22-voce-maschile-giorgio.html",
 			"desc": "Giorgio"
-		},
-		"giorgio-TTSTool": {
-			"country": "IT",
-			"language": "it",
-			"gender": "M",
-			"source": "readaloud",
-			"arg": "Amazon Italian (Giorgio)",
-			"lang": "it-IT",
-			"desc": "Giorgio (TTSTool)"
 		},
 		"carla": {
 			"country": "IT",
@@ -2982,15 +2920,6 @@
 			"arg": "/italian/8-voce-femminile-carla.html",
 			"desc": "Carla"
 		},
-		"carla-TTSTool": {
-			"country": "IT",
-			"language": "it",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon Italian (Carla)",
-			"lang": "it-IT",
-			"desc": "Carla (TTSTool)"
-		},
 		"liv": {
 			"country": "no",
 			"language": "no",
@@ -2998,15 +2927,6 @@
 			"source": "readloud",
 			"arg": "/norwegian/34-kvinne-stemme-liv.html",
 			"desc": "Liv"
-		},
-		"liv-TTSTool": {
-			"country": "no",
-			"language": "no",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon Norwegian (Liv)",
-			"lang": "nb-NO",
-			"desc": "Liv (TTSTool)"
 		},
 		"jacek": {
 			"country": "PL",
@@ -3016,15 +2936,6 @@
 			"arg": "/polish/26-meski-glos-jacek.html",
 			"desc": "Jacek"
 		},
-		"jacek-TTSTool": {
-			"country": "PL",
-			"language": "pl",
-			"gender": "M",
-			"source": "readaloud",
-			"arg": "Amazon Polish (Jacek)",
-			"lang": "pl-PL",
-			"desc": "Jacek (TTSTool)"
-		},
 		"jan": {
 			"country": "PL",
 			"language": "pl",
@@ -3032,15 +2943,6 @@
 			"source": "readloud",
 			"arg": "/polish/27-meski-glos-jan.html",
 			"desc": "Jan"
-		},
-		"jan-TTSTool": {
-			"country": "PL",
-			"language": "pl",
-			"gender": "M",
-			"source": "readaloud",
-			"arg": "Amazon Polish (Jan)",
-			"lang": "pl-PL",
-			"desc": "Jan (TTSTool)"
 		},
 		"maja": {
 			"country": "PL",
@@ -3050,15 +2952,6 @@
 			"arg": "/polish/38-kobiecy-glos-maja.html",
 			"desc": "Maja"
 		},
-		"maja-TTSTool": {
-			"country": "PL",
-			"language": "pl",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon Polish (Maja)",
-			"lang": "pl-PL",
-			"desc": "Maja (TTSTool)"
-		},
 		"ewa": {
 			"country": "PL",
 			"language": "pl",
@@ -3066,15 +2959,6 @@
 			"source": "readloud",
 			"arg": "/polish/19-kobiecy-glos-ewa.html",
 			"desc": "Ewa"
-		},
-		"ewa-TTSTool": {
-			"country": "PL",
-			"language": "pl",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon Polish (Ewa)",
-			"lang": "pl-PL",
-			"desc": "Ewa (TTSTool)"
 		},
 		"cristiano": {
 			"country": "PT",
@@ -3084,33 +2968,6 @@
 			"arg": "/portuguese/15-voz-masculina-cristiano.html",
 			"desc": "Cristiano"
 		},
-		"cristiano-TTSTool": {
-			"country": "PT",
-			"language": "pt",
-			"gender": "M",
-			"source": "readaloud",
-			"arg": "Amazon Portuguese (Cristiano)",
-			"lang": "pt-PT",
-			"desc": "Cristiano (TTSTool)"
-		},
-		"ines-TTSTool": {
-			"country": "PT",
-			"language": "pt",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon Portuguese (Ines)",
-			"lang": "pt-PT",
-			"desc": "Inês (TTSTool)"
-		},
-		"carmen-TTSTool": {
-			"country": "RO",
-			"language": "ro",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon Romanian (Carmen)",
-			"lang": "ro-RO",
-			"desc": "Carmen (TTSTool)"
-		},
 		"tatyana": {
 			"country": "RU",
 			"language": "ru",
@@ -3118,24 +2975,6 @@
 			"source": "readloud",
 			"arg": "/russian/50-zhenskiy-golos-tatyana.html",
 			"desc": "Tatyana"
-		},
-		"tatyana-TTSTool": {
-			"country": "RU",
-			"language": "ru",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon Russian (Tatyana)",
-			"lang": "ru-RU",
-			"desc": "Tatyana (TTSTool)"
-		},
-		"maxim-TTSTool": {
-			"country": "RU",
-			"language": "ru",
-			"gender": "M",
-			"source": "readaloud",
-			"arg": "Amazon Russian (Maxim)",
-			"lang": "ru-RU",
-			"desc": "Maxim (TTSTool)"
 		},
 		"astrid": {
 			"country": "SE",
@@ -3145,15 +2984,6 @@
 			"arg": "/swedish/10-kvinnlig-rost-astrid.html",
 			"desc": "Astrid"
 		},
-		"astrid-TTSTool": {
-			"country": "SE",
-			"language": "sv",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon Swedish (Astrid)",
-			"lang": "sv-SE",
-			"desc": "Astrid (TTSTool)"
-		},
 		"filiz": {
 			"country": "TR",
 			"language": "tr",
@@ -3161,15 +2991,6 @@
 			"source": "readloud",
 			"arg": "/turkish/20-kadın-sesi-filiz.html",
 			"desc": "Filiz"
-		},
-		"filiz-TTSTool": {
-			"country": "TR",
-			"language": "tr",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon Turkish (Filiz)",
-			"lang": "tr-TR",
-			"desc": "Filiz (TTSTool)"
 		},
 		"justin": {
 			"country": "US",
@@ -3179,15 +3000,6 @@
 			"arg": "/english/american/30-child-s-boy-voice-justin.html",
 			"desc": "Justin"
 		},
-		"justin-TTSTool": {
-			"country": "US",
-			"language": "en",
-			"gender": "M",
-			"source": "readaloud",
-			"arg": "Amazon US English (Justin)",
-			"lang": "en-US",
-			"desc": "Justin (TTSTool)"
-		},
 		"kendra": {
 			"country": "US",
 			"language": "en",
@@ -3195,15 +3007,6 @@
 			"source": "readloud",
 			"arg": "/english/american/32-female-voice-kendra.html",
 			"desc": "Kendra"
-		},
-		"kendra-TTSTool": {
-			"country": "US",
-			"language": "en",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon US English (Kendra)",
-			"lang": "en-US",
-			"desc": "Kendra (TTSTool)"
 		},
 		"ivy": {
 			"country": "US",
@@ -3213,15 +3016,6 @@
 			"arg": "/english/american/25-child-s-girl-voice-ivy.html",
 			"desc": "Ivy"
 		},
-		"ivy-TTSTool": {
-			"country": "US",
-			"language": "en",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon US English (Ivy)",
-			"lang": "en-US",
-			"desc": "Ivy (TTSTool)"
-		},
 		"joey": {
 			"country": "US",
 			"language": "en",
@@ -3229,15 +3023,6 @@
 			"source": "readloud",
 			"arg": "/english/american/29-male-voice-joey.html",
 			"desc": "Joey"
-		},
-		"joey-TTSTool": {
-			"country": "US",
-			"language": "en",
-			"gender": "M",
-			"source": "readaloud",
-			"arg": "Amazon US English (Joey)",
-			"lang": "en-US",
-			"desc": "Joey (TTSTool)"
 		},
 		"salli": {
 			"country": "US",
@@ -3247,15 +3032,6 @@
 			"arg": "/english/american/2-girl-s-voice-sally.html",
 			"desc": "Salli"
 		},
-		"salli-TTSTool": {
-			"country": "US",
-			"language": "en",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon US English (Salli)",
-			"lang": "en-US",
-			"desc": "Salli (TTSTool)"
-		},
 		"kimberly": {
 			"country": "US",
 			"language": "en",
@@ -3264,24 +3040,6 @@
 			"arg": "/english/american/33-female-voice-kimberly.html",
 			"desc": "Kimberly"
 		},
-		"kimberly-TTSTool": {
-			"country": "US",
-			"language": "en",
-			"gender": "F",
-			"source": "readaloud",
-			"arg": "Amazon US English (Kimberly)",
-			"lang": "en-US",
-			"desc": "Kimberly (TTSTool)"
-		},
-		"miguel-TTSTool": {
-			"country": "US",
-			"language": "es",
-			"gender": "M",
-			"source": "readaloud",
-			"arg": "Amazon US Spanish (Miguel)",
-			"lang": "es-US",
-			"desc": "Miguel (TTSTool)"
-		},
 		"lupe": {
 			"country": "US",
 			"language": "es",
@@ -3289,24 +3047,6 @@
 			"source": "pollytwo",
 			"arg": "Lupe",
 			"desc": "Lupe"
-		},
-		"penelope-TTSTool": {
-			"country": "US",
-			"language": "es",
-			"gender": "F",
-  			"source": "readaloud",          
-			"arg": "Amazon US Spanish (Penelope)",
-			"lang": "es-US",
-			"desc": "Penélope (TTSTool)"
-		},
-		"gwyneth-TTSTool": {
-			"country": "GB",
-			"language": "cy",
-			"gender": "F",
-  			"source": "readaloud",          
-			"arg": "Amazon Welsh (Gwyneth)",
-			"lang": "cy-GB",
-			"desc": "Gwyneth (TTSTool)"
 		},
 		"geraint": {
 			"country": "GB",
@@ -3355,15 +3095,6 @@
 			"source": "readloud",
 			"arg": "/polish/9-kobiecy-glos-agnieszka.html",
 			"desc": "Agnieszka"
-		},
-  		"geraintwelsh": {
-			"country": "GB",
-			"language": "cy",
-			"gender": "M",
- 			"source": "readaloud",
-			"arg": "Amazon Welsh (Geraint)",
-			"lang": "cy-GB",
-			"desc": "Geraint"
 		},
   		"oc_kenneth": {
 			"country": "US",
@@ -5022,36 +4753,36 @@
 			"desc": "Jamal"
 		},	
 		"google_chai_ling": {
-			"country": "CN",
+			"country": "TW",
 			"language": "zh",
 			"gender": "F",
 			"arg": [7, 10, 1],
 			"source": "vocalware",
-			"desc": "Chia-Ling (Taiwan)"
+			"desc": "Chia-Ling"
 		},
 		"google_chai_hao": {
-			"country": "CN",
+			"country": "TW",
 			"language": "zh",
 			"gender": "M",
 			"arg": [7, 10, 2],
 			"source": "vocalware",
-			"desc": "Chia-Hao (Taiwan)"
+			"desc": "Chia-Hao"
 		},
 		"google_yan": {
-			"country": "CN",
+			"country": "HK",
 			"language": "zh",
 			"gender": "F",
 			"arg": [7, 10, 3],
 			"source": "vocalware",
-			"desc": "Yan (Cantonese)"
+			"desc": "Yan"
 		},
 		"google_chan": {
-			"country": "CN",
+			"country": "HK",
 			"language": "zh",
 			"gender": "M",
 			"arg": [7, 10, 4],
 			"source": "vocalware",
-			"desc": "Chan (Cantonese)"
+			"desc": "Chan"
 		},
 		"google_pavla": {
 			"country": "CZ",
@@ -5501,6 +5232,22 @@
 			"arg": "es-US-Wavenet-C",
 			"desc": "Martin"
 		},		
+ 		"google_jolien": {
+			"country": "BE",
+			"language": "nl",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "nl-BE-Wavenet-C",
+			"desc": "Jolien"
+		},
+ 		"google_ward": {
+			"country": "BE",
+			"language": "nl",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "nl-BE-Wavenet-D",
+			"desc": "Ward"
+		},
  		"google_heosu": {
 			"country": "KR",
 			"language": "ko",
@@ -5555,7 +5302,7 @@
 			"gender": "F",
 			"source": "polly+wavenet",
 			"arg": "sv-SE-Wavenet-D",
-			"desc": "Hedvig"
+			"desc": "Hedvig (Google)"
 		},
  		"google_nils": {
 			"country": "SE",
@@ -5747,7 +5494,7 @@
 			"gender": "F",
 			"source": "polly+wavenet",
 			"arg": "ru-RU-Wavenet-E",
-			"desc": "Katerina"
+			"desc": "Katerina (Google)"
 		},
  		"google_miray": {
 			"country": "TR",
@@ -5918,12 +5665,12 @@
 			"desc": "Mingli"
 		},
  		"google_xin-de": {
-			"country": "CN",
+			"country": "TW",
 			"language": "zh",
 			"gender": "M",
 			"source": "polly+wavenet",
 			"arg": "cmn-TW-Wavenet-C",
-			"desc": "Xin-De (Taiwan)"
+			"desc": "Xin-De"
 		},
  		"google_linh": {
 			"country": "VN",
@@ -6005,13 +5752,13 @@
 			"arg": "ro-RO-Wavenet-B",
 			"desc": "Andreea"
 		},
-		"af": {
+		"google_sonya": {
 			"country": "ZA",
 			"language": "af",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "af",
-			"desc": "Afrikaans female"
+			"desc": "Sonya"
 		},
 		"sq": {
 			"country": "AL",
@@ -6021,6 +5768,14 @@
 			"arg": "sq",
 			"desc": "Albanian male"
 		},
+   		"am": {
+			"country": "ET",
+			"language": "am",
+			"gender": "F",
+			"source": "googletranslate",
+			"arg": "am",
+			"desc": "Amharic female"
+		},
 		"ar": {
 			"country": "SA",
 			"language": "ar",
@@ -6028,6 +5783,14 @@
 			"source": "googletranslate",
 			"arg": "ar",
 			"desc": "Arabic female"
+		},
+		"google_irati": {
+			"country": "ES",
+			"language": "eu",
+			"gender": "F",
+			"source": "googletranslate",
+			"arg": "eu",
+			"desc": "Irati"
 		},
 		"bn-bd": {
 			"country": "IN",
@@ -6045,37 +5808,45 @@
 			"arg": "bs",
 			"desc": "Bosnian male"
 		},
-		"bg": {
+		"google_nikolina": {
 			"country": "BG",
 			"language": "bg",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "bg",
-			"desc": "Bulgarian female"
+			"desc": "Nikolina"
 		},
-		"ca": {
+		"google_mei": {
+			"country": "HK",
+			"language": "zh",
+			"gender": "F",
+			"source": "googletranslate",
+			"arg": "yue",
+			"desc": "Mei"
+		},
+		"google_martina": {
 			"country": "ES",
 			"language": "ca",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "ca",
-			"desc": "Catalan female"
+			"desc": "Martina"
 		},
-		"zh-CN": {
-			"country": "CN",
-			"language": "zh",
-			"gender": "F",
-			"source": "googletranslate",
-			"arg": "zh-CN",
-			"desc": "Chinese female"
-		},
-		"zh-TW": {
+		"google_teng-wei": {
 			"country": "TW",
 			"language": "zh",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "zh-TW",
-			"desc": "Taiwanese female"
+			"desc": "Teng-Wei"
+		},
+		"google_jialan": {
+			"country": "CN",
+			"language": "zh",
+			"gender": "F",
+			"source": "googletranslate",
+			"arg": "zh-CN",
+			"desc": "Jialan"
 		},
 		"hr": {
 			"country": "HR",
@@ -6085,29 +5856,29 @@
 			"arg": "hr",
 			"desc": "Croatian female"
 		},
-		"cs-CZ": {
+		"google_silvia": {
 			"country": "CZ",
 			"language": "cs",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "cs-CZ",
-			"desc": "Czech female"
+			"desc": "Silvia"
 		},
-		"da-DK": {
+		"google_marie": {
 			"country": "DK",
 			"language": "da",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "da-DK",
-			"desc": "Danish female"
+			"desc": "Marie (Google)"
 		},
-		"nl-NL": {
+		"google_annemieke": {
 			"country": "NL",
 			"language": "nl",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "nl-NL",
-			"desc": "Dutch female"
+			"desc": "Annemieke"
 		},
 		"en-AU": {
 			"country": "AU",
@@ -6157,45 +5928,53 @@
 			"arg": "fil-PH",
 			"desc": "Filipino female"
 		},
-		"fi-FI": {
+		"google_marianne": {
 			"country": "FI",
 			"language": "fi",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "fi-FI",
-			"desc": "Finnish female"
+			"desc": "Marianne"
 		},
-		"fr-FR": {
+		"google_yvonne": {
 			"country": "FR",
 			"language": "fr",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "fr-FR",
-			"desc": "French female"
+			"desc": "Yvonne"
 		},
-		"fr-CA": {
+		"google_madeleine": {
 			"country": "CA",
 			"language": "fr",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "fr-CA",
-			"desc": "Canadian female"
+			"desc": "Madeleine"
 		},
-		"de-DE": {
+		"google_xoana": {
+			"country": "ES",
+			"language": "gl",
+			"gender": "F",
+			"source": "googletranslate",
+			"arg": "gl",
+			"desc": "Xoana"
+		},
+		"google_karolina": {
 			"country": "DE",
 			"language": "de",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "de-DE",
-			"desc": "German female"
+			"desc": "Karolina"
 		},
-		"el-GR": {
+		"google_thalia": {
 			"country": "GR",
 			"language": "el",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "el-GR",
-			"desc": "Greek female"
+			"desc": "Thalia"
 		},
 		"gu-IN": {
 			"country": "IN",
@@ -6205,6 +5984,14 @@
 			"arg": "gu-IN",
 			"desc": "Gujarati female"
 		},
+   		"ha-NG": {
+			"country": "NG",
+			"language": "ha",
+			"gender": "F",
+			"source": "googletranslate",
+			"arg": "ha-NG",
+			"desc": "Hausa female"
+		},
 		"he-IL": {
 			"country": "IL",
 			"language": "he",
@@ -6213,54 +6000,54 @@
 			"arg": "he-IL",
 			"desc": "Hebrew female"
 		},
-		"hi-IN": {
+		"google_sneha": {
 			"country": "IN",
 			"language": "hi",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "hi-IN",
-			"desc": "Hindi female"
+			"desc": "Sneha"
 		},    
- 		"hu-HU": {
+ 		"google_ishtevan": {
 			"country": "HU",
 			"language": "hu",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "hu-HU",
-			"desc": "Hungarian female"
+			"desc": "Ishtevan"
 		},    
- 		"is-IS": {
+ 		"google_helga": {
 			"country": "IS",
 			"language": "is",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "is-IS",
-			"desc": "Icelandic female"
+			"desc": "Helga"
 		},  
- 		"id-ID": {
+ 		"google_indah": {
 			"country": "ID",
 			"language": "id",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "id-ID",
-			"desc": "Indonesian female"
+			"desc": "Indah"
 		},    
- 		"it-IT": {
+ 		"google_luca": {
 			"country": "IT",
 			"language": "it",
 			"gender": "M",
 			"source": "googletranslate",
 			"arg": "it-IT",
-			"desc": "Italian male"
+			"desc": "Luca (Google)"
 		},    
- 		"ja-JP": {
+ 		"google_koharu": {
 			"country": "JP",
 			"language": "ja",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "ja-JP",
-			"desc": "Japanese female"
-		},    
+			"desc": "Koharu"
+		},     
  		"jv": {
 			"country": "JV",
 			"language": "jv",
@@ -6285,14 +6072,14 @@
 			"arg": "km",
 			"desc": "Khmer female"
 		},    
- 		"ko-KR": {
+ 		"google_dohyun": {
 			"country": "KR",
 			"language": "ko",
 			"gender": "M",
 			"source": "googletranslate",
 			"arg": "ko-KR",
-			"desc": "Korean male"
-		},    
+			"desc": "Dohyun"
+		},       
  		"la": {
 			"country": "LA",
 			"language": "la",
@@ -6300,15 +6087,23 @@
 			"source": "googletranslate",
 			"arg": "la",
 			"desc": "Latin male"
-		},    
- 		"lv-LV": {
+		},      
+ 		"google_juris": {
 			"country": "LV",
 			"language": "lv",
 			"gender": "M",
 			"source": "googletranslate",
 			"arg": "lv-LV",
-			"desc": "Latvian male"
-		},    
+			"desc": "Juris"
+		},        
+ 		"google_nojus": {
+			"country": "LT",
+			"language": "lt",
+			"gender": "M",
+			"source": "googletranslate",
+			"arg": "lt",
+			"desc": "Nojus"
+		},  
  		"ms-MY": {
 			"country": "MY",
 			"language": "ms",
@@ -6349,21 +6144,21 @@
 			"arg": "ne-NE",
 			"desc": "Nepali female"
 		},
- 		"nb-NO": {
+ 		"google_malena": {
 			"country": "no",
 			"language": "no",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "nb-NO",
-			"desc": "Norwegian female"
+			"desc": "Malena"
 		},
- 		"pl-PL": {
+ 		"google_tomasz": {
 			"country": "PL",
 			"language": "pl",
 			"gender": "M",
 			"source": "googletranslate",
 			"arg": "pl-PL",
-			"desc": "Polish male"
+			"desc": "Tomasz"
 		},
  		"pt-BR": {
 			"country": "BR",
@@ -6373,21 +6168,21 @@
 			"arg": "pt-BR",
 			"desc": "Brazilian female"
 		},
- 		"pt-PT": {
-			"country": "BR",
+ 		"google_beatriz": {
+			"country": "PT",
 			"language": "pt",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "pt-PT",
-			"desc": "Portuguese female"
+			"desc": "Beatriz"
 		},
- 		"ro-RO": {
+ 		"google_mihaela": {
 			"country": "RO",
 			"language": "ro",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "ro-RO",
-			"desc": "Romanian female"
+			"desc": "Mihaela"
 		},
  		"ru-RU": {
 			"country": "RU",
@@ -6397,13 +6192,13 @@
 			"arg": "ru-RU",
 			"desc": "Russian female"
 		},
- 		"sr-RS": {
+ 		"google_aleksandra": {
 			"country": "RS",
 			"language": "sr",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "sr-RS",
-			"desc": "Serbian female"
+			"desc": "Aleksandra"
 		},
  		"si": {
 			"country": "SI",
@@ -6413,29 +6208,29 @@
 			"arg": "si",
 			"desc": "Sinhala female"
 		},
- 		"sk-SK": {
+ 		"google_natalia": {
 			"country": "SK",
 			"language": "sk",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "sk-SK",
-			"desc": "Slovak female"
+			"desc": "Natalia"
 		},
- 		"es-ES": {
+ 		"google_rosalinda": {
 			"country": "ES",
 			"language": "es",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "es-ES",
-			"desc": "Spanish female"
+			"desc": "Rosalinda"
 		},
- 		"es-MX": {
+ 		"google_paloma": {
 			"country": "MX",
 			"language": "es",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "es-MX",
-			"desc": "Mexico female"
+			"desc": "Paloma"
 		},
  		"su": {
 			"country": "SU",
@@ -6453,13 +6248,13 @@
 			"arg": "sv-SE",
 			"desc": "Swahili female"
 		},
-  		"sv-SE": {
+  		"google_linnea": {
 			"country": "SE",
 			"language": "sv",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "sv-SE",
-			"desc": "Swedish female"
+			"desc": "Linnea"
 		},
    		"ta-IN": {
 			"country": "IN",
@@ -6477,7 +6272,7 @@
 			"arg": "te-IN",
 			"desc": "Telugu female"
 		},
-   		"th-TH": {
+   		"google_": {
 			"country": "th",
 			"language": "th",
 			"gender": "F",
@@ -6485,37 +6280,45 @@
 			"arg": "th-TH",
 			"desc": "Thai female"
 		},
-   		"tr-TR": {
-			"country": "TR",
-			"language": "tr",
+   		"google_mali": {
+			"country": "th",
+			"language": "th",
 			"gender": "F",
 			"source": "googletranslate",
-			"arg": "tr-TR",
-			"desc": "Turkish female"
-		},
-   		"uk-UA": {
+			"arg": "th-TH",
+			"desc": "Mali"
+		}, 
+   		"google_vladislava": {
 			"country": "UA",
 			"language": "uk",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "uk-UA",
-			"desc": "Ukrainian female"
-		},
-   		"ur": {
-			"country": "UR",
+			"desc": "Vladislava"
+		},    
+ 		"google_yasmeen": {
+			"country": "IN",
 			"language": "ur",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "ur",
-			"desc": "Urdu female"
-		},
-   		"vi-VN": {
+			"desc": "Yasmeen"
+		},    
+ 		"google_thao": {
 			"country": "VN",
 			"language": "vi",
 			"gender": "F",
 			"source": "googletranslate",
 			"arg": "vi-VN",
-			"desc": "Vietnamese female"
+			"desc": "Thao"
+		}, 
+		"google_lowri": {
+			"country": "GB",
+			"language": "cy",
+			"gender": "F",
+			"source": "googletranslate",
+			"arg": "cy",
+			"desc": "Lowri"
 		},
  		"michael": {
 			"country": "US",
@@ -10260,6 +10063,7 @@
 			"cy": "Welsh",
 			"ga": "Irish",
 			"my": "Myanmar",
-			"se": "Sami"
+			"se": "Sami",
+			"ha": "Hausa"
 	}
 }
