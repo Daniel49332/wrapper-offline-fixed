@@ -343,10 +343,21 @@ export default function processVoice(
 						voice: voice.arg,
 						text: text,
 					}).toString();
-
-					https
-						.get(`https://api.textreader.pro/tts?${q}`, resolve)
-						.on("error", rej);
+					const req = https.get(`https://api.textreader.pro/tts?${q}`, (res) => {
+						if (res.statusCode !== 200) {
+							console.error(`Polly+Wavenet error: ${res.statusCode}`);
+							return reject(new Error("Service unavailable"));
+						}
+						resolve(res);
+					});
+					req.on("error", (err) => {
+						console.error("Network error:", err.message);
+						reject(err);
+					});
+					req.setTimeout(10000, () => {
+						req.destroy();
+						reject(new Error("Request timed out"));
+					});
 					break;
 				}
 				case "readloud": {
