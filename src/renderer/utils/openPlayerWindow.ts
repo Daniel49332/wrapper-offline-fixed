@@ -2,7 +2,7 @@ export default function openPlayerWindow(movieId: string) {
     const isWideRaw = localStorage.getItem("isWide_active");
     const isWide = isWideRaw === null ? true : (isWideRaw === "true" || isWideRaw === "1");
 
-    let width = Math.floor(screen.availWidth * 0.6665);
+    let width = Math.floor(screen.availWidth * (2 / 3));
     
     const videoHeight = isWide 
         ? Math.floor(width / (16 / 9)) 
