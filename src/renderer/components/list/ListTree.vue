@@ -15,6 +15,7 @@ table.list_tree {
     border-spacing: 0;
     table-layout: auto;
     width: 100%;
+    min-width: 600px;
 }
 .select_mode_options {
     background-color: #eeedf2;

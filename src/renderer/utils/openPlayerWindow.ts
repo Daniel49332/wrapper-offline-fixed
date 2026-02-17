@@ -2,11 +2,11 @@ export default function openPlayerWindow(movieId: string) {
     const isWideRaw = localStorage.getItem("isWide_active");
     const isWide = isWideRaw === null ? true : (isWideRaw === "true" || isWideRaw === "1");
 
-    let width = Math.round(screen.availWidth * 0.6665);
+    let width = Math.floor(screen.availWidth * (2 / 3));
     
     const videoHeight = isWide 
-        ? Math.round(width / (16 / 9)) 
-        : Math.round(width / (14 / 9));
+        ? Math.floor(width / (16 / 9)) 
+        : Math.floor(width / (14 / 9));
 
     let height = videoHeight + 26;
 
@@ -23,8 +23,8 @@ export default function openPlayerWindow(movieId: string) {
         }
     }
 
-    const left = Math.round((screen.availWidth - width) / 2);
-    const top = Math.round((screen.availHeight - height) / 2);
+    const left = Math.floor((screen.availWidth - width) / 2);
+    const top = Math.floor((screen.availHeight - height) / 2);
 
     window.open(
         `?redirect=/movies/play/${movieId}`,

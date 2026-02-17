@@ -338,7 +338,7 @@ export default function processVoice(
 					req.end(body);
 					break;
 				}
-				case "polly+wavenet": {
+				case "pollypluswavenet": {
 					const q = new URLSearchParams({
 						voice: voice.arg,
 						text: text,
@@ -384,42 +384,6 @@ export default function processVoice(
 						});
 					});
 					req.on("error", reject);
-					req.end(body);
-					break;
-				}
- 				case "readaloud": {
-					const body = JSON.stringify([{
-						voiceId: voice.arg,
-						ssml: `<speak version="1.0" xml:lang="${voice.lang}">${text}</speak>`
-					}]);
-					const req = https.request({
-						hostname: "support.readaloud.app",
-						path: "/ttstool/createParts",
-						method: "POST",
-						headers: {
-							"Content-Type": "application/json",
-							"Content-Length": Buffer.byteLength(body)
-						}
-					}, (res) => {
-						let chunks = [];
-						res.on("data", (d) => chunks.push(d));
-						res.on("end", () => {
-							try {
-								const json = JSON.parse(Buffer.concat(chunks).toString());
-								const fileId = json[0];
-								if (!fileId) return reject("ReadAloud error: No part ID received");
-								https.get({
-									hostname: "support.readaloud.app",
-									path: `/ttstool/getParts?q=${fileId}`,
-									headers: { "Accept": "audio/mp3" }
-								}, resolve).on("error", reject);
-
-							} catch (e) {
-								reject("ReadAloud error: Invalid JSON response");
-							}
-						});
-					});
-					req.on("error", (e) => reject(`Network error: ${e.message}`));
 					req.end(body);
 					break;
 				}
