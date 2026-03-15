@@ -48,11 +48,9 @@ let params:Params = {
 		page: "",
 		retut: "1",
 		siteId: "go",
-		tlang: "en_US",
 		ut: "60",
 		apiserver: apiServer + "/",
-		storePath: staticServer + staticPaths.storeUrl + "/<store>",
-		clientThemePath: staticServer + staticPaths.clientUrl + "/<client_theme>"
+		storePath: staticServer + staticPaths.storeUrl + "/<store>"
 	},
 	allowScriptAccess: "always",
 	allowFullScreen: "true",
