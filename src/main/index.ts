@@ -32,7 +32,7 @@ contextBridge.exposeInMainWorld("appWindow", {
 	openFAQ: () => ipcRenderer.send("open-faq"),
 	openGitHub: () => ipcRenderer.send("open-github"),
 	openDataFolder: () => ipcRenderer.send("open-data-folder"),
-	confirmQuit: () => ipcRenderer.invoke("show-quit-dialog"),
+	confirmQuit: (message, subtext) => ipcRenderer.invoke("show-quit-dialog", message, subtext),
 });`;
 const getPreloadPath = () => {
     const localPath = join(__dirname, "preload.js");
@@ -49,7 +49,7 @@ if (settings.saveLogFiles) {
 		process.stdout.write(c + "\n");
 	};
 	process.on("exit", () => {
-		console.log("Exiting...");
+		console.log("Exiting");
 		writeStream.close();
 	});
 }
@@ -93,7 +93,9 @@ const createWindow = () => {
 			contextIsolation: true
 		}
 	});
-    ipcMain.handle("show-quit-dialog", async () => {
+    ipcMain.handle("show-quit-dialog", async (event, message, subtext) => {
+    const displayMsg = message || "Are you sure that you want to exit the LVM?";
+    const displaySub = subtext || "Unsaved changes will be lost";
     let iconPath: string;
 	if (process.platform === 'win32') {iconPath = join(__dirname, 'favicon.ico');} else if (process.platform === 'darwin') {iconPath = join(__dirname, 'favicon.icns');} else {iconPath = join(__dirname, 'favicon.png');}
     const innerIconPath = (process.platform === 'darwin' || process.platform === 'linux') ? join(__dirname, 'favicon.png') : join(__dirname, 'favicon.ico');
@@ -106,14 +108,15 @@ const createWindow = () => {
         console.log("Could not load icon, using fallback");
     }
     let confirmWin = new BrowserWindow({
-        width: 400,
-        height: 165,
+        width: 450,
+        height: 150,
         parent: mainWindow,
         modal: true,
         icon: iconPath,
         title: "Wrapper offline",
         resizable: false,
         autoHideMenuBar: true,
+        show: false,
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false
@@ -125,6 +128,12 @@ const createWindow = () => {
         confirmWin.close();
     };
     ipcMain.once("confirm-response", handleResponse);
+    setTimeout(() => {
+        if (!confirmWin.isDestroyed()) {
+            confirmWin.loadURL(`data:text/html;charset=utf-8,${encodeURIComponent(htmlContent)}`);
+            confirmWin.show();
+        }
+    }, 150);
         const htmlContent = `
         <!DOCTYPE html>
         <html>
@@ -150,6 +159,13 @@ const createWindow = () => {
                     margin-right: 20px; 
                     flex-shrink: 0; 
                 }
+                .text-container {
+					flex-grow: 1; 
+					text-align: center;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+				}
                 p { 
                     margin: 0; 
                     font-size: 13.5px; 
@@ -183,10 +199,10 @@ const createWindow = () => {
         <body>
             <div class="top-section">
                 <img src="${iconDataUrl}" class="logo">
-                <div>
-                    <p><b>Are you sure that you want to exit the LVM?</b></p>
-                    <p style="opacity:0.6; font-size:12px;">Unsaved changes will be lost</p>
-                </div>
+                <div class="text-container">
+					<p><b>${displayMsg}</b></p>
+					<p style="opacity:0.6; font-size:12px;">${displaySub}</p>
+				</div>
             </div>
             <div class="button-group">
                 <button id="yes">Yes</button>
