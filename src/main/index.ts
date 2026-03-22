@@ -94,7 +94,7 @@ const createWindow = () => {
 		}
 	});
     ipcMain.handle("show-quit-dialog", async (event, message, subtext) => {
-    const displayMsg = message || "Are you sure that you want to exit the LVM?";
+    const displayMsg = message || "Are you sure you want to exit the LVM?";
     const displaySub = subtext || "Unsaved changes will be lost";
     let iconPath: string;
 	if (process.platform === 'win32') {iconPath = join(__dirname, 'favicon.ico');} else if (process.platform === 'darwin') {iconPath = join(__dirname, 'favicon.icns');} else {iconPath = join(__dirname, 'favicon.png');}
