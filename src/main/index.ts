@@ -108,7 +108,7 @@ const createWindow = () => {
         console.log("Could not load icon, using fallback");
     }
     let confirmWin = new BrowserWindow({
-        width: 450,
+        width: 500,
         height: 150,
         parent: mainWindow,
         modal: true,
