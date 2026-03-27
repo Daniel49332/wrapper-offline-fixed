@@ -107,7 +107,7 @@ onUnmounted(() => {
 	<div class="settings_modal">
 		<Popup class="settings_popup">
 			<template #small-heading>Wrapper offline</template>
-			<template #large-heading>App settings</template>
+			<template #large-heading>Software settings</template>
 	
 			<div class="tab_selector">
 				<div class="tab_col">

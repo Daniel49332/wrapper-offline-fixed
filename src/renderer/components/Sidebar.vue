@@ -110,17 +110,13 @@
 	background: linear-gradient(90deg, #0000 0, hsl(240 17% 29% / 1) 10px);
 }
 .app_sidebar .link.create {
-	background: hsl(344deg 97% 65%);
-	border-bottom-color: #ac0633;
+	background: #FF0000 !important;
 }
 .app_sidebar .link.create>button {
 	color: #fff;
 }
 .app_sidebar .link.create::after {
-	content: "";
-	background: linear-gradient(90deg, #0000 0, hsl(344deg 97% 65%) 10px);
-	width: 14px;
-	height: 100%;
+    background: linear-gradient(90deg, #0000 0, #FF0000 10px) !important;
 }
 .app_sidebar .spacer {
 	margin-bottom: 7px;
@@ -181,6 +177,21 @@
 }
 .app_sidebar input {
 	display: none;
+}
+.dropdown_item:hover {
+	background-color: #3694BA !important;
+	color: #ffffff !important;
+}
+.dropdown_item:hover, [class*="dropdown_item"]:hover, button.dropdown_item:hover {
+	background-color: #3694BA !important;
+	color: #ffffff !important;
+}
+.dropdown {
+	background-color: #3694BA !important;
+	color: #ffffff !important;
+}
+html.dark .dropdown_item:hover {
+	background-color: #3694BA !important;
 }
 html.dark .app_sidebar {
 	background: hsl(250 10% 13% / 1);
