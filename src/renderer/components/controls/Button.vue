@@ -28,13 +28,13 @@
 	cursor: pointer;
 }
 .btn.primary {
-	background: #FF0000 !important;
+	background: #fc4f7d;
 }
 .dark .btn {
 	background: #42404f;
 }
 .dark .btn.primary {
-	background: #FF0000 !important;
+	background: hsl(342deg 55% 48%);
 }
 </style>
 

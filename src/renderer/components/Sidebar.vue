@@ -110,7 +110,8 @@
 	background: linear-gradient(90deg, #0000 0, hsl(240 17% 29% / 1) 10px);
 }
 .app_sidebar .link.create {
-	background: #FF0000 !important;
+	background: hsl(344deg 97% 65%);
+	border-bottom-color: #ac0633;
 }
 .app_sidebar .link.create>button {
 	color: #fff;
@@ -241,7 +242,10 @@ html.dark .app_sidebar .link.create i {
 	color: #eee;
 }
 html.dark .app_sidebar .link.create::after {
-	background: linear-gradient(90deg, #0000 0, hsl(342deg 55% 48%) 10px);
+	content: "";
+	background: linear-gradient(90deg, #0000 0, hsl(344deg 97% 65%) 10px);
+	width: 14px;
+	height: 100%;
 }
 html.dark .app_sidebar .user_custom .link>button:hover {
 	background: #573344;
