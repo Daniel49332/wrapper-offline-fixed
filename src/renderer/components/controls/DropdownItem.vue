@@ -10,7 +10,7 @@
 	padding: 6px 15px;
 }
 .dropdown_item:hover {
-	background: #5db8a7;
+	background: #3694ba;
 	color: #fff;
 	cursor: pointer;
 }

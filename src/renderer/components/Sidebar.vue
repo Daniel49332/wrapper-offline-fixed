@@ -182,18 +182,6 @@
 .app_sidebar input {
 	display: none;
 }
-.dropdown_item:hover {
-	background-color: #3694BA !important;
-	color: #ffffff !important;
-}
-.dropdown_item:hover, [class*="dropdown_item"]:hover, button.dropdown_item:hover {
-	background-color: #3694BA !important;
-	color: #ffffff !important;
-}
-.dropdown {
-	background-color: #3694BA !important;
-	color: #ffffff !important;
-}
 html.dark .dropdown_item:hover {
 	background-color: #3694BA !important;
 }
