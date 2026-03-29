@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { apiServer, Params, staticPaths, staticServer, swfUrlBase, toAttrString} from "../utils/AppInit";
+import { apiServer, Params, staticPaths, staticServer, swfUrlBase, toAttrString } from "../utils/AppInit";
 import extractCharThemeId from "../utils/extractCharThemeId";
 import useAppSettings from "../composables/useAppSettings";
 import { onMounted, onUnmounted, ref, useTemplateRef } from "vue";
