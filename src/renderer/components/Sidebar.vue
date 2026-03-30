@@ -182,9 +182,6 @@
 .app_sidebar input {
 	display: none;
 }
-html.dark .dropdown_item:hover {
-	background-color: #3694BA !important;
-}
 html.dark .app_sidebar {
 	background: hsl(250 10% 13% / 1);
 }
