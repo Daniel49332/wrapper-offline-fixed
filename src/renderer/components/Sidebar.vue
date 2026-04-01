@@ -222,15 +222,14 @@ html.dark .app_sidebar .link:hover::after {
 	background: linear-gradient(90deg, #0000 0, hsl(250 10% 18% / 1) 10px);
 }
 html.dark .app_sidebar .link.create {
-	background: hsl(342deg 55% 48%);
-	border-bottom-color: #732137;
+	background: hsl(345deg 91% 61%);
 }
 html.dark .app_sidebar .link.create button,
 html.dark .app_sidebar .link.create i {
 	color: #eee;
 }
 html.dark .app_sidebar .link.create::after {
-	background: linear-gradient(90deg, #0000 0, hsl(342deg 55% 48%) 10px);
+	background: linear-gradient(90deg, #0000 0, hsl(345deg 91% 61%) 10px);
 }
 html.dark .app_sidebar .user_custom .link>button:hover {
 	background: #573344;
