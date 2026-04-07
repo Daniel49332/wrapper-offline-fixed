@@ -15566,8 +15566,6 @@
 	<prop id="locker_locker.swf" name="Locker" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3294" money="0" sharing="0"/>
 	<prop id="locker_win.swf" name="Locker win" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3295" money="0" sharing="0"/>
 	<prop id="locker_woodChair.swf" name="Locker wooden chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3296" money="0" sharing="0"/>
-	<prop id="mosaic.swf" name="Mosaic" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3297" money="0" sharing="0"/>
-	<prop id="mosaic_02.swf" name="Mosaic" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3298" money="0" sharing="0"/>
 	<prop id="mouse.swf" name="Mouse" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3299" money="0" sharing="0"/>
 	<prop id="office_carpet.swf" name="Office carpet" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3300" money="0" sharing="0"/>
 	<prop id="office_desk.swf" name="Office desk" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3301" money="0" sharing="0"/>
