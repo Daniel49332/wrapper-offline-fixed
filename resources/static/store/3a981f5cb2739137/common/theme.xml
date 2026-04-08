@@ -25,10 +25,10 @@
 		<action id="laugh.swf" name="Laugh" loop="Y" totalframe="3" enable="Y" aid="3076"/>
 		<action id="talk.swf" name="Talk" loop="Y" totalframe="48" enable="Y" aid="3077"/>
 		<action id="threaten.swf" name="Become threatened" loop="Y" totalframe="2" enable="Y" aid="3078"/>
-		<action id="propose.swf" name="Propose (a)" loop="Y" totalframe="40" enable="Y" aid="3079"/>
-		<action id="propose02.swf" name="Propose (b)" loop="Y" totalframe="45" enable="Y" aid="3080"/>
-		<action id="murder01.swf" name="Murdered (a)" loop="Y" totalframe="42" enable="Y" aid="3081"/>
-		<action id="murder02.swf" name="Murdered (b)" loop="Y" totalframe="50" enable="Y" aid="3082"/>
+		<action id="propose.swf" name="Propose (A)" loop="Y" totalframe="40" enable="Y" aid="3079"/>
+		<action id="propose02.swf" name="Propose (B)" loop="Y" totalframe="45" enable="Y" aid="3080"/>
+		<action id="murder01.swf" name="Murdered (A)" loop="Y" totalframe="42" enable="Y" aid="3081"/>
+		<action id="murder02.swf" name="Murdered (B)" loop="Y" totalframe="50" enable="Y" aid="3082"/>
 		<action id="kill06.swf" name="Kill" loop="Y" totalframe="20" enable="Y" aid="3083"/>
 	</char>
 	<char id="matchGirl" name="Match girl" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="3084" money="0" sharing="0">
@@ -50,13 +50,13 @@
 		<motion id="walk.swf" name="Walk" loop="Y" totalframe="58" enable="Y" aid="3086"/>
 		<action id="kiss.swf" name="Kiss" loop="Y" totalframe="35" enable="Y" aid="3099"/>
 		<action id="talk.swf" name="Talk" loop="Y" totalframe="50" enable="Y" aid="3100"/>
-		<action id="murder01.swf" name="Murdered (a)" loop="Y" totalframe="35" enable="Y" aid="3101"/>
-		<action id="murder02.swf" name="Murdered (b)" loop="Y" totalframe="70" enable="Y" aid="3102"/>
+		<action id="murder01.swf" name="Murdered (A)" loop="Y" totalframe="35" enable="Y" aid="3101"/>
+		<action id="murder02.swf" name="Murdered (B)" loop="Y" totalframe="70" enable="Y" aid="3102"/>
 		<action id="shy.swf" name="Shy" loop="Y" totalframe="16" enable="Y" aid="3103"/>
-		<action id="dance01.swf" name="Dance (a)" loop="Y" totalframe="25" enable="Y" aid="3104"/>
-		<action id="dance02.swf" name="Dance (b)" loop="Y" totalframe="13" enable="Y" aid="3105"/>
-		<action id="greeting.swf" name="Greeting (a)" loop="Y" totalframe="65" enable="Y" aid="3106"/>
-		<action id="greeting02.swf" name="Greeting (b)" loop="Y" totalframe="75" enable="Y" aid="3107"/>
+		<action id="dance01.swf" name="Dance (A)" loop="Y" totalframe="25" enable="Y" aid="3104"/>
+		<action id="dance02.swf" name="Dance (B)" loop="Y" totalframe="13" enable="Y" aid="3105"/>
+		<action id="greeting.swf" name="Greeting (A)" loop="Y" totalframe="65" enable="Y" aid="3106"/>
+		<action id="greeting02.swf" name="Greeting (B)" loop="Y" totalframe="75" enable="Y" aid="3107"/>
 		<action id="sing.swf" name="Sing" loop="Y" totalframe="24" enable="Y" aid="3108"/>
 		<action id="think.swf" name="Think" loop="Y" totalframe="75" enable="Y" aid="3109"/>
 		<action id="cry.swf" name="Cry" loop="Y" totalframe="24" enable="Y" aid="3110"/>
@@ -7346,7 +7346,7 @@
 		<color r="ccColorA">3355443</color>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_vkrm" name="Vip karaoke room" enable="Y" default="N" thumb="vip_karaoke_room.jpg" display_order="409" is_premium="N" money="0" sharing="0" aid="10787">
+	<compositebg id="cbg_vkrm" name="VIP karaoke room" enable="Y" default="N" thumb="vip_karaoke_room.jpg" display_order="409" is_premium="N" money="0" sharing="0" aid="10787">
 	<bg id="cbg_vkrm_cbg_bar01_BG25" index="0">
 		<file>common.ncc_floor.swf</file>
 		<color r="colorA">3342387</color>
