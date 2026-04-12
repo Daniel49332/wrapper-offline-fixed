@@ -66,6 +66,8 @@ To build a full copy of Wrapper offline
 ```
 npm run package
 ```
+### This version of Wrapper offline doesn't support censorship and rant videos
+Therefore can't be used for any kinds of rants and "calling out users" types of vids. First Amendment allows users to do whatever they want and you can't change it
 
 ### License
 Most of this project is free/libre software under the MIT license. You have the freedom to run, change, and share this as much as you want
