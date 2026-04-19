@@ -7538,7 +7538,7 @@
 		},
 		"elle_nt22k": {
 			"country": "no",
-			"language": "UN",
+			"language": "se",
 			"gender": "F",
 			"source": "acapela",
 			"arg": "Elle22k_NT",
@@ -7546,7 +7546,7 @@
 		},
 		"biera22k": {
 			"country": "no",
-			"language": "UN",
+			"language": "se",
 			"gender": "M",
 			"source": "acapela",
 			"arg": "Biera22k_NT",
@@ -14749,6 +14749,7 @@
 		"pt": "Portuguese",
 		"ro": "Romanian",
 		"ru": "Russian",
+		"se": "Northern Sami",
 		"si": "Sinhala",
 		"sk": "Slovak",
 		"sl": "Slovenian",
@@ -14767,7 +14768,6 @@
 		"uz": "Uzbek",
 		"vi": "Vietnamese",
 		"zh": "Chinese",
-		"zu": "Zulu",
-		"UN": "Northern Sami"
+		"zu": "Zulu"
 	}
 }
