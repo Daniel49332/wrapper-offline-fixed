@@ -2686,7 +2686,7 @@
 			"gender": "M",
 			"source": "pollypluswavenet",
 			"arg": "es-US-Wavenet-B",
-			"desc": "Luis"
+			"desc": "Luis (Google)"
 		},	
  		"google_martin": {
 			"country": "US",
@@ -12505,7 +12505,7 @@
 			"gender": "M",
             "source": "bing",
 			"arg": "es-EC-LuisNeural",
-			"desc": "Luis"
+			"desc": "Luis (Azure)"
 		},
 		"es-ES-ElviraNeural": {
 			"country": "ES",
