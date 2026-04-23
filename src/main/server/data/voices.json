@@ -6622,7 +6622,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "EmilioEnglish22k_HQ",
-			"desc": "Emilio (Acapela)"
+			"desc": "Emilio"
 		},
 		"faelena22k": {
 			"country": "US",
@@ -7638,7 +7638,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "Emilio22k_HQ",
-			"desc": "Emilio"
+			"desc": "Emilio (Acapela)"
 		},
 		"taylorusspanish22k": {
 			"country": "US",
@@ -7654,7 +7654,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "Rodrigo22k_HQ",
-			"desc": "Rodrigo"
+			"desc": "Rodrigo (Acapela)"
 		},
 		"rosa22k": {
 			"country": "US",
@@ -12921,7 +12921,7 @@
 			"gender": "M",
             "source": "bing",
 			"arg": "es-SV-RodrigoNeural",
-			"desc": "Rodrigo"
+			"desc": "Rodrigo (Azure)"
 		},
 		"es-US-PalomaNeural": {
 			"country": "US",
