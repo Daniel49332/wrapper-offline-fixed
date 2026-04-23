@@ -472,7 +472,7 @@ export default function processVoice(
 					}).on("error", (e) => reject(`Network error: ${e.message}`));
 					break;
 				}
-				case "tiktok": {
+				case "bytedance": {
 					text = text.slice(0, 199).trim();
 					const params = new URLSearchParams({
 						aid: "1233",
