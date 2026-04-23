@@ -12689,7 +12689,7 @@
 			"gender": "M",
             "source": "bing",
 			"arg": "es-GT-AndresNeural",
-			"desc": "Andres"
+			"desc": "Andres (Azure)"
 		},
 		"es-HN-KarlaNeural": {
 			"country": "HN",
@@ -15025,7 +15025,7 @@
 			"gender": "M",
 			"source": "polly",
 			"arg": "Andres",
-			"desc": "Andrés"
+			"desc": "Andrés (PO)"
 		},
 		"pedro": {
 			"country": "US",
