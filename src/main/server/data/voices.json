@@ -166,7 +166,7 @@
 			"gender": "F",
 			"source": "cepstral",
 			"arg": "Alejandra",
-			"desc": "Alejandra"
+			"desc": "Alejandra (Cepstral)"
 		},
 		"Miguel": {
 			"country": "MX",
@@ -9905,7 +9905,7 @@
             "gender": "F",
             "arg": "es_female_f6",
             "source": "bytedance",
-            "desc": "Alejandra"
+            "desc": "Alejandra (Bytedance)"
         },
         "es_female_fp1": {
             "country": "ES",
