@@ -574,7 +574,7 @@
 			"gender": "F",
 			"source": "watson",
 			"arg": "es-LA_SofiaV3Voice",
-			"desc": "Sofia"
+			"desc": "Sofia (Watson)"
 		},
 		"es-LA_AlejandroExpressive": {
 			"country": "MX",
@@ -606,7 +606,7 @@
 			"gender": "F",
 			"source": "watson",
 			"arg": "es-US_SofiaV3Voice",
-			"desc": "Sofia"
+			"desc": "Sofia (Watson)"
 		},
   		"oc_kenneth": {
 			"country": "US",
@@ -1286,7 +1286,7 @@
 			"gender": "M",
 			"arg": [3, 2, 5],
 			"source": "vocalware",
-			"desc": "Manuel"
+			"desc": "Manuel (NeoSpeech)"
 		},
 		"oc_francisco": {
 			"country": "MX",
@@ -1718,7 +1718,7 @@
 			"gender": "M",
 			"arg": [4, 2, 5],
 			"source": "vocalware",
-			"desc": "Javier"
+			"desc": "Javier (ScanSoft)"
 		},
 		"oc_paulina": {
 			"country": "MX",
@@ -5222,7 +5222,7 @@
 			"gender": "M",
 			"source": "cereproc",
 			"arg": "Mateo",
-			"desc": "Mateo"
+			"desc": "Mateo (CereProc)"
 		},
 		"megan1": {
 			"country": "US",
@@ -6622,7 +6622,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "EmilioEnglish22k_HQ",
-			"desc": "Emilio"
+			"desc": "Emilio (Acapela)"
 		},
 		"faelena22k": {
 			"country": "US",
@@ -7598,7 +7598,7 @@
 			"gender": "F",
 			"source": "acapela",
 			"arg": "Maria22k_HQ",
-			"desc": "Maria"
+			"desc": "Maria (Acapela)"
 		},
 		"carlos22k": {
 			"country": "US",
@@ -12393,14 +12393,15 @@
 			"gender": "M",
             "source": "bing",
 			"arg": "es-AR-TomasNeural",
-			
+			"desc": "Tomas"
+		},
 		"es-BO-SofiaNeural": {
 			"country": "BO",
 			"language": "es",
 			"gender": "F",
             "source": "bing",
 			"arg": "es-BO-SofiaNeural",
-			"desc": "Sofia"
+			"desc": "Sofia (Azure)"
 		},
 		"es-BO-MarceloNeural": {
 			"country": "BO",
@@ -12448,7 +12449,7 @@
 			"gender": "F",
             "source": "bing",
 			"arg": "es-CR-MariaNeural",
-			"desc": "Maria"
+			"desc": "Maria (Azure)"
 		},
 		"es-CR-JuanNeural": {
 			"country": "CR",
@@ -12456,7 +12457,7 @@
 			"gender": "M",
             "source": "bing",
 			"arg": "es-CR-JuanNeural",
-			"desc": "Juan"
+			"desc": "Juan (Azure)"
 		},
 		"es-CU-BelkysNeural": {
 			"country": "CU",
@@ -12472,7 +12473,7 @@
 			"gender": "M",
             "source": "bing",
 			"arg": "es-CU-ManuelNeural",
-			"desc": "Manuel"
+			"desc": "Manuel (Azure)"
 		},
 		"es-DO-RamonaNeural": {
 			"country": "DO",
@@ -12488,7 +12489,7 @@
 			"gender": "M",
             "source": "bing",
 			"arg": "es-DO-EmilioNeural",
-			"desc": "Emilio"
+			"desc": "Emilio (Azure)"
 		},
 		"es-EC-AndreaNeural": {
 			"country": "EC",
@@ -12672,7 +12673,7 @@
 			"gender": "M",
             "source": "bing",
 			"arg": "es-GQ-JavierNeural",
-			"desc": "Javier"
+			"desc": "Javier (Azure)"
 		},
 		"es-GT-MartaNeural": {
 			"country": "GT",
@@ -12704,7 +12705,7 @@
 			"gender": "M",
             "source": "bing",
 			"arg": "es-HN-CarlosNeural",
-			"desc": "Carlos"
+			"desc": "Carlos (Azure)"
 		},
 		"es-MX-DaliaNeural": {
 			"country": "MX",
@@ -12952,7 +12953,7 @@
 			"gender": "M",
             "source": "bing",
 			"arg": "es-UY-MateoNeural",
-			"desc": "Mateo"
+			"desc": "Mateo (Azure)"
 		},
 		"es-VE-PaolaNeural": {
 			"country": "VE",
