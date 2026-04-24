@@ -2678,7 +2678,7 @@
 			"gender": "F",
 			"source": "pollypluswavenet",
 			"arg": "es-US-Wavenet-A",
-			"desc": "Valentina"
+			"desc": "Valentina (Google)"
 		},
  		"google_luis": {
 			"country": "US",
@@ -12945,7 +12945,7 @@
 			"gender": "F",
             "source": "bing",
 			"arg": "es-UY-ValentinaNeural",
-			"desc": "Valentina"
+			"desc": "Valentina (Azure)"
 		},
 		"es-UY-MateoNeural": {
 			"country": "UY",
