@@ -371,27 +371,6 @@ export default function processVoice(
 					req.end(body);
 					break;
 				}
-				case "pollypluswavenet": {
-					const q = new URLSearchParams({
-						voice: voice.arg,
-						text: text,
-					}).toString();
-					const req = https.get(`https://api.textreader.pro/tts?${q}`, (res) => {
-						if (res.statusCode !== 200) {
-							console.error(`Pollypluswavenet error: ${res.statusCode}`);
-							return reject("Service unavailable");
-						}
-						resolve(res);
-					});
-					req.on("error", (err) => {
-						console.error("Network error:", err.message);
-						reject(err);
-					});
-					req.setTimeout(10000, () => {req.destroy();
-						reject("Request timed out");
-					});
-					break;
-				}
 				case "readloud": {
 				  const body = new URLSearchParams({
 					but1: text,
