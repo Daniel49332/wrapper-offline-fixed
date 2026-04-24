@@ -219,7 +219,7 @@ export default function processVoice(
 					}).on("error", (e) => reject(`Network error: ${e.message}`));
 					break;
 				}
-				case "googletranslate": {
+				case "wavenet2": {
 					const q = new URLSearchParams({
 						ie: "UTF-8",
 						total: "1",
