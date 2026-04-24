@@ -2185,7 +2185,7 @@
 			"desc": "Reiner"
 		},
 		"google_amina": {
-			"country": "SA",
+			"country": "ar",
 			"language": "ar",
 			"gender": "F",
 			"arg": [7, 27, 1],
@@ -2193,7 +2193,7 @@
 			"desc": "Amina (Google)"
 		},
 		"google_jamal": {
-			"country": "SA",
+			"country": "ar",
 			"language": "ar",
 			"gender": "M",
 			"arg": [7, 27, 2],
@@ -2233,7 +2233,7 @@
 			"desc": "Chan"
 		},
 		"google_pavla": {
-			"country": "CZ",
+			"country": "cs",
 			"language": "cs",
 			"gender": "F",
 			"arg": [7, 18, 1],
@@ -2241,7 +2241,7 @@
 			"desc": "Pavla"
 		},
         "google_dagny": {
-			"country": "DK",
+			"country": "da",
 			"language": "da",
 			"gender": "F",
 			"arg": [7, 19, 1],
@@ -2249,7 +2249,7 @@
 			"desc": "Dagny"
 		},
         "google_erik": {
-			"country": "DK",
+			"country": "da",
 			"language": "da",
 			"gender": "M",
 			"arg": [7, 19, 2],
@@ -2257,7 +2257,7 @@
 			"desc": "Erik"
 		},
  		"google_famke": {
-			"country": "NL",
+			"country": "nl",
 			"language": "nl",
 			"gender": "F",
 			"arg": [7, 11, 1],
@@ -2265,7 +2265,7 @@
 			"desc": "Famke"
 		},
  		"google_dirk": {
-			"country": "NL",
+			"country": "nl",
 			"language": "nl",
 			"gender": "M",
 			"arg": [7, 11, 2],
@@ -2345,7 +2345,7 @@
 			"desc": "Gilbert"
 		},
  		"google_mayumi": {
-			"country": "PH",
+			"country": "fil",
 			"language": "fil",
 			"gender": "F",
 			"arg": [7, 32, 1],
@@ -2353,7 +2353,7 @@
 			"desc": "Mayumi"
 		},
  		"google_datu": {
-			"country": "PH",
+			"country": "fil",
 			"language": "fil",
 			"gender": "M",
 			"arg": [7, 32, 2],
@@ -2361,7 +2361,7 @@
 			"desc": "Datu"
 		},
  		"google_sanna": {
-			"country": "FI",
+			"country": "fi",
 			"language": "fi",
 			"gender": "F",
 			"arg": [7, 23, 1],
@@ -2449,7 +2449,7 @@
 			"desc": "Karan"
 		},
  		"google_flora": {
-			"country": "HU",
+			"country": "hu",
 			"language": "hu",
 			"gender": "F",
 			"arg": [7, 29, 1],
@@ -2457,7 +2457,7 @@
 			"desc": "Flora"
 		},
  		"google_laszlo": {
-			"country": "HU",
+			"country": "hu",
 			"language": "hu",
 			"gender": "M",
 			"arg": [7, 29, 2],
@@ -2465,7 +2465,7 @@
 			"desc": "Laszlo"
 		},
  		"google_putri": {
-			"country": "ID",
+			"country": "id",
 			"language": "id",
 			"gender": "F",
 			"arg": [7, 28, 1],
@@ -2473,7 +2473,7 @@
 			"desc": "Putri"
 		},
  		"google_bintang": {
-			"country": "ID",
+			"country": "id",
 			"language": "id",
 			"gender": "M",
 			"arg": [7, 28, 2],
@@ -2481,7 +2481,7 @@
 			"desc": "Bintang"
 		},
  		"google_bianca": {
-			"country": "IT",
+			"country": "it",
 			"language": "it",
 			"gender": "F",
 			"arg": [7, 7, 1],
@@ -2489,7 +2489,7 @@
 			"desc": "Bianca (Google)"
 		},
  		"google_alessandro": {
-			"country": "IT",
+			"country": "it",
 			"language": "it",
 			"gender": "M",
 			"arg": [7, 7, 2],
@@ -2497,7 +2497,7 @@
 			"desc": "Alessandro"
 		},
  		"google_himari": {
-			"country": "JP",
+			"country": "ja",
 			"language": "ja",
 			"gender": "F",
 			"arg": [7, 12, 1],
@@ -2505,7 +2505,7 @@
 			"desc": "Himari (Google)"
 		},
  		"google_kaito": {
-			"country": "JP",
+			"country": "ja",
 			"language": "ja",
 			"gender": "M",
 			"arg": [7, 12, 2],
@@ -2529,7 +2529,7 @@
 			"desc": "Lars"
 		},
  		"google_danota": {
-			"country": "PL",
+			"country": "pl",
 			"language": "pl",
 			"gender": "F",
 			"arg": [7, 14, 1],
@@ -2537,7 +2537,7 @@
 			"desc": "Danota"
 		},
  		"google_wojciech": {
-			"country": "PL",
+			"country": "pl",
 			"language": "pl",
 			"gender": "M",
 			"arg": [7, 14, 2],
@@ -2577,7 +2577,7 @@
 			"desc": "Tiago"
 		},
  		"google_eliska": {
-			"country": "SK",
+			"country": "sk",
 			"language": "sk",
 			"gender": "F",
 			"arg": [7, 37, 1],
@@ -2585,7 +2585,7 @@
 			"desc": "Eliska"
 		},
  		"google_astrid": {
-			"country": "SE",
+			"country": "sv",
 			"language": "sv",
 			"gender": "F",
 			"arg": [7, 9, 1],
@@ -2593,7 +2593,7 @@
 			"desc": "Astrid (Google)"
 		},
  		"google_gustav": {
-			"country": "SE",
+			"country": "sv",
 			"language": "sv",
 			"gender": "M",
 			"arg": [7, 9, 2],
@@ -2601,7 +2601,7 @@
 			"desc": "Gustav"
 		},
  		"google_zehra": {
-			"country": "TR",
+			"country": "tr",
 			"language": "tr",
 			"gender": "F",
 			"arg": [7, 16, 1],
@@ -2609,7 +2609,7 @@
 			"desc": "Zehra"
 		},
  		"google_eymen": {
-			"country": "TR",
+			"country": "tr",
 			"language": "tr",
 			"gender": "M",
 			"arg": [7, 16, 2],
@@ -2617,7 +2617,7 @@
 			"desc": "Eymen"
 		},
  		"google_vira": {
-			"country": "UA",
+			"country": "uk",
 			"language": "uk",
 			"gender": "F",
 			"arg": [7, 40, 1],
@@ -2625,7 +2625,7 @@
 			"desc": "Vira"
 		},
  		"google_nguyet": {
-			"country": "VN",
+			"country": "vi",
 			"language": "vi",
 			"gender": "F",
 			"arg": [7, 41, 1],
@@ -2633,7 +2633,7 @@
 			"desc": "Nguyet"
 		},
  		"google_phuong": {
-			"country": "VN",
+			"country": "vi",
 			"language": "vi",
 			"gender": "M",
 			"arg": [7, 41, 2],
@@ -3148,7 +3148,7 @@
 			"country": "IN",
 			"language": "ta",
 			"gender": "F",
-			"source": "googletranslate",
+			"source": "wavenet2",
 			"arg": "ta-IN",
 			"desc": "Kuyili"
 		},
