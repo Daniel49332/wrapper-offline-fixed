@@ -219,7 +219,7 @@ export default function processVoice(
 					}).on("error", (e) => reject(`Network error: ${e.message}`));
 					break;
 				}
-				case "wavenet2": {
+				case "googletranslate": {
 					const q = new URLSearchParams({
 						ie: "UTF-8",
 						total: "1",
@@ -369,6 +369,27 @@ export default function processVoice(
 				});
 					req.on("error", (e) => reject(`Network error: ${e.message}`));
 					req.end(body);
+					break;
+				}
+				case "pollypluswavenet": {
+					const q = new URLSearchParams({
+						voice: voice.arg,
+						text: text,
+					}).toString();
+					const req = https.get(`https://api.textreader.pro/tts?${q}`, (res) => {
+						if (res.statusCode !== 200) {
+							console.error(`Pollypluswavenet error: ${res.statusCode}`);
+							return reject("Service unavailable");
+						}
+						resolve(res);
+					});
+					req.on("error", (err) => {
+						console.error("Network error:", err.message);
+						reject(err);
+					});
+					req.setTimeout(10000, () => {req.destroy();
+						reject("Request timed out");
+					});
 					break;
 				}
 				case "readloud": {
