@@ -67,7 +67,7 @@ To build a full copy of Wrapper offline
 npm run package
 ```
 
-###A Disclosure On GoAnimate-Styled Rant Videos
+### A Disclosure On GoAnimate-Styled Rant Videos
 Unlike GTAManRCRX's version 2.1.4, this version allows any rants and callouts on users, I'd rather to have a cringy-ass rants and callouts made with this version than not allowed it at all. 
 
 ### License
