@@ -67,6 +67,9 @@ To build a full copy of Wrapper offline
 npm run package
 ```
 
+###A Disclosure On GoAnimate-Styled Rant Videos
+Unlike GTAManRCRX's version 2.1.4, this version allows any rants and callouts on users, I'd rather to have a cringy-ass rants and callouts made with this version than not allowed it at all. 
+
 ### License
 Most of this project is free/libre software under the MIT license. You have the freedom to run, change, and share this as much as you want
 FFmpeg is under the GNU GPLv2 license, which grants similar rights, but has some differences from MIT. Flash player (`resources/extensions`) and GoAnimate's original assets (`resources/static`) are proprietary and do not grant you these rights, but if they did, this project wouldn't need to exist
