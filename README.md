@@ -70,6 +70,9 @@ To build a full copy of Wrapper Offline
 npm run package
 ```
 
+### Pull Requests Are Allowed
+Since I'm not a coder, you can fix it yourself and send a request.
+
 ### A Disclosure On GoAnimate-Styled Rant Videos
 Unlike GTAManRCRX's version 2.1.4, this version allows any rants and callouts on users; I'd prefer to have them made with this version rather than not allowing them at all. Even if it was trash. 
 
