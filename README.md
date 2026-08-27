@@ -34,7 +34,7 @@ This version is a complete overhaul of the UI redesign prototype version of the 
 - Centered video titles, IDs, and dates
 ### 📝 User Experience (UX)
 - Better TTS: Enhanced error handling for text-to-speech; removed broken/non-functional voice engines
-- Sentence casing: Replaced "Title Case" with the natural "Sentence case" across the UI and LVM
+- Sentence casing: This version brought back the original casing.
 - Readable dates: New format: Day [st/nd/rd/th] of Month YYYY - HH:MM:SS
 - Locked video player aspect ratio: Disabled window resizing for the player to prevent Flash distortion and maintain pixel-perfect rendering, as Flash is not a responsive technology
 ### 💡 Why Choose THIS Version?
@@ -78,7 +78,7 @@ Unlike GTAManRCRX's version 2.1.4, this version allows any rants and callouts on
 
 ### License
 Most of this project is free/libre software under the MIT license. You have the freedom to run, change, and share this as much as you want
-FFmpeg is under the GNU GPLv2 license, which grants similar rights but has some differences from MIT. Flash player (`resources/extensions`) and GoAnimate's original assets (`resources/static`) are proprietary and do not grant you these rights, but if they did, this project wouldn't need to exist
+FFmpeg is under the GNU GPLv2 license, which grants similar rights but has some differences from MIT. Flash Player (`resources/extensions`) and GoAnimate's original assets (`resources/static`) are proprietary and do not grant you these rights, but if they did, this project wouldn't need to exist
 
 ### Credits
 | Contributor | Contribution |
