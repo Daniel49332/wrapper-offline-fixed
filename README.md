@@ -34,7 +34,6 @@ This version is a complete overhaul of the UI redesign prototype version of the 
 - Centered video titles, IDs, and dates
 ### 📝 User Experience (UX)
 - Better TTS: Enhanced error handling for text-to-speech; removed broken/non-functional voice engines
-- Sentence casing: This version brought back the original casing.
 - Readable dates: New format: Day [st/nd/rd/th] of Month YYYY - HH:MM:SS
 - Locked video player aspect ratio: Disabled window resizing for the player to prevent Flash distortion and maintain pixel-perfect rendering, as Flash is not a responsive technology
 ### 💡 Why Choose THIS Version?
