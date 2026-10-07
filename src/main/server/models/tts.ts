@@ -69,42 +69,23 @@ export default function processVoice(
 					break;
 				}
 				case "bing": {
-					const body = new URLSearchParams({
-						text: text,
-						voice: voice.arg,
-						service: "Bing Translator",
+					const q = new URLSearchParams({
+                        text: text,
+                        voice: voice.arg,
+						provider: voice.engine,
 					}).toString();
-					const req = https.request({
-						hostname: "lazypy.ro",
-						path: "/tts/request_tts.php",
-						method: "POST",
-						headers: {
-							"Content-Type": "application/x-www-form-urlencoded",
-							"Content-Length": Buffer.byteLength(body)
-						}
-					}, (res) => {
-						let chunks = [];
-						res.on("data", (chunk) => chunks.push(chunk));
-						res.on("end", () => {
-							try {
-								const json = JSON.parse(Buffer.concat(chunks).toString());
-								
-								if (json.success !== true) {
-									return reject(`Bing proxy error: ${json.error_msg || "Unknown error"}`);
-								}
-								https.get(json.audio_url, (audioRes) => {
-									if (audioRes.statusCode !== 200) {
-										return reject(`Bing audio download error: ${audioRes.statusCode}`);
-									}
-									resolve(audioRes);
-								}).on("error", reject);
-							} catch (e) {
-								reject("Bing proxy error: Invalid JSON response from lazypy");
+
+					https.get(
+						{
+							host: "voice.vampi.tech",
+							path: `/api/synthesizeSpeech?${q}`,
+							headers: {
+								"Authorization": "865f6794ed7617b522af9b29275504a0"
 							}
-						});
-					});
-					req.on("error", (e) => reject(`Network error: ${e.message}`));
-					req.end(body);
+						},
+						(r) => { resolve(r)
+						}
+					);
 					break;
 				}
 				case "cepstral": {
@@ -216,23 +197,6 @@ export default function processVoice(
 							.then(resolve)
 							.catch((e) => reject(`Conversion error: ${e.message}`));
 
-					}).on("error", (e) => reject(`Network error: ${e.message}`));
-					break;
-				}
-				case "googletranslate": {
-					const q = new URLSearchParams({
-						ie: "UTF-8",
-						total: "1",
-						idx: "0",
-						client: "tw-ob",
-						q: text,
-						tl: voice.arg,
-					}).toString();
-					https.get(`https://translate.google.com/translate_tts?${q}`, (audioRes) => {
-						if (audioRes.statusCode !== 200) {
-							return reject(`Google TTS error: ${audioRes.statusCode}`);
-						}
-						resolve(audioRes);
 					}).on("error", (e) => reject(`Network error: ${e.message}`));
 					break;
 				}
@@ -371,67 +335,30 @@ export default function processVoice(
 					req.end(body);
 					break;
 				}
-				case "pollypluswavenet": {
-					const q = new URLSearchParams({
-						voice: voice.arg,
-						text: text,
-					}).toString();
-					const req = https.get(`https://api.textreader.pro/tts?${q}`, (res) => {
-						if (res.statusCode !== 200) {
-							console.error(`Pollypluswavenet error: ${res.statusCode}`);
-							return reject("Service unavailable");
-						}
-						resolve(res);
-					});
-					req.on("error", (err) => {
-						console.error("Network error:", err.message);
-						reject(err);
-					});
-					req.setTimeout(10000, () => {req.destroy();
-						reject("Request timed out");
-					});
-					break;
-				}
 				case "readloud": {
-				  const body = new URLSearchParams({
-					but1: text,
-					butS: 0,
-					butP: 0,
-					butPauses: 0,
-					butt0: "Submit",
-				  }).toString();
-				  const req = https
-					.request(
-					  {
-						hostname: "readloud.net",
-						path: voice.arg,
+					const body = new URLSearchParams({ but1: text, butS: 0, butP: 0, butPauses: 0, butt0: "Submit" }).toString();
+					const headers = { "User-Agent": "Mozilla/5.0", Referer: "https://readloud.net", Origin: "https://readloud.net" };
+					const req = https.request({
+						hostname: "readloud.net", 
+						path: voice.arg, 
 						method: "POST",
-						headers: {
-						  "Content-Type": "application/x-www-form-urlencoded",
-						},
-					  },
-					  (r) => {
-						if (r.statusCode !== 200) return reject(`Readloud error: HTTP ${r.statusCode}`);
-						let buffers = [];
-						r.on("error", (e) => reject(e));
-						r.on("data", (b) => buffers.push(b));
+						headers: { "Content-Type": "application/x-www-form-urlencoded", ...headers }
+					}, (r) => {
+						if (r.statusCode !== 200) return reject(`HTTP ${r.statusCode}`);
+						let html = "";
+						r.on("data", (b) => html += b);
 						r.on("end", () => {
-						  const html = Buffer.concat(buffers);
 						  const beg = html.indexOf("/tmp/");
-						  if (beg === -1) return reject("Readloud error: MP3 link not found in response");
-						  const end = html.indexOf("mp3", beg) + 3;
-						  const sub = html.subarray(beg, end).toString();
-						  if (!sub || sub === "mp3") return reject("Readloud error: Invalid MP3 path");
-						  https.get(`https://readloud.net${sub}`, (r2) => {
-							r2.on("error", (e) => reject(e));
-							resolve(r2);
-						  });
+							if (beg === -1) return reject("MP3 link not found");
+							const sub = html.substring(beg, html.indexOf("mp3", beg) + 3);
+							https.get({ hostname: "readloud.net", path: sub, headers }, (r2) => {
+								if (r2.statusCode !== 200) return reject(`MP3 HTTP ${r2.statusCode}`);
+								resolve(r2);
+							}).on("error", reject);
 						});
-					  }
-					)
-					.on("error", (e) => reject(e));
-				  req.end(body);
-				  break;
+					  }).on("error", reject);
+					req.end(body);
+					break;
 				}
 				case "sapi4": {
 					const q = new URLSearchParams({
@@ -625,6 +552,43 @@ export default function processVoice(
 						}
 					).on("error", reject);
 					req1.end();
+					break;
+				}
+				case "wavenet": {
+					const q = new URLSearchParams({
+                        text: text,
+                        voice: voice.arg,
+						provider: voice.engine,
+					}).toString();
+
+					https.get(
+						{
+							host: "voice.vampi.tech",
+							path: `/api/synthesizeSpeech?${q}`,
+							headers: {
+								"Authorization": "865f6794ed7617b522af9b29275504a0"
+							}
+						},
+						(r) => { resolve(r)
+						}
+					);
+					break;
+				}
+				case "wavenet2": {
+					const q = new URLSearchParams({
+						ie: "UTF-8",
+						total: "1",
+						idx: "0",
+						client: "tw-ob",
+						q: text,
+						tl: voice.arg,
+					}).toString();
+					https.get(`https://translate.google.com/translate_tts?${q}`, (audioRes) => {
+						if (audioRes.statusCode !== 200) {
+							return reject(`Google TTS error: ${audioRes.statusCode}`);
+						}
+						resolve(audioRes);
+					}).on("error", (e) => reject(`Network error: ${e.message}`));
 					break;
 				}
 				default: {
